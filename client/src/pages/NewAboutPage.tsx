@@ -4,8 +4,8 @@ import { Badge } from "@/components/ui/badge";
 import { Users, Award, Target, Heart, Phone, Mail, MapPin, Calendar } from "lucide-react";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
-import { DELAWARE_MUNICIPALITIES_LIST, type Municipality } from "../data/allDelawareMunicipalities";
-import { DELAWARE_COUNTIES } from "../data/delawareCounties";
+import { EASTERN_COASTLINE_STATES } from "../data/easternStates";
+import { SHORE_TOWNS_BY_STATE } from "../data/shoreTowns";
 import heroImage from "@assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
@@ -15,7 +15,7 @@ export default function NewAboutPage() {
       name: "Michael Thompson",
       role: "Owner & General Manager",
       experience: "15+ years in recreational vehicle sales",
-      description: "Passionate about providing all Delaware counties with the best golf cart experience throughout the First State."
+      description: "Passionate about providing the entire Eastern Seaboard with the best golf cart experience from Maine to Florida."
     },
     {
       name: "Sarah Martinez",
@@ -51,7 +51,7 @@ export default function NewAboutPage() {
     {
       icon: Target,
       title: "Local Focus",
-      description: "Proud to serve all Delaware counties with personalized, community-focused service."
+      description: "Proud to serve all eastern coastal communities with personalized, community-focused service."
     },
     {
       icon: Heart,
@@ -63,10 +63,10 @@ export default function NewAboutPage() {
   return (
     <>
       <SEOHead 
-        title="About Delaware Golf Carts - Your Premier Delaware Golf Cart Dealer"
-        description="Learn about Delaware Golf Carts, Delaware's trusted golf cart dealer serving all Delaware counties with premium DENAGO and EVOLUTION vehicles since 2010."
-        keywords="Delaware golf carts, about us, golf cart dealer Delaware, DENAGO dealer, EVOLUTION dealer, New Castle Kent Sussex County"
-        canonicalUrl="https://delawaregolfcarts.com/about"
+        title="About Bay Golf Carts - Your Premier Eastern Seaboard Golf Cart Dealer"
+        description="Learn about Bay Golf Carts, the Eastern Seaboard's trusted golf cart dealer serving all coastal states with premium DENAGO and EVOLUTION vehicles since 2010."
+        keywords="Bay golf carts, about us, golf cart dealer eastern seaboard, DENAGO dealer, EVOLUTION dealer, Maine Florida coastal states"
+        canonicalUrl="https://baygolfcarts.com/about"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
         ogType="website"
       />
@@ -76,12 +76,12 @@ export default function NewAboutPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat overflow-hidden" style={getHeroBackgroundStyle("about")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
-              About Delaware Golf Carts
+              About Bay Golf Carts
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto drop-shadow-md">
-              Since 2010, we've been Delaware's premier destination for premium golf carts, 
-              exceptional service, and unmatched customer care. Serving all municipalities 
-              across New Castle, Kent, and Sussex Counties with pride and professionalism.
+              Since 2010, we've been the Eastern Seaboard's premier destination for premium golf carts, 
+              exceptional service, and unmatched customer care. Serving all bays and shore towns 
+              from Maine to Florida with pride and professionalism.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -106,45 +106,45 @@ export default function NewAboutPage() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
                 <div className="space-y-4 text-gray-600">
                   <p>
-                    Founded in 2010 in Delaware, Delaware Golf Carts began with a simple mission: 
+                    Founded in 2010, Bay Golf Carts began with a simple mission: 
                     to provide high-quality golf carts and exceptional service to customers throughout all 
-                    of Delaware's three counties and diverse communities.
+                    of the Eastern Seaboard's diverse coastal communities and shore towns.
                   </p>
                   <p>
-                    Delaware stands as a unique state with just three counties, encompassing 
-                    everything from Wilmington's urban energy in New Castle County to Dover's political center in Kent County, and from the 
-                    famous resort communities of Rehoboth Beach and Bethany Beach to historic towns like Lewes and New Castle.
+                    The Eastern Seaboard encompasses 14 magnificent states, stretching from 
+                    Maine's rugged coastline to Florida's tropical shores, including famous destinations like The Hamptons, Cape Cod, 
+                    Newport, Ocean City, Virginia Beach, the Outer Banks, Myrtle Beach, and Key West.
                   </p>
                   <p>
-                    Delaware holds a special place in American history as the "First State" to ratify the Constitution, with communities like Lewes being 
-                    the "First Town in the First State." Today, Delaware is equally 
-                    renowned for its pristine beaches, championship golf courses, beautiful communities from Wilmington to the coast, and thriving businesses that appreciate 
+                    The Eastern Seaboard holds a special place in American history, from Plymouth Rock to Historic Jamestown, with 
+                    countless charming coastal communities. Today, the Eastern coast is equally 
+                    renowned for its pristine beaches, championship golf courses, beautiful shore towns, and thriving businesses that appreciate 
                     premium recreational vehicles.
                   </p>
                   <p>
-                    With Delaware's excellent highway system including I-95, Route 1, and Route 13, 
-                    and the state's beautiful coastal and inland communities from Wilmington to Rehoboth Beach, Delaware attracts residents and visitors who 
+                    With the Eastern Seaboard's excellent highway system including I-95 running the full length of the coast, 
+                    these beautiful coastal and shore communities from Maine to Florida attract residents and visitors who 
                     demand excellence in every aspect of their lives—including their golf cart experience.
                   </p>
                   <p>
-                    From the beach towns of Dewey Beach and Ocean View to the urban centers of Wilmington and Dover, we proudly serve all 
-                    Delaware municipalities with premium EVOLUTION and DENAGO golf carts, understanding that our customers expect nothing 
-                    less than the finest quality and service throughout the First State.
+                    From the beach towns of Cape Cod and the Hamptons to the resort destinations of Myrtle Beach and Key West, we proudly serve all 
+                    Eastern Seaboard communities with premium EVOLUTION and DENAGO golf carts, understanding that our customers expect nothing 
+                    less than the finest quality and service throughout all coastal states.
                   </p>
                 </div>
 
                 <div className="mt-8 grid grid-cols-3 gap-4">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-theme-orange">15+</div>
-                    <div className="text-sm text-gray-600">Years Serving Delaware</div>
+                    <div className="text-sm text-gray-600">Years Serving Eastern Seaboard</div>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-theme-orange">1000+</div>
                     <div className="text-sm text-gray-600">Satisfied Customers</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-theme-orange">{DELAWARE_MUNICIPALITIES_LIST.length}</div>
-                    <div className="text-sm text-gray-600">Municipalities Served</div>
+                    <div className="text-2xl font-bold text-theme-orange">14</div>
+                    <div className="text-sm text-gray-600">States Served</div>
                   </div>
                 </div>
               </div>
@@ -159,17 +159,17 @@ export default function NewAboutPage() {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Delaware Service Area Map"
+                    title="Eastern Seaboard Service Area Map"
                   ></iframe>
                 </div>
                 <div className="mt-6 text-center">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Delaware Golf Carts Service</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Bay Golf Carts Service</h3>
                   <div className="grid md:grid-cols-1 gap-4 text-sm">
                     <div className="bg-white p-4 rounded-lg shadow">
-                      <h4 className="font-semibold text-theme-orange">Delaware Golf Carts</h4>
-                      <p className="text-gray-600">Serving all Delaware counties</p>
-                      <p className="text-gray-700">1-844-844-6638</p>
-                      <p className="text-gray-600">info@delawaregolfcarts.com</p>
+                      <h4 className="font-semibold text-theme-orange">Bay Golf Carts</h4>
+                      <p className="text-gray-600">Serving all Eastern Seaboard bays and shore towns</p>
+                      <p className="text-gray-700">1-844-229-4653</p>
+                      <p className="text-gray-600">info@baygolfcarts.com</p>
                     </div>
                   </div>
                 </div>
@@ -237,52 +237,52 @@ export default function NewAboutPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Service Area</h2>
-              <p className="text-lg text-gray-600">Proudly serving all of Sussex County, Delaware</p>
+              <p className="text-lg text-gray-600">Proudly serving all Eastern Seaboard bays and shore towns</p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Northern Sussex County</CardTitle>
+                  <CardTitle>Northern States</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Milford, Milton, Ellendale, and northern inland communities</p>
-                  <Badge variant="secondary">9 Municipalities</Badge>
+                  <p className="text-gray-600 mb-4">Maine, New Hampshire, Massachusetts, Rhode Island, Connecticut</p>
+                  <Badge variant="secondary">5 States</Badge>
                 </CardContent>
               </Card>
 
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Central Sussex County</CardTitle>
+                  <CardTitle>Mid-Atlantic States</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Georgetown, Seaford, Bridgeville, and central Delaware towns</p>
-                  <Badge variant="secondary">9 Municipalities</Badge>
+                  <p className="text-gray-600 mb-4">New York, New Jersey, Delaware, Maryland, Virginia</p>
+                  <Badge variant="secondary">5 States</Badge>
                 </CardContent>
               </Card>
 
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Delaware Coastal Region</CardTitle>
+                  <CardTitle>Southern States</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Rehoboth Beach, Bethany Beach, Lewes, and all coastal communities</p>
-                  <Badge variant="secondary">9 Municipalities</Badge>
+                  <p className="text-gray-600 mb-4">North Carolina, South Carolina, Georgia, Florida</p>
+                  <Badge variant="secondary">4 States</Badge>
                 </CardContent>
               </Card>
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold text-center mb-6">Complete Sussex County Coverage</h3>
+              <h3 className="text-2xl font-bold text-center mb-6">Complete Eastern Seaboard Coverage</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-sm text-gray-600">
-                {DELAWARE_MUNICIPALITIES_LIST.map((municipality: Municipality, index: number) => (
+                {EASTERN_COASTLINE_STATES.map((state, index) => (
                   <div key={index} className="text-center py-2">
-                    <Link href={municipality.url}>
+                    <Link href={`/${state.slug}-golf-carts`}>
                       <span className="text-theme-orange font-medium hover:text-orange-600 cursor-pointer transition-colors">
-                        {municipality.name} {municipality.type}
+                        {state.name}
                       </span>
                     </Link>
                   </div>
@@ -296,7 +296,7 @@ export default function NewAboutPage() {
         <section className="py-16 bg-theme-primary text-white">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold mb-6">
-              Ready to Experience the Rehoboth Golf Carts Difference?
+              Ready to Experience the Bay Golf Carts Difference?
             </h2>
             <p className="text-xl mb-8">
               Join thousands of satisfied customers who trust us for their golf cart needs.
@@ -309,7 +309,7 @@ export default function NewAboutPage() {
               </Link>
               <a href="tel:1-844-844-6638">
                 <Button size="lg" className="bg-white text-theme-primary hover:bg-gray-100">
-                  Call 1-844-844-6638
+                  Call 1-844-BAY-GOLF
                 </Button>
               </a>
             </div>
@@ -326,7 +326,7 @@ export default function NewAboutPage() {
                   <CardTitle>Call Us</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-2xl font-bold text-theme-orange mb-2">1-844-844-6638</p>
+                  <p className="text-2xl font-bold text-theme-orange mb-2">1-844-229-4653</p>
                   <p className="text-gray-600">Available 7 days a week</p>
                 </CardContent>
               </Card>
@@ -337,7 +337,7 @@ export default function NewAboutPage() {
                   <CardTitle>Email Us</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-lg font-medium text-theme-orange mb-2">info@lackawannagolfcarts.com</p>
+                  <p className="text-lg font-medium text-theme-orange mb-2">info@baygolfcarts.com</p>
                   <p className="text-gray-600">Quick response guaranteed</p>
                 </CardContent>
               </Card>

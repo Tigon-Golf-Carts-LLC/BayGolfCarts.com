@@ -74,31 +74,31 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: MapPin,
-      label: "Delaware Golf Carts - Main Location",
-      value: "123 Golf Cart Lane, Delaware 19971",
-      phone: "1-844-844-6638",
+      label: "Bay Golf Carts - Main Location",
+      value: "Eastern Seaboard Service Area",
+      phone: "1-844-229-4653",
     },
     {
       icon: MapPin,
-      label: "Delaware Statewide Service Area",
-      value: "Serving all Delaware counties and municipalities",
-      phone: "1-844-844-6638",
+      label: "Eastern Seaboard Service Area",
+      value: "Serving all coastal bays and shore towns Maine to Florida",
+      phone: "1-844-229-4653",
     },
     {
       icon: Phone,
-      label: "Delaware Main Line",
-      value: "1-844-844-6638",
+      label: "Bay Golf Carts Main Line",
+      value: "1-844-229-4653",
     },
     {
       icon: Mail,
       label: "Email",
-      value: "info@delawaregolfcarts.com",
+      value: "info@baygolfcarts.com",
     },
     {
       icon: Globe,
       label: "Website",
-      value: "delawaregolfcarts.com",
-      link: "https://delawaregolfcarts.com",
+      value: "baygolfcarts.com",
+      link: "https://baygolfcarts.com",
     },
   ];
 
@@ -111,10 +111,10 @@ export default function ContactPage() {
   return (
     <>
       <SEOHead 
-        title="Contact Delaware Golf Carts - Sales & Service"
-        description="Contact Delaware Golf Carts for sales, service, and support throughout all Delaware counties. Main: 1-844-844-6638. Serving Wilmington, Dover, Rehoboth Beach, and all Delaware communities."
-        keywords="contact Delaware golf carts, golf cart sales Delaware, Delaware golf cart service, Delaware showroom"
-        canonicalUrl="https://delawaregolfcarts.com/contact"
+        title="Contact Bay Golf Carts - Sales & Service"
+        description="Contact Bay Golf Carts for sales, service, and support throughout all eastern coastline communities. Main: 1-844-229-4653. Serving Maine to Florida coastal areas and shore towns."
+        keywords="contact bay golf carts, golf cart sales eastern seaboard, coastal golf cart service, shore town showroom"
+        canonicalUrl="https://baygolfcarts.com/contact"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
         ogType="website"
       />

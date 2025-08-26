@@ -13,10 +13,10 @@ interface SEOHeadProps {
 export default function SEOHead({ 
   title, 
   description, 
-  keywords = "golf carts, Sussex County, electric golf carts, golf cart sales, golf cart service, Rehoboth Beach golf carts, Delaware golf carts", 
+  keywords = "bay golf carts, shore golf carts, electric golf carts, golf cart sales, golf cart service, coastal golf carts, eastern seaboard golf carts", 
   canonicalUrl,
   townName,
-  ogImage = "/attached_assets/Delaware Golf Carts (1)_1756223019614.png",
+  ogImage = "/attached_assets/Bay_Golf_Carts_Logo.png",
   ogType = "website"
 }: SEOHeadProps) {
   useEffect(() => {
@@ -61,23 +61,23 @@ export default function SEOHead({
     // Set favicon
     const existingFavicon = document.querySelector('link[rel="icon"]');
     if (existingFavicon) {
-      existingFavicon.setAttribute("href", "/attached_assets/Delaware Golf Carts (1)_1756223019614.png");
+      existingFavicon.setAttribute("href", "/attached_assets/Bay_Golf_Carts_Logo.png");
     } else {
       const favicon = document.createElement("link");
       favicon.rel = "icon";
       favicon.type = "image/png";
-      favicon.href = "/attached_assets/Delaware Golf Carts (1)_1756223019614.png";
+      favicon.href = "/attached_assets/Bay_Golf_Carts_Logo.png";
       document.head.appendChild(favicon);
     }
 
     // Set apple touch icon
     const existingAppleIcon = document.querySelector('link[rel="apple-touch-icon"]');
     if (existingAppleIcon) {
-      existingAppleIcon.setAttribute("href", "/attached_assets/Delaware Golf Carts (1)_1756223019614.png");
+      existingAppleIcon.setAttribute("href", "/attached_assets/Bay_Golf_Carts_Logo.png");
     } else {
       const appleIcon = document.createElement("link");
       appleIcon.rel = "apple-touch-icon";
-      appleIcon.href = "/attached_assets/Delaware Golf Carts (1)_1756223019614.png";
+      appleIcon.href = "/attached_assets/Bay_Golf_Carts_Logo.png";
       document.head.appendChild(appleIcon);
     }
 
@@ -97,8 +97,8 @@ export default function SEOHead({
     updateOGTag("og:title", title);
     updateOGTag("og:description", description);
     updateOGTag("og:type", ogType);
-    updateOGTag("og:image", `https://delawaregolfcarts.com${ogImage}`);
-    updateOGTag("og:site_name", "Delaware Golf Carts");
+    updateOGTag("og:image", `https://baygolfcarts.com${ogImage}`);
+    updateOGTag("og:site_name", "Bay Golf Carts");
     updateOGTag("og:locale", "en_US");
     if (canonicalUrl) {
       updateOGTag("og:url", canonicalUrl);
@@ -120,28 +120,28 @@ export default function SEOHead({
     updateTwitterTag("twitter:card", "summary_large_image");
     updateTwitterTag("twitter:title", title);
     updateTwitterTag("twitter:description", description);
-    updateTwitterTag("twitter:image", `https://delawaregolfcarts.com${ogImage}`);
-    updateTwitterTag("twitter:site", "@delawaregolfcarts");
-    updateTwitterTag("twitter:creator", "@delawaregolfcarts");
+    updateTwitterTag("twitter:image", `https://baygolfcarts.com${ogImage}`);
+    updateTwitterTag("twitter:site", "@baygolfcarts");
+    updateTwitterTag("twitter:creator", "@baygolfcarts");
 
     // Structured Data (JSON-LD)
     if (townName) {
       const structuredData = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": `Delaware Golf Carts - ${townName}`,
+        "name": `Bay Golf Carts - ${townName}`,
         "description": description,
         "address": {
           "@type": "PostalAddress",
           "addressLocality": townName,
-          "addressRegion": "DE",
+          "addressRegion": "Multiple States",
           "addressCountry": "US"
         },
-        "telephone": "1-844-844-6638",
-        "email": "info@delawaregolfcarts.com",
+        "telephone": "1-844-BAY-GOLF",
+        "email": "info@baygolfcarts.com",
         "url": canonicalUrl,
-        "logo": "https://delawaregolfcarts.com/attached_assets/Delaware Golf Carts (1)_1756223019614.png",
-        "image": `https://delawaregolfcarts.com${ogImage}`,
+        "logo": "https://baygolfcarts.com/attached_assets/Bay_Golf_Carts_Logo.png",
+        "image": `https://baygolfcarts.com${ogImage}`,
         "serviceArea": {
           "@type": "GeoCircle",
           "geoMidpoint": {
@@ -201,8 +201,8 @@ export default function SEOHead({
         },
         "priceRange": "$$",
         "sameAs": [
-          "https://www.facebook.com/delawaregolfcarts/",
-          "https://www.pinterest.com/delawaregolfcarts/"
+          "https://www.facebook.com/baygolfcarts/",
+          "https://www.instagram.com/baygolfcarts/"
         ]
       };
 

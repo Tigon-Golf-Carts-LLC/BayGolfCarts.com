@@ -35,15 +35,15 @@ export default function Navigation() {
           <div className="flex items-center space-x-3">
             <div className="rounded-lg">
               <img 
-                src="/attached_assets/Delaware Golf Carts_1756222749921.png" 
-                alt="Delaware Golf Carts Logo" 
+                src="/attached_assets/Bay_Golf_Carts_Logo.png" 
+                alt="Bay Golf Carts Logo" 
                 className="h-20 w-20 object-contain"
               />
             </div>
             <Link href="/">
               <div className="cursor-pointer">
                 <div className="text-lg font-bold text-theme-primary" style={{lineHeight: '1.1'}}>
-                  DELAWARE<br />
+                  BAY<br />
                   GOLF CARTS
                 </div>
               </div>
@@ -67,26 +67,81 @@ export default function Navigation() {
                 </Link>
               ))}
               
-              {/* Counties Dropdown */}
+              {/* States Dropdown */}
               <DropdownMenu>
                 <DropdownMenuTrigger className="flex items-center px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
-                  Counties
+                  States
                   <ChevronDown className="ml-1 h-4 w-4" />
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="end">
+                <DropdownMenuContent align="end" className="max-h-96 overflow-y-auto">
                   <DropdownMenuItem asChild>
-                    <Link href="/new-castle-county-golf-carts" className="w-full">
-                      New Castle County
+                    <Link href="/maine-golf-carts" className="w-full">
+                      Maine
                     </Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
-                    <Link href="/kent-county-golf-carts" className="w-full">
-                      Kent County
+                    <Link href="/new-hampshire-golf-carts" className="w-full">
+                      New Hampshire
                     </Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
-                    <Link href="/sussex-county-golf-carts" className="w-full">
-                      Sussex County
+                    <Link href="/massachusetts-golf-carts" className="w-full">
+                      Massachusetts
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/rhode-island-golf-carts" className="w-full">
+                      Rhode Island
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/connecticut-golf-carts" className="w-full">
+                      Connecticut
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/new-york-golf-carts" className="w-full">
+                      New York
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/new-jersey-golf-carts" className="w-full">
+                      New Jersey
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/delaware-golf-carts" className="w-full">
+                      Delaware
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/maryland-golf-carts" className="w-full">
+                      Maryland
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/virginia-golf-carts" className="w-full">
+                      Virginia
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/north-carolina-golf-carts" className="w-full">
+                      North Carolina
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/south-carolina-golf-carts" className="w-full">
+                      South Carolina
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/georgia-golf-carts" className="w-full">
+                      Georgia
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/florida-golf-carts" className="w-full">
+                      Florida
                     </Link>
                   </DropdownMenuItem>
                 </DropdownMenuContent>
@@ -119,9 +174,9 @@ export default function Navigation() {
             </div>
 
             <div className="flex items-center space-x-4">
-              <a href="tel:1-844-844-6638">
+              <a href="tel:1-844-229-4653">
                 <Button className="bg-theme-orange hover:bg-orange-600 text-white px-4 py-2 text-sm font-medium">
-                  Call Now 1-844-844-6638
+                  Call Now 1-844-BAY-GOLF
                 </Button>
               </a>
             </div>
@@ -153,31 +208,31 @@ export default function Navigation() {
                     </Link>
                   ))}
                   
-                  {/* Mobile Counties Section */}
+                  {/* Mobile States Section */}
                   <div className="border-t pt-4">
                     <div className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">
-                      Counties
+                      States
                     </div>
                     <Link
-                      href="/new-castle-county-golf-carts"
+                      href="/maine-golf-carts"
                       className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
-                      New Castle County
+                      Maine
                     </Link>
                     <Link
-                      href="/kent-county-golf-carts"
+                      href="/massachusetts-golf-carts"
                       className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
-                      Kent County
+                      Massachusetts
                     </Link>
                     <Link
-                      href="/sussex-county-golf-carts"
+                      href="/florida-golf-carts"
                       className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
-                      Sussex County
+                      Florida
                     </Link>
                   </div>
                   
@@ -210,9 +265,9 @@ export default function Navigation() {
                   </div>
                   
                   <div className="border-t pt-4 mt-4">
-                    <a href="tel:1-844-844-6638">
+                    <a href="tel:1-844-229-4653">
                       <Button className="bg-theme-orange hover:bg-orange-600 text-white w-full">
-                        Call Now 1-844-844-6638
+                        Call Now 1-844-BAY-GOLF
                       </Button>
                     </a>
                   </div>

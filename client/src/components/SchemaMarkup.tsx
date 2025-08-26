@@ -15,10 +15,10 @@ export default function SchemaMarkup({ schema }: SchemaMarkupProps) {
 export const generateOrganizationSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Lackawanna County Golf Carts",
-  "alternateName": "CCGC",
-  "description": "Premier golf cart dealer in Lackawanna County, Pennsylvania specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
-  "url": "https://lackawannagolfcarts.com",
+  "name": "Bay Golf Carts",
+  "alternateName": "BGC",
+  "description": "Premier golf cart dealer serving all eastern coastline states specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals in bays and shore towns.",
+  "url": "https://baygolfcarts.com",
   "logo": "https://lackawannagolfcarts.com/attached_assets/Luzerne%20County%20Golf%20Carts_1753809066045.png",
   "image": [
     "https://lackawannagolfcarts.com/attached_assets/Luzerne%20County%20Golf%20Carts_1753809066045.png",

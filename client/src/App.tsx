@@ -23,80 +23,161 @@ import NewAboutPage from "@/pages/NewAboutPage";
 import EcoImpactPage from "@/pages/EcoImpactPage";
 import FinancingPage from "@/pages/FinancingPage";
 
-// Delaware County Pages
-import NewCastleCountyPage from "@/pages/counties/NewCastleCountyPage";
-import KentCountyPage from "@/pages/counties/KentCountyPage";
-import SussexCountyPage from "@/pages/counties/SussexCountyPage";
-
-// New Castle County Location Pages
+// State Pages
 import {
-  ArdenPage,
-  ArdencroftPage,
-  ArdentownPage,
-  BellefontePage,
-  ClaytonPage,
-  DelawareCityPage,
-  ElsmerePage,
-  MiddletownPage,
-  NewCastlePage,
-  NewarkPage,
-  NewportPage,
-  OdessaPage,
-  SmyrnaPage,
-  TownsendPage,
-  WilmingtonPage
-} from "@/pages/locations/NewCastleCountyLocationPages";
+  MainePage,
+  NewHampshirePage,
+  MassachusettsPage,
+  RhodeIslandPage,
+  ConnecticutPage,
+  NewYorkPage,
+  NewJerseyPage,
+  DelawarePage,
+  MarylandPage,
+  VirginiaPage,
+  NorthCarolinaPage,
+  SouthCarolinaPage,
+  GeorgiaPage,
+  FloridaPage
+} from "@/pages/states/StatePages";
 
-// Kent County Location Pages
+// All Bay Pages
 import {
-  BowersPage,
+  // Maine
+  CascoBayPage,
+  PenobscotBayPage,
+  FrenchmanBayPage,
+  PassamaquoddyBayPage,
+  // New Hampshire
+  GreatBayNHPage,
+  LittleBayPage,
+  // Massachusetts
+  MassachusettsBayPage,
+  CapeCodBayPage,
+  BuzzardsBayPage,
+  PlymouthBayPage,
+  // Rhode Island
+  NarragansettBayPage,
+  MountHopeBayPage,
+  // Connecticut
+  LongIslandSoundPage,
+  FishersIslandSoundPage,
+  // New York
+  JamaicaBayPage,
+  GreatSouthBayPage,
+  PeconicBayPage,
+  // New Jersey
+  DelawareBayNJPage,
+  BarnegatBayPage,
+  GreatBayNJPage,
+  // Delaware
+  DelawareBayDEPage,
+  RehobothBayPage,
+  // Maryland
+  ChesapeakeBayMDPage,
+  TangierSoundPage,
+  // Virginia
+  ChesapeakeBayVAPage,
+  LynnhavenBayPage,
+  // North Carolina
+  AlbemarleSoundPage,
+  PamlicoSoundPage,
+  CoreSoundPage,
+  // South Carolina
+  CharlestonHarborPage,
+  PortRoyalSoundPage,
+  WinyahBayPage,
+  // Georgia
+  SavannahRiverPage,
+  AltamahaSoundPage,
+  StAndrewSoundPage,
+  // Florida
+  TampaBayPage,
+  BiscayneBayPage,
+  CharlotteHarborPage,
+  SarasotaBayPage
+} from "@/pages/bays/AllBayPages";
+
+// All Shore Town Pages
+import {
+  // Maine
+  BarHarborPage,
   CamdenPage,
-  CheswoldPage,
-  DoverPage,
-  FarmingtonPage,
-  FeltonPage,
-  FredericaPage,
-  HarringtonPage,
-  HartlyPage,
-  HoustonPage,
-  KentonPage,
-  LeipsicPage,
-  LittleCreekPage,
-  MagnoliaPage,
-  MilfordKentPage,
-  ViolaPage,
-  WoodsidePage,
-  WyomingPage
-} from "@/pages/locations/KentCountyLocationPages";
-
-// Sussex County Location Pages
-import {
-  BethanyBeachPage,
-  BethelPage,
-  BladesPage,
-  BridgevillePage,
-  DagsboroPage,
-  DelmarPage,
-  DeweyBeachPage,
-  EllendalesPage,
-  FenwickIslandPage,
-  FrankfordPage,
-  GeorgetownPage,
-  GreenwoodPage,
-  HenlopenAcresPage,
-  LaurelPage,
-  LewesPage,
-  MilfordPage,
-  MillsboroPage,
-  MillvillePage,
-  MiltonPage,
-  OceanViewPage,
+  KennebunkportPage,
+  OldOrchardBeachPage,
+  PortlandMainePage,
+  RocklandPage,
+  // New Hampshire
+  HamptonBeachPage,
+  PortsmouthPage,
+  RyePage,
+  // Massachusetts
+  ProvincetownPage,
+  NantucketPage,
+  MarthasVineyardPage,
+  CapeCodPage,
+  SalemPage,
+  GloucesterPage,
+  // Rhode Island
+  NewportPage,
+  BlockIslandPage,
+  NarragansettPage,
+  WesterlyPage,
+  // Connecticut
+  MysticPage,
+  OldSaybrookPage,
+  StoningtonPage,
+  MadisonPage,
+  // New York
+  MontaukPage,
+  TheHamptonsPage,
+  FireIslandPage,
+  ShelterIslandPage,
+  SagHarborPage,
+  // New Jersey
+  CapeMayPage,
+  AtlanticCityPage,
+  OceanCityNJPage,
+  SeasideHeightsPage,
+  SpringLakePage,
+  // Delaware
   RehobothBeachPage,
-  SeafordPage,
-  SelbyvillePage,
-  SlaughterBeachPage,
-  SouthBethanyPage
-} from "@/pages/locations/SussexCountyLocationPages";
+  BethanyBeachPage,
+  DeweyBeachPage,
+  LewesPage,
+  // Maryland
+  OceanCityMDPage,
+  AnnapolisPage,
+  StMichaelsPage,
+  CambridgePage,
+  // Virginia
+  VirginiaBeachPage,
+  NorfolkPage,
+  WilliamsburgPage,
+  NewportNewsPage,
+  // North Carolina
+  OuterBanksPage,
+  WilmingtonNCPage,
+  WrightsvilleBeachPage,
+  NagsHeadPage,
+  // South Carolina
+  CharlestonPage,
+  MyrtleBeachPage,
+  HiltonHeadIslandPage,
+  BeaufortPage,
+  // Georgia
+  SavannahPage,
+  JekyllIslandPage,
+  StSimonsIslandPage,
+  TybeeIslandPage,
+  // Florida
+  StAugustinePage,
+  KeyWestPage,
+  MiamiBeachPage,
+  NaplesPage,
+  ClearwaterBeachPage,
+  FortLauderdalePage
+} from "@/pages/shore-towns/AllShoreTownPages";
 
 import { PrivacyPolicyPage } from "@/pages/PrivacyPolicyPage";
 import { TermsOfServicePage } from "@/pages/TermsOfServicePage";
@@ -165,10 +246,21 @@ export default function App() {
             <Route path="/privacy" component={PrivacyPolicyPage} />
             <Route path="/terms" component={TermsOfServicePage} />
             
-            {/* Delaware County Pages */}
-            <Route path="/new-castle-county-golf-carts" component={NewCastleCountyPage} />
-            <Route path="/kent-county-golf-carts" component={KentCountyPage} />
-            <Route path="/sussex-county-golf-carts" component={SussexCountyPage} />
+            {/* State Pages */}
+            <Route path="/maine-golf-carts" component={MainePage} />
+            <Route path="/new-hampshire-golf-carts" component={NewHampshirePage} />
+            <Route path="/massachusetts-golf-carts" component={MassachusettsPage} />
+            <Route path="/rhode-island-golf-carts" component={RhodeIslandPage} />
+            <Route path="/connecticut-golf-carts" component={ConnecticutPage} />
+            <Route path="/new-york-golf-carts" component={NewYorkPage} />
+            <Route path="/new-jersey-golf-carts" component={NewJerseyPage} />
+            <Route path="/delaware-golf-carts" component={DelawarePage} />
+            <Route path="/maryland-golf-carts" component={MarylandPage} />
+            <Route path="/virginia-golf-carts" component={VirginiaPage} />
+            <Route path="/north-carolina-golf-carts" component={NorthCarolinaPage} />
+            <Route path="/south-carolina-golf-carts" component={SouthCarolinaPage} />
+            <Route path="/georgia-golf-carts" component={GeorgiaPage} />
+            <Route path="/florida-golf-carts" component={FloridaPage} />
 
             {/* Policy Pages */}
             <Route path="/policies/terms-conditions" component={TermsConditionsPage} />
@@ -183,69 +275,165 @@ export default function App() {
             <Route path="/policies/ethics-policy" component={EthicsPolicyPage} />
             <Route path="/policies/staffing-report" component={StaffingReportPage} />
 
-            {/* New Castle County Municipality Pages - All 15 locations */}
-            <Route path="/arden-golf-carts" component={ArdenPage} />
-            <Route path="/ardencroft-golf-carts" component={ArdencroftPage} />
-            <Route path="/ardentown-golf-carts" component={ArdentownPage} />
-            <Route path="/bellefonte-golf-carts" component={BellefontePage} />
-            <Route path="/clayton-golf-carts" component={ClaytonPage} />
-            <Route path="/delaware-city-golf-carts" component={DelawareCityPage} />
-            <Route path="/elsmere-golf-carts" component={ElsmerePage} />
-            <Route path="/middletown-golf-carts" component={MiddletownPage} />
-            <Route path="/new-castle-golf-carts" component={NewCastlePage} />
-            <Route path="/newark-golf-carts" component={NewarkPage} />
-            <Route path="/newport-golf-carts" component={NewportPage} />
-            <Route path="/odessa-golf-carts" component={OdessaPage} />
-            <Route path="/smyrna-golf-carts" component={SmyrnaPage} />
-            <Route path="/townsend-golf-carts" component={TownsendPage} />
-            <Route path="/wilmington-golf-carts" component={WilmingtonPage} />
+            {/* All Bay Pages */}
+            {/* Maine Bays */}
+            <Route path="/maine/casco-bay-golf-carts" component={CascoBayPage} />
+            <Route path="/maine/penobscot-bay-golf-carts" component={PenobscotBayPage} />
+            <Route path="/maine/frenchman-bay-golf-carts" component={FrenchmanBayPage} />
+            <Route path="/maine/passamaquoddy-bay-golf-carts" component={PassamaquoddyBayPage} />
+            
+            {/* New Hampshire Bays */}
+            <Route path="/new-hampshire/great-bay-golf-carts" component={GreatBayNHPage} />
+            <Route path="/new-hampshire/little-bay-golf-carts" component={LittleBayPage} />
+            
+            {/* Massachusetts Bays */}
+            <Route path="/massachusetts/massachusetts-bay-golf-carts" component={MassachusettsBayPage} />
+            <Route path="/massachusetts/cape-cod-bay-golf-carts" component={CapeCodBayPage} />
+            <Route path="/massachusetts/buzzards-bay-golf-carts" component={BuzzardsBayPage} />
+            <Route path="/massachusetts/plymouth-bay-golf-carts" component={PlymouthBayPage} />
+            
+            {/* Rhode Island Bays */}
+            <Route path="/rhode-island/narragansett-bay-golf-carts" component={NarragansettBayPage} />
+            <Route path="/rhode-island/mount-hope-bay-golf-carts" component={MountHopeBayPage} />
+            
+            {/* Connecticut Bays */}
+            <Route path="/connecticut/long-island-sound-golf-carts" component={LongIslandSoundPage} />
+            <Route path="/connecticut/fishers-island-sound-golf-carts" component={FishersIslandSoundPage} />
+            
+            {/* New York Bays */}
+            <Route path="/new-york/jamaica-bay-golf-carts" component={JamaicaBayPage} />
+            <Route path="/new-york/great-south-bay-golf-carts" component={GreatSouthBayPage} />
+            <Route path="/new-york/peconic-bay-golf-carts" component={PeconicBayPage} />
+            
+            {/* New Jersey Bays */}
+            <Route path="/new-jersey/delaware-bay-golf-carts" component={DelawareBayNJPage} />
+            <Route path="/new-jersey/barnegat-bay-golf-carts" component={BarnegatBayPage} />
+            <Route path="/new-jersey/great-bay-golf-carts" component={GreatBayNJPage} />
+            
+            {/* Delaware Bays */}
+            <Route path="/delaware/delaware-bay-golf-carts" component={DelawareBayDEPage} />
+            <Route path="/delaware/rehoboth-bay-golf-carts" component={RehobothBayPage} />
+            
+            {/* Maryland Bays */}
+            <Route path="/maryland/chesapeake-bay-golf-carts" component={ChesapeakeBayMDPage} />
+            <Route path="/maryland/tangier-sound-golf-carts" component={TangierSoundPage} />
+            
+            {/* Virginia Bays */}
+            <Route path="/virginia/chesapeake-bay-golf-carts" component={ChesapeakeBayVAPage} />
+            <Route path="/virginia/lynnhaven-bay-golf-carts" component={LynnhavenBayPage} />
+            
+            {/* North Carolina Bays */}
+            <Route path="/north-carolina/albemarle-sound-golf-carts" component={AlbemarleSoundPage} />
+            <Route path="/north-carolina/pamlico-sound-golf-carts" component={PamlicoSoundPage} />
+            <Route path="/north-carolina/core-sound-golf-carts" component={CoreSoundPage} />
+            
+            {/* South Carolina Bays */}
+            <Route path="/south-carolina/charleston-harbor-golf-carts" component={CharlestonHarborPage} />
+            <Route path="/south-carolina/port-royal-sound-golf-carts" component={PortRoyalSoundPage} />
+            <Route path="/south-carolina/winyah-bay-golf-carts" component={WinyahBayPage} />
+            
+            {/* Georgia Bays */}
+            <Route path="/georgia/savannah-river-golf-carts" component={SavannahRiverPage} />
+            <Route path="/georgia/altamaha-sound-golf-carts" component={AltamahaSoundPage} />
+            <Route path="/georgia/st-andrew-sound-golf-carts" component={StAndrewSoundPage} />
+            
+            {/* Florida Bays */}
+            <Route path="/florida/tampa-bay-golf-carts" component={TampaBayPage} />
+            <Route path="/florida/biscayne-bay-golf-carts" component={BiscayneBayPage} />
+            <Route path="/florida/charlotte-harbor-golf-carts" component={CharlotteHarborPage} />
+            <Route path="/florida/sarasota-bay-golf-carts" component={SarasotaBayPage} />
 
-            {/* Kent County Municipality Pages - All 18 locations */}
-            <Route path="/bowers-golf-carts" component={BowersPage} />
-            <Route path="/camden-golf-carts" component={CamdenPage} />
-            <Route path="/cheswold-golf-carts" component={CheswoldPage} />
-            <Route path="/dover-golf-carts" component={DoverPage} />
-            <Route path="/farmington-golf-carts" component={FarmingtonPage} />
-            <Route path="/felton-golf-carts" component={FeltonPage} />
-            <Route path="/frederica-golf-carts" component={FredericaPage} />
-            <Route path="/harrington-golf-carts" component={HarringtonPage} />
-            <Route path="/hartly-golf-carts" component={HartlyPage} />
-            <Route path="/houston-golf-carts" component={HoustonPage} />
-            <Route path="/kenton-golf-carts" component={KentonPage} />
-            <Route path="/leipsic-golf-carts" component={LeipsicPage} />
-            <Route path="/little-creek-golf-carts" component={LittleCreekPage} />
-            <Route path="/magnolia-golf-carts" component={MagnoliaPage} />
-            <Route path="/milford-golf-carts-kent" component={MilfordKentPage} />
-            <Route path="/viola-golf-carts" component={ViolaPage} />
-            <Route path="/woodside-golf-carts" component={WoodsidePage} />
-            <Route path="/wyoming-golf-carts" component={WyomingPage} />
-
-            {/* Sussex County Municipality Pages - All 24 locations */}
-            <Route path="/bethany-beach-golf-carts" component={BethanyBeachPage} />
-            <Route path="/bethel-golf-carts" component={BethelPage} />
-            <Route path="/blades-golf-carts" component={BladesPage} />
-            <Route path="/bridgeville-golf-carts" component={BridgevillePage} />
-            <Route path="/dagsboro-golf-carts" component={DagsboroPage} />
-            <Route path="/delmar-golf-carts" component={DelmarPage} />
-            <Route path="/dewey-beach-golf-carts" component={DeweyBeachPage} />
-            <Route path="/ellendale-golf-carts" component={EllendalesPage} />
-            <Route path="/fenwick-island-golf-carts" component={FenwickIslandPage} />
-            <Route path="/frankford-golf-carts" component={FrankfordPage} />
-            <Route path="/georgetown-golf-carts" component={GeorgetownPage} />
-            <Route path="/greenwood-golf-carts" component={GreenwoodPage} />
-            <Route path="/henlopen-acres-golf-carts" component={HenlopenAcresPage} />
-            <Route path="/laurel-golf-carts" component={LaurelPage} />
-            <Route path="/lewes-golf-carts" component={LewesPage} />
-            <Route path="/milford-golf-carts" component={MilfordPage} />
-            <Route path="/millsboro-golf-carts" component={MillsboroPage} />
-            <Route path="/millville-golf-carts" component={MillvillePage} />
-            <Route path="/milton-golf-carts" component={MiltonPage} />
-            <Route path="/ocean-view-golf-carts" component={OceanViewPage} />
-            <Route path="/rehoboth-beach-golf-carts" component={RehobothBeachPage} />
-            <Route path="/seaford-golf-carts" component={SeafordPage} />
-            <Route path="/selbyville-golf-carts" component={SelbyvillePage} />
-            <Route path="/slaughter-beach-golf-carts" component={SlaughterBeachPage} />
-            <Route path="/south-bethany-golf-carts" component={SouthBethanyPage} />
+            {/* All Shore Town Pages */}
+            {/* Maine Shore Towns */}
+            <Route path="/maine/bar-harbor-golf-carts" component={BarHarborPage} />
+            <Route path="/maine/camden-golf-carts" component={CamdenPage} />
+            <Route path="/maine/kennebunkport-golf-carts" component={KennebunkportPage} />
+            <Route path="/maine/old-orchard-beach-golf-carts" component={OldOrchardBeachPage} />
+            <Route path="/maine/portland-golf-carts" component={PortlandMainePage} />
+            <Route path="/maine/rockland-golf-carts" component={RocklandPage} />
+            
+            {/* New Hampshire Shore Towns */}
+            <Route path="/new-hampshire/hampton-beach-golf-carts" component={HamptonBeachPage} />
+            <Route path="/new-hampshire/portsmouth-golf-carts" component={PortsmouthPage} />
+            <Route path="/new-hampshire/rye-golf-carts" component={RyePage} />
+            
+            {/* Massachusetts Shore Towns */}
+            <Route path="/massachusetts/provincetown-golf-carts" component={ProvincetownPage} />
+            <Route path="/massachusetts/nantucket-golf-carts" component={NantucketPage} />
+            <Route path="/massachusetts/marthas-vineyard-golf-carts" component={MarthasVineyardPage} />
+            <Route path="/massachusetts/cape-cod-golf-carts" component={CapeCodPage} />
+            <Route path="/massachusetts/salem-golf-carts" component={SalemPage} />
+            <Route path="/massachusetts/gloucester-golf-carts" component={GloucesterPage} />
+            
+            {/* Rhode Island Shore Towns */}
+            <Route path="/rhode-island/newport-golf-carts" component={NewportPage} />
+            <Route path="/rhode-island/block-island-golf-carts" component={BlockIslandPage} />
+            <Route path="/rhode-island/narragansett-golf-carts" component={NarragansettPage} />
+            <Route path="/rhode-island/westerly-golf-carts" component={WesterlyPage} />
+            
+            {/* Connecticut Shore Towns */}
+            <Route path="/connecticut/mystic-golf-carts" component={MysticPage} />
+            <Route path="/connecticut/old-saybrook-golf-carts" component={OldSaybrookPage} />
+            <Route path="/connecticut/stonington-golf-carts" component={StoningtonPage} />
+            <Route path="/connecticut/madison-golf-carts" component={MadisonPage} />
+            
+            {/* New York Shore Towns */}
+            <Route path="/new-york/montauk-golf-carts" component={MontaukPage} />
+            <Route path="/new-york/the-hamptons-golf-carts" component={TheHamptonsPage} />
+            <Route path="/new-york/fire-island-golf-carts" component={FireIslandPage} />
+            <Route path="/new-york/shelter-island-golf-carts" component={ShelterIslandPage} />
+            <Route path="/new-york/sag-harbor-golf-carts" component={SagHarborPage} />
+            
+            {/* New Jersey Shore Towns */}
+            <Route path="/new-jersey/cape-may-golf-carts" component={CapeMayPage} />
+            <Route path="/new-jersey/atlantic-city-golf-carts" component={AtlanticCityPage} />
+            <Route path="/new-jersey/ocean-city-golf-carts" component={OceanCityNJPage} />
+            <Route path="/new-jersey/seaside-heights-golf-carts" component={SeasideHeightsPage} />
+            <Route path="/new-jersey/spring-lake-golf-carts" component={SpringLakePage} />
+            
+            {/* Delaware Shore Towns */}
+            <Route path="/delaware/rehoboth-beach-golf-carts" component={RehobothBeachPage} />
+            <Route path="/delaware/bethany-beach-golf-carts" component={BethanyBeachPage} />
+            <Route path="/delaware/dewey-beach-golf-carts" component={DeweyBeachPage} />
+            <Route path="/delaware/lewes-golf-carts" component={LewesPage} />
+            
+            {/* Maryland Shore Towns */}
+            <Route path="/maryland/ocean-city-golf-carts" component={OceanCityMDPage} />
+            <Route path="/maryland/annapolis-golf-carts" component={AnnapolisPage} />
+            <Route path="/maryland/st-michaels-golf-carts" component={StMichaelsPage} />
+            <Route path="/maryland/cambridge-golf-carts" component={CambridgePage} />
+            
+            {/* Virginia Shore Towns */}
+            <Route path="/virginia/virginia-beach-golf-carts" component={VirginiaBeachPage} />
+            <Route path="/virginia/norfolk-golf-carts" component={NorfolkPage} />
+            <Route path="/virginia/williamsburg-golf-carts" component={WilliamsburgPage} />
+            <Route path="/virginia/newport-news-golf-carts" component={NewportNewsPage} />
+            
+            {/* North Carolina Shore Towns */}
+            <Route path="/north-carolina/outer-banks-golf-carts" component={OuterBanksPage} />
+            <Route path="/north-carolina/wilmington-golf-carts" component={WilmingtonNCPage} />
+            <Route path="/north-carolina/wrightsville-beach-golf-carts" component={WrightsvilleBeachPage} />
+            <Route path="/north-carolina/nags-head-golf-carts" component={NagsHeadPage} />
+            
+            {/* South Carolina Shore Towns */}
+            <Route path="/south-carolina/charleston-golf-carts" component={CharlestonPage} />
+            <Route path="/south-carolina/myrtle-beach-golf-carts" component={MyrtleBeachPage} />
+            <Route path="/south-carolina/hilton-head-island-golf-carts" component={HiltonHeadIslandPage} />
+            <Route path="/south-carolina/beaufort-golf-carts" component={BeaufortPage} />
+            
+            {/* Georgia Shore Towns */}
+            <Route path="/georgia/savannah-golf-carts" component={SavannahPage} />
+            <Route path="/georgia/jekyll-island-golf-carts" component={JekyllIslandPage} />
+            <Route path="/georgia/st-simons-island-golf-carts" component={StSimonsIslandPage} />
+            <Route path="/georgia/tybee-island-golf-carts" component={TybeeIslandPage} />
+            
+            {/* Florida Shore Towns */}
+            <Route path="/florida/st-augustine-golf-carts" component={StAugustinePage} />
+            <Route path="/florida/key-west-golf-carts" component={KeyWestPage} />
+            <Route path="/florida/miami-beach-golf-carts" component={MiamiBeachPage} />
+            <Route path="/florida/naples-golf-carts" component={NaplesPage} />
+            <Route path="/florida/clearwater-beach-golf-carts" component={ClearwaterBeachPage} />
+            <Route path="/florida/fort-lauderdale-golf-carts" component={FortLauderdalePage} />
 
             {/* All vehicle detail pages handled by dynamic VehicleDetailPage component */}
 

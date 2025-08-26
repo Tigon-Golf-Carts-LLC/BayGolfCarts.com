@@ -9,25 +9,25 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Rehoboth Golf Carts",
-      "description": "Premier golf cart dealership in Sussex County, Delaware specializing in electric golf carts, sales, service, rentals, and financing serving Rehoboth Beach, Lewes, Bethany Beach, and all Delaware beaches.",
-      "url": "https://rehobothgolfcarts.com",
-      "logo": "https://rehobothgolfcarts.com/attached_assets/Lackawanna County Golf Carts_1753809066045.png",
-      "image": "https://rehobothgolfcarts.com/attached_assets/Lackawanna County Golf Carts_1753809066045.png",
-      "telephone": "1-844-844-6638",
-      "email": "info@rehobothgolfcarts.com",
+      "name": "Bay Golf Carts",
+      "description": "Premier golf cart dealership serving all eastern coastline states specializing in electric golf carts, sales, service, rentals, and financing serving all bays and shore towns from Maine to Florida.",
+      "url": "https://baygolfcarts.com",
+      "logo": "https://baygolfcarts.com/attached_assets/Bay_Golf_Carts_Logo.png",
+      "image": "https://baygolfcarts.com/attached_assets/Bay_Golf_Carts_Logo.png",
+      "telephone": "1-844-229-4653",
+      "email": "info@baygolfcarts.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "123 Golf Cart Lane",
-        "addressLocality": "Rehoboth Beach",
-        "addressRegion": "DE",
-        "postalCode": "19971",
+        "streetAddress": "Multiple Locations",
+        "addressLocality": "Eastern Seaboard",
+        "addressRegion": "Multiple States",
+        "postalCode": "Multiple",
         "addressCountry": "US"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "38.7215",
-        "longitude": "-75.0760"
+        "latitude": "35.0000",
+        "longitude": "-75.0000"
       },
       "openingHours": [
         "Mo-Fr 09:00-18:00",
@@ -35,7 +35,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       ],
       "serviceArea": {
         "@type": "AdministrativeArea",
-        "name": "Sussex County, Delaware"
+        "name": "Eastern United States Coastline"
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -99,9 +99,9 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "worstRating": "1"
       },
       "sameAs": [
-        "https://www.facebook.com/montcogolfcarts",
-        "https://www.instagram.com/montcogolfcarts",
-        "https://www.linkedin.com/company/montcogolfcarts"
+        "https://www.facebook.com/baygolfcarts",
+        "https://www.instagram.com/baygolfcarts",
+        "https://www.linkedin.com/company/baygolfcarts"
       ]
     };
 

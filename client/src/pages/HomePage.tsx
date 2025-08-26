@@ -10,8 +10,8 @@ import BrandsSection from "@/components/BrandsSection";
 import OrganizationSchema from "@/components/OrganizationSchema";
 import SEOHead from "@/components/SEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
-import { DELAWARE_MUNICIPALITIES_LIST, type Municipality } from "@/data/allDelawareMunicipalities";
-import { DELAWARE_COUNTIES } from "@/data/delawareCounties";
+import { EASTERN_COASTLINE_STATES } from "@/data/easternStates";
+import { SHORE_TOWNS_BY_STATE } from "@/data/shoreTowns";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 export default function HomePage() {
@@ -25,31 +25,31 @@ export default function HomePage() {
     <div className="min-h-screen">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="Delaware Golf Carts - Premier Electric Golf Cart Dealership in Delaware"
-        description="Discover premium electric golf carts from Denago and Evolution at Delaware Golf Carts. Expert sales, service, rentals, and financing throughout all Delaware counties."
-        keywords="golf carts Delaware, electric golf carts Delaware, Denago golf carts, Evolution golf carts, Delaware golf cart sales service rentals, New Castle Kent Sussex County"
-        canonicalUrl="https://delawaregolfcarts.com/"
-        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
+        title="Bay Golf Carts - Premier Electric Golf Cart Dealership Eastern Seaboard"
+        description="Discover premium electric golf carts from Denago and Evolution at Bay Golf Carts. Expert sales, service, rentals, and financing throughout all eastern coastline states from Maine to Florida."
+        keywords="bay golf carts, shore golf carts, electric golf carts, coastal golf carts, Denago golf carts, Evolution golf carts, eastern seaboard golf cart sales service rentals"
+        canonicalUrl="https://baygolfcarts.com/"
+        ogImage="/attached_assets/Bay_Golf_Carts_Logo.png"
         ogType="website"
       />
       <AllSchemas 
         pageType="home" 
         pageData={{
-          title: "Delaware Golf Carts - Premier Electric Golf Cart Dealership in Delaware",
-          description: "Discover premium electric golf carts from Denago and Evolution at Delaware Golf Carts. Expert sales, service, rentals, and financing throughout all Delaware counties.",
-          url: "https://delawaregolfcarts.com/",
-          breadcrumbs: [{ name: "Home", url: "https://delawaregolfcarts.com/" }],
+          title: "Bay Golf Carts - Premier Electric Golf Cart Dealership Eastern Seaboard",
+          description: "Discover premium electric golf carts from Denago and Evolution at Bay Golf Carts. Expert sales, service, rentals, and financing throughout all eastern coastline states.",
+          url: "https://baygolfcarts.com/",
+          breadcrumbs: [{ name: "Home", url: "https://baygolfcarts.com/" }],
           reviews: [
             {
               author: "John Smith",
-              reviewBody: "Excellent service and quality golf carts. The team at Delaware Golf Carts helped me find the perfect cart for my needs in Rehoboth Beach.",
+              reviewBody: "Excellent service and quality golf carts. The team at Bay Golf Carts helped me find the perfect cart for my needs at the shore.",
               reviewRating: 5,
               datePublished: "2025-01-15",
               headline: "Outstanding service and selection"
             },
             {
               author: "Maria Garcia",
-              reviewBody: "Professional staff and great prices. Highly recommend for anyone looking for golf carts in Delaware.",
+              reviewBody: "Professional staff and great prices. Highly recommend for anyone looking for golf carts along the eastern coast.",
               reviewRating: 5,
               datePublished: "2025-01-20",
               headline: "Professional and affordable"
@@ -70,11 +70,11 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl font-bold mb-6 leading-tight">
-                Delaware Golf Carts - Statewide Premier Dealership
+                Bay Golf Carts - Eastern Seaboard Premier Dealership
               </h1>
               <p className="text-xl mb-8 text-gray-100">
-                Serving all Delaware counties with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions from Wilmington to Rehoboth Beach. 
-                Serving New Castle, Kent, and Sussex Counties with all Delaware towns, cities, and communities including Wilmington, Dover, and Rehoboth Beach.
+                Serving the entire eastern seaboard with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions from Maine to Florida. 
+                Covering all coastal bays, shore towns, and island communities across 14 eastern states.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/inventory" className="w-full sm:w-auto">
@@ -82,9 +82,9 @@ export default function HomePage() {
                     View Inventory
                   </Button>
                 </Link>
-                <a href="tel:1-844-844-6638">
+                <a href="tel:1-844-229-4653">
                   <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-gray-900 w-full sm:w-auto">
-                    Call Now 1-844-844-6638
+                    Call Now 1-844-BAY-GOLF
                   </Button>
                 </a>
               </div>
@@ -104,7 +104,7 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Why Choose Delaware Golf Carts?
+            Why Choose Bay Golf Carts?
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
             We're more than just a dealership - we're your partner in golf cart ownership 
@@ -118,7 +118,7 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Premium Quality</h3>
               <p className="text-gray-600">
-                Top-rated brands including Yamaha, Club Car, EZGO, and Evolution with rigorous quality standards.
+                Top-rated brands including DENAGO and Evolution with rigorous quality standards for coastal environments.
               </p>
             </div>
             
@@ -380,32 +380,31 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Lackawanna County Municipalities Section */}
+      {/* Eastern States Coverage Section */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Golf Carts for Every Delaware Municipality
+            Golf Carts for Every Shore Community
           </h2>
           <p className="text-xl text-gray-600 mb-12">
-            Professional golf cart services delivered to your town or city throughout New Castle, Kent, and Sussex Counties
+            Professional golf cart services delivered to coastal communities from Maine to Florida
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 mb-12">
-            {/* Complete Lackawanna County Municipality List - dynamically generated */}
-            {DELAWARE_MUNICIPALITIES_LIST.slice(0, 24).map((municipality: Municipality) => (
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3 mb-12">
+            {EASTERN_COASTLINE_STATES.slice(0, 14).map((state) => (
               <Link 
-                key={municipality.slug} 
-                href={municipality.url} 
+                key={state.slug} 
+                href={state.url} 
                 className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors"
               >
                 <div className="text-sm font-semibold text-blue-700">
-                  {municipality.name}
+                  {state.name}
                 </div>
               </Link>
             ))}
           </div>
           
           <p className="text-gray-600 mb-8">
-            Serving all {DELAWARE_MUNICIPALITIES_LIST.length} Delaware municipalities! Professional golf cart sales, service, and rentals delivered throughout all three Delaware counties.
+            Serving all 14 eastern seaboard states! Professional golf cart sales, service, and rentals delivered throughout coastal bays and shore towns.
           </p>
         </div>
       </section>
@@ -423,31 +422,31 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">New Castle County</h3>
-              <p className="text-sm text-gray-600 mb-2">Wilmington, Newark, Middletown and all municipalities</p>
-              <p className="text-theme-orange font-semibold">Northern Delaware</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Northern Region</h3>
+              <p className="text-sm text-gray-600 mb-2">Maine, New Hampshire, Massachusetts, Rhode Island</p>
+              <p className="text-theme-orange font-semibold">New England Coast</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Kent County</h3>
-              <p className="text-sm text-gray-600 mb-2">Dover, Milford, and all central Delaware towns</p>
-              <p className="text-theme-orange font-semibold">Central Delaware</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Mid-Atlantic Region</h3>
+              <p className="text-sm text-gray-600 mb-2">Connecticut, New York, New Jersey, Delaware, Maryland</p>
+              <p className="text-theme-orange font-semibold">Mid-Atlantic Coast</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Sussex County</h3>
-              <p className="text-sm text-gray-600 mb-2">Rehoboth Beach, Georgetown, and coastal communities</p>
-              <p className="text-theme-orange font-semibold">Southern Delaware</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Southern Region</h3>
+              <p className="text-sm text-gray-600 mb-2">Virginia, North Carolina, South Carolina, Georgia, Florida</p>
+              <p className="text-theme-orange font-semibold">Southeast Coast</p>
             </div>
           </div>
 
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Main Contact</h3>
-            <p className="text-gray-600 mb-4">For general inquiries and support throughout Sussex County, Delaware</p>
+            <p className="text-gray-600 mb-4">For general inquiries and support throughout the eastern seaboard</p>
             <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-              <a href="tel:1-844-844-6638" className="text-2xl font-bold text-theme-orange hover:underline">1-844-844-6638</a>
+              <a href="tel:1-844-229-4653" className="text-2xl font-bold text-theme-orange hover:underline">1-844-BAY-GOLF</a>
               <Link href="/contact">
                 <Button className="bg-theme-orange hover:bg-orange-600 text-white">
                   Contact Us

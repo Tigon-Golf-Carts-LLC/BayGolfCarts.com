@@ -88,7 +88,7 @@ export default function BayLocationTemplate({ location, locationType }: BayLocat
         description={context.contextDesc}
         keywords={context.seoKeywords}
         canonicalUrl={`https://baygolfcarts.com${location.url}`}
-        ogImage="/attached_assets/Bay_Golf_Carts_Logo.png"
+        ogImage="/attached_assets/BAY GOLF CARTS (1)_1756302505497.png"
         ogType="website"
       />
 

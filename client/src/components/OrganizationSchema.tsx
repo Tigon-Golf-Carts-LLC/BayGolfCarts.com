@@ -12,8 +12,8 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       "name": "Bay Golf Carts",
       "description": "Premier golf cart dealership serving all eastern coastline states specializing in electric golf carts, sales, service, rentals, and financing serving all bays and shore towns from Maine to Florida.",
       "url": "https://baygolfcarts.com",
-      "logo": "https://baygolfcarts.com/attached_assets/Bay_Golf_Carts_Logo.png",
-      "image": "https://baygolfcarts.com/attached_assets/Bay_Golf_Carts_Logo.png",
+      "logo": "https://baygolfcarts.com/attached_assets/BAY GOLF CARTS (1)_1756302505497.png",
+      "image": "https://baygolfcarts.com/attached_assets/BAY GOLF CARTS (1)_1756302505497.png",
       "telephone": "1-844-229-4653",
       "email": "info@baygolfcarts.com",
       "address": {

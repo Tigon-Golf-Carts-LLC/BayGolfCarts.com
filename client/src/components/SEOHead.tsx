@@ -16,7 +16,7 @@ export default function SEOHead({
   keywords = "bay golf carts, shore golf carts, electric golf carts, golf cart sales, golf cart service, coastal golf carts, eastern seaboard golf carts", 
   canonicalUrl,
   townName,
-  ogImage = "/attached_assets/Bay_Golf_Carts_Logo.png",
+  ogImage = "/attached_assets/BAY GOLF CARTS (1)_1756302505497.png",
   ogType = "website"
 }: SEOHeadProps) {
   useEffect(() => {
@@ -61,23 +61,23 @@ export default function SEOHead({
     // Set favicon
     const existingFavicon = document.querySelector('link[rel="icon"]');
     if (existingFavicon) {
-      existingFavicon.setAttribute("href", "/attached_assets/Bay_Golf_Carts_Logo.png");
+      existingFavicon.setAttribute("href", "/attached_assets/BAY GOLF CARTS (1)_1756302505497.png");
     } else {
       const favicon = document.createElement("link");
       favicon.rel = "icon";
       favicon.type = "image/png";
-      favicon.href = "/attached_assets/Bay_Golf_Carts_Logo.png";
+      favicon.href = "/attached_assets/BAY GOLF CARTS (1)_1756302505497.png";
       document.head.appendChild(favicon);
     }
 
     // Set apple touch icon
     const existingAppleIcon = document.querySelector('link[rel="apple-touch-icon"]');
     if (existingAppleIcon) {
-      existingAppleIcon.setAttribute("href", "/attached_assets/Bay_Golf_Carts_Logo.png");
+      existingAppleIcon.setAttribute("href", "/attached_assets/BAY GOLF CARTS (1)_1756302505497.png");
     } else {
       const appleIcon = document.createElement("link");
       appleIcon.rel = "apple-touch-icon";
-      appleIcon.href = "/attached_assets/Bay_Golf_Carts_Logo.png";
+      appleIcon.href = "/attached_assets/BAY GOLF CARTS (1)_1756302505497.png";
       document.head.appendChild(appleIcon);
     }
 
@@ -140,7 +140,7 @@ export default function SEOHead({
         "telephone": "1-844-BAY-GOLF",
         "email": "info@baygolfcarts.com",
         "url": canonicalUrl,
-        "logo": "https://baygolfcarts.com/attached_assets/Bay_Golf_Carts_Logo.png",
+        "logo": "https://baygolfcarts.com/attached_assets/BAY GOLF CARTS (1)_1756302505497.png",
         "image": `https://baygolfcarts.com${ogImage}`,
         "serviceArea": {
           "@type": "GeoCircle",

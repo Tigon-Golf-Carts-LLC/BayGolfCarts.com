@@ -29,7 +29,7 @@ export default function HomePage() {
         description="Discover premium electric golf carts from Denago and Evolution at Bay Golf Carts. Expert sales, service, rentals, and financing throughout all eastern coastline states from Maine to Florida."
         keywords="bay golf carts, shore golf carts, electric golf carts, coastal golf carts, Denago golf carts, Evolution golf carts, eastern seaboard golf cart sales service rentals"
         canonicalUrl="https://baygolfcarts.com/"
-        ogImage="/attached_assets/Bay_Golf_Carts_Logo.png"
+        ogImage="/attached_assets/BAY GOLF CARTS (1)_1756302505497.png"
         ogType="website"
       />
       <AllSchemas 

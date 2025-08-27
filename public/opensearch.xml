@@ -4,8 +4,8 @@
   
   <ShortName>Bay Golf Carts</ShortName>
   <Description>Search the Eastern Seaboard's premier electric golf cart dealership. DENAGO & Evolution vehicles, sales, service, rentals coast-wide.</Description>
-  <Image width="16" height="16" type="image/x-icon">https://baygolfcarts.com/attached_assets/Bay_Golf_Carts_Logo.png</Image>
-  <Image width="64" height="64" type="image/png">https://baygolfcarts.com/attached_assets/Bay_Golf_Carts_Logo.png</Image>
+  <Image width="16" height="16" type="image/x-icon">https://baygolfcarts.com/attached_assets/BAY GOLF CARTS_1756302242088.png</Image>
+  <Image width="64" height="64" type="image/png">https://baygolfcarts.com/attached_assets/BAY GOLF CARTS_1756302242088.png</Image>
   
   <Url type="text/html" method="get" template="https://baygolfcarts.com/search?q={searchTerms}"/>
   <Url type="application/opensearchdescription+xml" rel="self" template="https://baygolfcarts.com/opensearch.xml"/>
@@ -29,6 +29,6 @@
   <moz:SearchForm>https://baygolfcarts.com/</moz:SearchForm>
   <moz:UpdateInterval>7</moz:UpdateInterval>
   <moz:UpdateUrl>https://baygolfcarts.com/opensearch.xml</moz:UpdateUrl>
-  <moz:IconUpdateUrl>https://baygolfcarts.com/attached_assets/Bay_Golf_Carts_Logo.png</moz:IconUpdateUrl>
+  <moz:IconUpdateUrl>https://baygolfcarts.com/attached_assets/BAY GOLF CARTS_1756302242088.png</moz:IconUpdateUrl>
   
 </OpenSearchDescription>

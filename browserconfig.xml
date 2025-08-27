@@ -2,9 +2,9 @@
 <browserconfig>
   <msapplication>
     <tile>
-      <square70x70logo src="/attached_assets/Lackawanna%20County%20Golf%20Carts%20(1)_1753965133795.png"/>
-      <square150x150logo src="/attached_assets/Lackawanna%20County%20Golf%20Carts_1753965133796.png"/>
-      <square310x310logo src="/attached_assets/Lackawanna%20County%20Golf%20Carts_1753965133796.png"/>
+      <square70x70logo src="/attached_assets/BAY GOLF CARTS_1756302242088.png"/>
+      <square150x150logo src="/attached_assets/BAY GOLF CARTS_1756302242088.png"/>
+      <square310x310logo src="/attached_assets/BAY GOLF CARTS_1756302242088.png"/>
       <wide310x150logo src="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_4zG-0v0fRsSU5AxGt_cEfA_A0HlJrJtSJOlpyerLK2j5Q_1753965748393.png"/>
       <TileColor>#0e2e55</TileColor>
     </tile>
@@ -52,14 +52,14 @@
     <task>
       <name>Contact Dealer</name>
       <action-uri>/contact</action-uri>
-      <icon-uri>/attached_assets/Lackawanna%20County%20Golf%20Carts%20(1)_1753965133795.png</icon-uri>
+      <icon-uri>/attached_assets/BAY GOLF CARTS_1756302242088.png</icon-uri>
     </task>
   </msapplication>
 
   <!-- Microsoft Edge Pinned Site Features -->
   <msapplication>
     <navbutton-color>#0e2e55</navbutton-color>
-    <tooltip>Lackawanna County Golf Carts - Premium Electric Golf Cart Dealer</tooltip>
+    <tooltip>Bay Golf Carts - Premium Electric Golf Cart Dealer</tooltip>
     <window>
       <width>1024</width>
       <height>768</height>
@@ -83,7 +83,7 @@
       <task>
         <name>Scranton Golf Carts</name>
         <arguments>/scranton-golf-carts</arguments>
-        <icon-uri>/attached_assets/Lackawanna%20County%20Golf%20Carts%20(1)_1753965133795.png</icon-uri>
+        <icon-uri>/attached_assets/BAY GOLF CARTS_1756302242088.png</icon-uri>
       </task>
       <task>
         <name>Rental Services</name>

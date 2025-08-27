@@ -32,21 +32,21 @@
       "short_name": "Inventory",
       "description": "Browse our complete golf cart inventory",
       "url": "/inventory",
-      "icons": [{ "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png", "sizes": "96x96" }]
+      "icons": [{ "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png", "sizes": "96x96" }]
     },
     {
       "name": "Contact Us",
       "short_name": "Contact",
       "description": "Get in touch with Bay Golf Carts",
       "url": "/contact",
-      "icons": [{ "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png", "sizes": "96x96" }]
+      "icons": [{ "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png", "sizes": "96x96" }]
     },
     {
       "name": "Rentals",
       "short_name": "Rentals",
       "description": "Golf cart rental services",
       "url": "/rentals",
-      "icons": [{ "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png", "sizes": "96x96" }]
+      "icons": [{ "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png", "sizes": "96x96" }]
     }
   ]
 }

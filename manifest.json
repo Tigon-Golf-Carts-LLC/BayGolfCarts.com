@@ -27,13 +27,13 @@
   ],
   "icons": [
     {
-      "src": "/attached_assets/Lackawanna%20County%20Golf%20Carts%20(1)_1753965133795.png",
+      "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/attached_assets/Lackawanna%20County%20Golf%20Carts_1753965133796.png",
+      "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -86,7 +86,7 @@
       "url": "/contact",
       "icons": [
         {
-          "src": "/attached_assets/Lackawanna%20County%20Golf%20Carts%20(1)_1753965133795.png",
+          "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
           "sizes": "96x96",
           "type": "image/png"
         }

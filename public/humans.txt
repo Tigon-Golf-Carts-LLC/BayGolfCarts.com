@@ -1,10 +1,10 @@
-# Humans.txt - Delaware Golf Carts
+# Humans.txt - Bay Golf Carts
 # The humans responsible for building this website
 
 /* TEAM */
 
 Business Owner & Operations Director
-Name: Delaware Golf Carts Management Team
+Name: Bay Golf Carts Management Team
 Location: Sussex County, Delaware, USA
 Contact: 1-844-844-6638
 
@@ -37,7 +37,7 @@ IDE: Replit collaborative development environment
 
 /* BUSINESS INFORMATION */
 
-Company: Delaware Golf Carts
+Company: Bay Golf Carts
 Industry: Electric Golf Cart & Low Speed Vehicle Dealership
 Experience: 15+ years in automotive industry
 Service Area: All Delaware (57 municipalities across 3 counties)
@@ -52,7 +52,7 @@ Geographic Coverage:
 Bethany Beach, Bethel, Blades, Bridgeville, Dagsboro, Delmar, 
 Dewey Beach, Ellendale, Fenwick Island, Frankford, Georgetown, 
 Greenwood, Gumboro, Harbeson, Henlopen Acres, Laurel, Lewes, 
-Millsboro, Millville, Milton, Ocean View, Rehoboth Beach, 
+Eastern Seaboard bay areas and shore towns, 
 Seaford, Selbyville, South Bethany, and surrounding Delaware areas
 
 /* DEVELOPMENT APPROACH */

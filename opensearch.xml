@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
   <ShortName>RGC Search</ShortName>
-  <Description>Search Rehoboth Golf Carts inventory, services, and information</Description>
+  <Description>Search Bay Golf Carts inventory, services, and information</Description>
   <Tags>golf carts Sussex County Delaware DENAGO EVOLUTION electric vehicles</Tags>
-  <Contact>info@rehobothgolfcarts.com</Contact>
+  <Contact>info@baygolfcarts.com</Contact>
   <Url type="text/html" 
-       template="https://rehobothgolfcarts.com/search?q={searchTerms}"/>
+       template="https://baygolfcarts.com/search?q={searchTerms}"/>
   <Url type="application/rss+xml"
-       template="https://rehobothgolfcarts.com/search/rss?q={searchTerms}"/>
+       template="https://baygolfcarts.com/search/rss?q={searchTerms}"/>
   <Url type="application/json"
-       template="https://rehobothgolfcarts.com/api/search?q={searchTerms}&amp;format=json"/>
+       template="https://baygolfcarts.com/api/search?q={searchTerms}&amp;format=json"/>
   <Url type="application/opensearchdescription+xml"
        rel="self"
-       template="https://rehobothgolfcarts.com/opensearch.xml"/>
-  <LongName>Rehoboth Golf Carts - Search Golf Cart Models, Services, and Information</LongName>
-  <Image height="16" width="16" type="image/x-icon">https://rehobothgolfcarts.com/favicon.ico</Image>
-  <Image height="64" width="64" type="image/png">https://rehobothgolfcarts.com/attached_assets/Lackawanna%20County%20Golf%20Carts%20(1)_1753965133795.png</Image>
+       template="https://baygolfcarts.com/opensearch.xml"/>
+  <LongName>Bay Golf Carts - Search Golf Cart Models, Services, and Information</LongName>
+  <Image height="16" width="16" type="image/x-icon">https://baygolfcarts.com/favicon.ico</Image>
+  <Image height="64" width="64" type="image/png">https://baygolfcarts.com/attached_assets/Bay_Golf_Carts_Logo.png</Image>
   <Query role="example" searchTerms="DENAGO EV City"/>
   <Query role="example" searchTerms="EVOLUTION D5 Maverick"/>
-  <Query role="example" searchTerms="golf cart rentals Rehoboth Beach"/>
+  <Query role="example" searchTerms="golf cart rentals bay area"/>
   <Query role="example" searchTerms="electric golf cart service"/>
-  <Developer>Rehoboth Golf Carts Web Development Team</Developer>
-  <Attribution>Search results provided by Rehoboth Golf Carts</Attribution>
+  <Developer>Bay Golf Carts Web Development Team</Developer>
+  <Attribution>Search results provided by Bay Golf Carts</Attribution>
   <SyndicationRight>open</SyndicationRight>
   <AdultContent>false</AdultContent>
   <Language>en-US</Language>

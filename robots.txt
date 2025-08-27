@@ -1,4 +1,4 @@
-# Rehoboth Golf Carts - Robots.txt
+# Bay Golf Carts - Robots.txt
 # Allow all web crawlers and search engine bots
 # Follow all links and index all content
 
@@ -41,7 +41,7 @@ Allow: /
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://rehobothgolfcarts.com/sitemap.xml
+Sitemap: https://baygolfcarts.com/sitemap.xml
 
 # Allow indexing of all content types
 # CSS, JS, images, and other assets

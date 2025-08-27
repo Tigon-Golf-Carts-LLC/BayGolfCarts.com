@@ -1,7 +1,7 @@
-# Rehoboth Golf Carts - Website Project
+# Bay Golf Carts - Website Project
 
 ## Overview
-This project is for Rehoboth Golf Carts (https://rehobothgolfcarts.com), Delaware's premier golf cart dealership serving Sussex County. The platform aims to provide a comprehensive online presence for DENAGO and EVOLUTION electric golf cart sales, rentals, and services throughout Sussex County. Key capabilities include complete inventory management, a rental system with location-based services for all Sussex County municipalities, customer inquiry handling, and detailed business information. The business vision is to serve as a central hub for golf cart sales and rentals, enhancing market presence and customer accessibility across Sussex County, from Rehoboth Beach to Seaford, and from Lewes to Georgetown.
+This project is for Bay Golf Carts (https://baygolfcarts.com), Eastern Seaboard's premier golf cart dealership serving all coastal bays and shore towns. The platform aims to provide a comprehensive online presence for DENAGO and EVOLUTION electric golf cart sales, rentals, and services throughout the Eastern Seaboard. Key capabilities include complete inventory management, a rental system with location-based services for all Eastern Seaboard bays and shore towns, customer inquiry handling, and detailed business information. The business vision is to serve as a central hub for golf cart sales and rentals, enhancing market presence and customer accessibility across the Eastern Seaboard, from Maine to Florida.
 
 ## User Preferences
 I want iterative development. Ask before making major changes.
@@ -38,8 +38,8 @@ I want iterative development. Ask before making major changes.
 ## Recent Updates and Achievements
 
 ### ✅ Complete Branding Transformation (January 2025)
-- **New Brand Identity**: Rehoboth Golf Carts professional logos, favicons, and showroom imagery
-- **Domain Migration**: Complete transition to rehobothgolfcarts.com
+- **New Brand Identity**: Bay Golf Carts professional logos, favicons, and bay-themed imagery
+- **Domain Migration**: Complete transition to baygolfcarts.com
 - **Analytics Integration**: Google Tag Manager (GTM-NG5LKDC2) and Google Analytics (G-DTDH7LVGPN)
 - **Professional Photography**: 8 new Sussex County showroom background images implemented
 

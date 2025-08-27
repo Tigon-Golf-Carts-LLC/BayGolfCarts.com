@@ -1,7 +1,7 @@
 {
-  "name": "Rehoboth Golf Carts",
+  "name": "Bay Golf Carts",
   "short_name": "RGC",
-  "description": "Delaware's premier electric golf cart dealership serving all 27 Sussex County municipalities. DENAGO and EVOLUTION golf cart sales, rentals, service, and parts.",
+  "description": "Eastern Seaboard's premier electric golf cart dealership serving all coastal bays and shore towns. DENAGO and EVOLUTION golf cart sales, rentals, service, and parts.",
   "theme_color": "#0e2e55",
   "background_color": "#ffffff",
   "display": "standalone",
@@ -22,7 +22,7 @@
       "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Rehoboth Golf Carts Showroom"
+      "label": "Bay Golf Carts Showroom"
     }
   ],
   "icons": [

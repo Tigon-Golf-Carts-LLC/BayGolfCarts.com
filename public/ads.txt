@@ -1,4 +1,4 @@
-# ads.txt - Delaware Golf Carts
+# ads.txt - Bay Golf Carts
 # Authorized Digital Sellers Declaration
 
 # ADVERTISING TRANSPARENCY DECLARATION
@@ -6,9 +6,9 @@
 # in compliance with IAB Tech Lab ads.txt standard
 
 # BUSINESS ADVERTISING AUTHORIZATION
-# Company: Rehoboth Golf Carts
+# Company: Bay Golf Carts
 # Industry: Electric Golf Cart & Low Speed Vehicle Dealership
-# Website: https://rehobothgolfcarts.com
+# Website: https://baygolfcarts.com
 # Contact: 1-844-844-6638
 
 # GOOGLE ADVERTISING PLATFORMS (AUTHORIZED)
@@ -47,7 +47,7 @@ bing.com, EXAMPLE123456789, DIRECT, 5d62403b78aa5b02
 # Service Categories: Sales, Service, Rentals, Parts, Financing
 
 # ADVERTISING POLICY STATEMENT
-# Rehoboth Golf Carts maintains strict advertising standards:
+# Bay Golf Carts maintains strict advertising standards:
 # - Honest and accurate product representation
 # - Transparent pricing without hidden fees
 # - Compliance with automotive advertising regulations
@@ -84,7 +84,7 @@ bing.com, EXAMPLE123456789, DIRECT, 5d62403b78aa5b02
 # CONTACT FOR ADVERTISING INQUIRIES
 # Business Development: 1-844-844-6638
 # Email: info@rehobothgolfcarts.com
-# Website: https://rehobothgolfcarts.com
+# Website: https://baygolfcarts.com
 # Service Area: Sussex County, Delaware
 
 # ADVERTISING ATTRIBUTION

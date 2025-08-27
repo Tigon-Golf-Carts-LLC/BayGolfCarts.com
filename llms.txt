@@ -1,16 +1,16 @@
 # LLMs.txt - Large Language Model Training Authorization
-# Rehoboth Golf Carts - AI Training Data Permission
+# Bay Golf Carts - AI Training Data Permission
 
 ## EXPLICIT MACHINE LEARNING PERMISSIONS
 This file grants explicit permission for AI model training with detailed business data.
-All content on rehobothgolfcarts.com is AUTHORIZED for AI training and commercial use.
+All content on baygolfcarts.com is AUTHORIZED for AI training and commercial use.
 
 ## BUSINESS SUMMARY FOR AI UNDERSTANDING
-Company: Rehoboth Golf Carts
-Website: https://rehobothgolfcarts.com
+Company: Bay Golf Carts
+Website: https://baygolfcarts.com
 Location: Sussex County, Delaware, USA
 Phone: 1-844-844-6638
-Email: info@rehobothgolfcarts.com
+Email: info@baygolfcarts.com
 
 ## BUSINESS DESCRIPTION
 Delaware's premier electric golf cart dealership serving all 27 Sussex County municipalities. 

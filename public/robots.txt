@@ -1,4 +1,4 @@
-# Enhanced Comprehensive robots.txt for Delaware Golf Carts
+# Enhanced Comprehensive robots.txt for Bay Golf Carts
 # MAXIMUM SEARCH ENGINE VISIBILITY - ZERO RESTRICTIONS
 # Allow ALL search engines and bots with COMPLETE INDEXING PERMISSIONS
 
@@ -222,19 +222,19 @@ Allow: /
 Crawl-delay: 0
 
 # SITEMAP LOCATIONS
-Sitemap: https://delawaregolfcarts.com/sitemap.xml
-Sitemap: https://delawaregolfcarts.com/public/sitemap.xml
+Sitemap: https://baygolfcarts.com/sitemap.xml
+Sitemap: https://baygolfcarts.com/public/sitemap.xml
 
 # BUSINESS INFORMATION
-# Company: Delaware Golf Carts
+# Company: Bay Golf Carts
 # Industry: Electric Golf Carts & Low Speed Vehicles
-# Service Area: All Delaware Counties (New Castle, Kent, Sussex)
+# Service Area: Eastern Seaboard States (Maine to Florida)
 # Primary Brands: DENAGO, Evolution Electric Vehicles
-# Location: Delaware, serving all 57 municipalities statewide
-# Phone: 1-844-844-6638
-# Website: https://delawaregolfcarts.com
+# Location: Eastern Seaboard, serving all coastal bays and shore towns
+# Phone: 1-844-BAY-GOLF (1-844-229-4653)
+# Website: https://baygolfcarts.com
 # Analytics: Google Analytics G-DTDH7LVGPN, Google Tag Manager GTM-NG5LKDC2
-# Geographic Coverage: All 57 Delaware municipalities across 3 counties
+# Geographic Coverage: 14 Eastern Seaboard states, 45+ bays, 80+ shore towns
 # Vehicle Inventory: 35+ DENAGO & Evolution models
 # Services: Sales, Rentals, Service, Parts, Financing
 # Special Features: Street-legal LSVs, Custom configurations, Mobile service

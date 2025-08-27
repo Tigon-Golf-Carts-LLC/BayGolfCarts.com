@@ -1,7 +1,7 @@
 {
-  "name": "Rehoboth Golf Carts - Delaware's Premier Electric Golf Cart Dealership",
-  "short_name": "Rehoboth Golf Carts",
-  "description": "Delaware's premier electric golf cart dealership serving Sussex County. DENAGO & Evolution vehicles, sales, service, rentals, financing. Call 1-844-844-6638.",
+  "name": "Bay Golf Carts - Eastern Seaboard's Premier Electric Golf Cart Dealership",
+  "short_name": "Bay Golf Carts",
+  "description": "Eastern Seaboard's premier electric golf cart dealership serving coast-wide from Maine to Florida. DENAGO & Evolution vehicles, sales, service, rentals. Call 1-844-BAY-GOLF.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0e2e55",
@@ -13,53 +13,53 @@
   
   "icons": [
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
       "sizes": "16x16",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
       "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
       "sizes": "48x48",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
       "sizes": "384x384",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -88,8 +88,8 @@
   },
   
   "scope_extensions": [
-    {"origin": "https://www.rehobothgolfcarts.com"},
-    {"origin": "https://rehobothgolfcarts.com"}
+    {"origin": "https://www.baygolfcarts.com"},
+    {"origin": "https://baygolfcarts.com"}
   ],
   
   "protocol_handlers": [
@@ -121,19 +121,19 @@
       "url": "/inventory",
       "icons": [
         {
-          "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+          "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
           "sizes": "96x96"
         }
       ]
     },
     {
-      "name": "Visit Dover Showroom",
-      "short_name": "Showroom",
-      "description": "TIGON Golf Carts Dover, DE location",
+      "name": "Eastern Seaboard Locations",
+      "short_name": "Locations",
+      "description": "Bay areas and shore towns from Maine to Florida",
       "url": "/showroom",
       "icons": [
         {
-          "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+          "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
           "sizes": "96x96"
         }
       ]
@@ -141,11 +141,11 @@
     {
       "name": "Golf Cart Rentals",
       "short_name": "Rentals",
-      "description": "Beach and vacation golf cart rentals",
+      "description": "Coastal and bay area golf cart rentals",
       "url": "/rentals",
       "icons": [
         {
-          "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+          "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
           "sizes": "96x96"
         }
       ]
@@ -153,11 +153,11 @@
     {
       "name": "Contact & Service",
       "short_name": "Contact",
-      "description": "Call 1-844-844-6638 for sales and service",
+      "description": "Call 1-844-BAY-GOLF for sales and service",
       "url": "/contact",
       "icons": [
         {
-          "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+          "src": "/attached_assets/BAY GOLF CARTS_1756302242088.png",
           "sizes": "96x96"
         }
       ]
@@ -170,14 +170,14 @@
       "sizes": "1920x1080",
       "type": "image/jpeg",
       "form_factor": "wide",
-      "label": "Rehoboth Golf Carts Delaware Dealership Showroom"
+      "label": "Bay Golf Carts Eastern Seaboard Dealership"
     },
     {
       "src": "/attached_assets/a-photograph-of-a-modern-golf-cart-deale_BmkjJPKgRKmt_qykvK10yQ_qUKFPYosR52Nhi9vhPGJ5A_1755541056711.jpeg",
       "sizes": "750x1334",
       "type": "image/jpeg",
       "form_factor": "narrow",
-      "label": "Mobile Golf Cart Shopping Experience"
+      "label": "Mobile Bay Golf Cart Shopping Experience"
     }
   ]
 }

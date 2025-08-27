@@ -9,7 +9,7 @@
 # Company: Bay Golf Carts
 # Industry: Electric Golf Cart & Low Speed Vehicle Dealership
 # Website: https://baygolfcarts.com
-# Contact: 1-844-844-6638
+# Contact: 1-844-BAY-GOLF (1-844-229-4653)
 
 # GOOGLE ADVERTISING PLATFORMS (AUTHORIZED)
 google.com, pub-EXAMPLE123456789, DIRECT, f08c47fec0942fa0
@@ -43,7 +43,7 @@ bing.com, EXAMPLE123456789, DIRECT, 5d62403b78aa5b02
 # BUSINESS CLASSIFICATION FOR ADVERTISING
 # Primary Industry: Automotive - Electric Vehicles
 # Secondary Industry: Recreation - Golf Equipment
-# Geographic Focus: Sussex County, Delaware
+# Geographic Focus: Eastern Seaboard (Maine to Florida)
 # Service Categories: Sales, Service, Rentals, Parts, Financing
 
 # ADVERTISING POLICY STATEMENT
@@ -82,10 +82,10 @@ bing.com, EXAMPLE123456789, DIRECT, 5d62403b78aa5b02
 # - Truth in advertising principle adherence
 
 # CONTACT FOR ADVERTISING INQUIRIES
-# Business Development: 1-844-844-6638
-# Email: info@rehobothgolfcarts.com
+# Business Development: 1-844-BAY-GOLF (1-844-229-4653)
+# Email: info@baygolfcarts.com
 # Website: https://baygolfcarts.com
-# Service Area: Sussex County, Delaware
+# Service Area: Eastern Seaboard (Maine to Florida)
 
 # ADVERTISING ATTRIBUTION
 # All advertisements must clearly identify:

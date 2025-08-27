@@ -5,8 +5,8 @@
 
 Business Owner & Operations Director
 Name: Bay Golf Carts Management Team
-Location: Sussex County, Delaware, USA
-Contact: 1-844-844-6638
+Location: Eastern Seaboard, USA
+Contact: 1-844-BAY-GOLF (1-844-229-4653)
 
 Web Development & Digital Strategy
 AI-Powered Development: Advanced AI systems
@@ -40,7 +40,7 @@ IDE: Replit collaborative development environment
 Company: Bay Golf Carts
 Industry: Electric Golf Cart & Low Speed Vehicle Dealership
 Experience: 15+ years in automotive industry
-Service Area: All Delaware (57 municipalities across 3 counties)
+Service Area: Eastern Seaboard (14 coastal states, 45+ bays, 80+ shore towns)
 Specialties: DENAGO & Evolution Electric Vehicles
 Services: Sales, Service, Rentals, Parts, Financing, Mobile Service
 
@@ -49,11 +49,10 @@ Primary Brands:
 - Evolution Electric Vehicles (Classic, D5 Maverick, D6 Max series)
 
 Geographic Coverage:
-Bethany Beach, Bethel, Blades, Bridgeville, Dagsboro, Delmar, 
-Dewey Beach, Ellendale, Fenwick Island, Frankford, Georgetown, 
-Greenwood, Gumboro, Harbeson, Henlopen Acres, Laurel, Lewes, 
-Eastern Seaboard bay areas and shore towns, 
-Seaford, Selbyville, South Bethany, and surrounding Delaware areas
+Penobscot Bay (Maine), Massachusetts Bay, Chesapeake Bay, Delaware Bay,
+Tampa Bay, Biscayne Bay, Rehoboth Beach, Ocean City, Virginia Beach,
+Myrtle Beach, Hilton Head, Key West, and 80+ other Eastern Seaboard
+bay areas and shore towns from Maine to Florida
 
 /* DEVELOPMENT APPROACH */
 
@@ -117,13 +116,11 @@ Delaware.
 
 /* CONTACT INFORMATION */
 
-Primary Contact: 1-844-844-6638
-Partner Showroom: TIGON Golf Carts Dover, DE
-Address: 5158 N Dupont Hwy, Dover, DE 19901
-Phone: 302-546-0010
-Website: https://delawaregolfcarts.com
-Service Area: Sussex County, Delaware
-Coverage: All 27 municipalities
+Primary Contact: 1-844-BAY-GOLF (1-844-229-4653)
+Website: https://baygolfcarts.com
+Service Area: Eastern Seaboard (Maine to Florida)
+Coverage: 14 coastal states, 45+ bays, 80+ shore towns
+Specialty: Bay areas and coastal communities nationwide
 
 /* SPECIAL THANKS */
 

@@ -1,9 +1,9 @@
-# Security Policy - Rehoboth Golf Carts
+# Security Policy - Bay Golf Carts
 # Web Security Information and Contact Details
 
 # Contact Information for Security Issues
-Contact: security@rehobothgolfcarts.com
-Contact: 1-844-844-6638
+Contact: security@baygolfcarts.com
+Contact: 1-844-BAY-GOLF (1-844-229-4653)
 Preferred-Languages: en
 
 # Security Team Response
@@ -12,7 +12,7 @@ Response: 72 hours
 Escalation: 1 week
 
 # Website Security Information
-Canonical: https://rehobothgolfcarts.com/.well-known/security.txt
+Canonical: https://baygolfcarts.com/.well-known/security.txt
 
 # Encryption and Security Measures
 Encryption: HTTPS/TLS 1.3 required for all connections
@@ -22,8 +22,8 @@ Headers: Security headers enforced (X-Frame-Options, X-Content-Type-Options)
 
 # Scope of Security Policy
 In-Scope:
-- https://rehobothgolfcarts.com/*
-- All subdomains of rehobothgolfcarts.com
+- https://baygolfcarts.com/*
+- All subdomains of baygolfcarts.com
 - Customer data handling systems
 - Payment processing interfaces
 - Database systems
@@ -60,7 +60,7 @@ Not Permitted:
 - Brute force attacks on authentication systems
 
 # Business Information Security
-Company: Rehoboth Golf Carts
+Company: Bay Golf Carts
 Industry: Electric Golf Cart & Low Speed Vehicle Dealership
 Data Types: Customer contact information, vehicle preferences, service records
 Compliance: Following Delaware business security requirements

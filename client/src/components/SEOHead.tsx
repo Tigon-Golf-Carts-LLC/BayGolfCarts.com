@@ -8,6 +8,8 @@ interface SEOHeadProps {
   townName?: string;
   ogImage?: string;
   ogType?: string;
+  ogImageWidth?: string;
+  ogImageHeight?: string;
 }
 
 export default function SEOHead({ 
@@ -16,8 +18,10 @@ export default function SEOHead({
   keywords = "bay golf carts, shore golf carts, electric golf carts, golf cart sales, golf cart service, coastal golf carts, eastern seaboard golf carts", 
   canonicalUrl,
   townName,
-  ogImage = "/attached_assets/BAY GOLF CARTS (1)_1756302505497.png",
-  ogType = "website"
+  ogImage = "/attached_assets/BAY GOLF CARTS_1756302242088.png",
+  ogType = "website",
+  ogImageWidth = "1200",
+  ogImageHeight = "630"
 }: SEOHeadProps) {
   useEffect(() => {
     // Set page title
@@ -61,23 +65,23 @@ export default function SEOHead({
     // Set favicon
     const existingFavicon = document.querySelector('link[rel="icon"]');
     if (existingFavicon) {
-      existingFavicon.setAttribute("href", "/attached_assets/BAY GOLF CARTS (1)_1756302505497.png");
+      existingFavicon.setAttribute("href", "/attached_assets/BAY GOLF CARTS_1756302242088.png");
     } else {
       const favicon = document.createElement("link");
       favicon.rel = "icon";
       favicon.type = "image/png";
-      favicon.href = "/attached_assets/BAY GOLF CARTS (1)_1756302505497.png";
+      favicon.href = "/attached_assets/BAY GOLF CARTS_1756302242088.png";
       document.head.appendChild(favicon);
     }
 
     // Set apple touch icon
     const existingAppleIcon = document.querySelector('link[rel="apple-touch-icon"]');
     if (existingAppleIcon) {
-      existingAppleIcon.setAttribute("href", "/attached_assets/BAY GOLF CARTS (1)_1756302505497.png");
+      existingAppleIcon.setAttribute("href", "/attached_assets/BAY GOLF CARTS_1756302242088.png");
     } else {
       const appleIcon = document.createElement("link");
       appleIcon.rel = "apple-touch-icon";
-      appleIcon.href = "/attached_assets/BAY GOLF CARTS (1)_1756302505497.png";
+      appleIcon.href = "/attached_assets/BAY GOLF CARTS_1756302242088.png";
       document.head.appendChild(appleIcon);
     }
 
@@ -98,6 +102,8 @@ export default function SEOHead({
     updateOGTag("og:description", description);
     updateOGTag("og:type", ogType);
     updateOGTag("og:image", `https://baygolfcarts.com${ogImage}`);
+    updateOGTag("og:image:width", ogImageWidth);
+    updateOGTag("og:image:height", ogImageHeight);
     updateOGTag("og:site_name", "Bay Golf Carts");
     updateOGTag("og:locale", "en_US");
     if (canonicalUrl) {
@@ -140,7 +146,7 @@ export default function SEOHead({
         "telephone": "1-844-BAY-GOLF",
         "email": "info@baygolfcarts.com",
         "url": canonicalUrl,
-        "logo": "https://baygolfcarts.com/attached_assets/BAY GOLF CARTS (1)_1756302505497.png",
+        "logo": "https://baygolfcarts.com/attached_assets/BAY GOLF CARTS_1756302242088.png",
         "image": `https://baygolfcarts.com${ogImage}`,
         "serviceArea": {
           "@type": "GeoCircle",

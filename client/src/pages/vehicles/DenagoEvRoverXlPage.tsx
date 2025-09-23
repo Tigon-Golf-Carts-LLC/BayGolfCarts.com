@@ -9,8 +9,8 @@ export default function DenagoEvRoverXlPage() {
       series="EV ROVER"
       price="$9,995"
       image={denagoEvRoverXLImage}
-      seoTitle="DENAGO EV ROVER XL - Luxury Family Golf Cart | Bay Golf Carts"
-      seoDescription="Discover the DENAGO EV ROVER XL electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal communities. 6-passenger luxury with advanced safety. Call 1-844-BAY-GOLF (1-844-229-4653)."
+      seoTitle="DENAGO EV ROVER XL"
+      seoDescription="Discover the DENAGO EV ROVER XL electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal communities. 6-passenger luxury with advanced safety. Call 1-844-844-6638."
       seoKeywords="DENAGO EV ROVER XL, luxury golf cart, 6-passenger, bay golf carts, eastern seaboard, coastal family vehicle"
       canonicalUrl="https://baygolfcarts.com/vehicles/denago-ev-rover-xl"
       seats="6"

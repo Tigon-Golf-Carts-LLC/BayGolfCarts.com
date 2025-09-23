@@ -9,8 +9,8 @@ export default function EvolutionD5Maverick4PlusPage() {
       series="D5 MAVERICK"
       price="$9,995"
       image={evolutionD5Maverick4PlusImage}
-      seoTitle="EVOLUTION D5 MAVERICK 4 PLUS - Sport Golf Cart | Bay Golf Carts"
-      seoDescription="Discover the EVOLUTION D5 MAVERICK 4 PLUS electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal areas. Sport-oriented 4-passenger vehicle with enhanced performance and agility. Call 1-844-BAY-GOLF (1-844-229-4653)."
+      seoTitle="EVOLUTION D5 MAVERICK 4 PLUS"
+      seoDescription="Discover the EVOLUTION D5 MAVERICK 4 PLUS electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal areas. Sport-oriented 4-passenger vehicle with enhanced performance and agility. Call 1-844-844-6638."
       seoKeywords="EVOLUTION D5 MAVERICK 4 PLUS, sport golf cart, performance vehicle, bay golf carts, eastern seaboard, coastal"
       canonicalUrl="https://baygolfcarts.com/vehicles/evolution-d5-maverick-4-plus"
       seats="4"

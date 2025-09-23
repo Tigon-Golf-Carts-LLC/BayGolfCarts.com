@@ -9,8 +9,8 @@ export default function EvolutionCarrier6PlusPage() {
       series="CARRIER"
       price="$9,595"
       image={evolutionCarrier6PlusImage}
-      seoTitle="EVOLUTION CARRIER 6 PLUS - Utility Golf Cart | Bay Golf Carts"
-      seoDescription="Discover the EVOLUTION CARRIER 6 PLUS electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal areas. 6-passenger utility with enhanced cargo. Call 1-844-BAY-GOLF (1-844-229-4653)."
+      seoTitle="EVOLUTION CARRIER 6 PLUS"
+      seoDescription="Discover the EVOLUTION CARRIER 6 PLUS electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal areas. 6-passenger utility with enhanced cargo. Call 1-844-844-6638."
       seoKeywords="EVOLUTION CARRIER 6 PLUS, utility golf cart, 6-passenger, cargo capacity, bay golf carts, eastern seaboard, coastal utility"
       canonicalUrl="https://baygolfcarts.com/vehicles/evolution-carrier-6-plus"
       seats="6"

@@ -9,8 +9,8 @@ export default function DenagoEvNomadPage() {
       series="EV NOMAD"
       price="$8,495"
       image={denagoEvNomadImage}
-      seoTitle="DENAGO EV NOMAD - Adventure Electric Golf Cart | Bay Golf Carts"
-      seoDescription="Explore with the DENAGO EV NOMAD electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal areas. Adventure-ready vehicles built for exploration. Call 1-844-BAY-GOLF (1-844-229-4653)."
+      seoTitle="DENAGO EV NOMAD"
+      seoDescription="Explore with the DENAGO EV NOMAD electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal areas. Adventure-ready vehicles built for exploration. Call 1-844-844-6638."
       seoKeywords="DENAGO EV NOMAD, adventure golf cart, off-road electric vehicle, bay golf carts, eastern seaboard, coastal all-terrain"
       canonicalUrl="https://baygolfcarts.com/vehicles/denago-ev-nomad"
       seats="4"

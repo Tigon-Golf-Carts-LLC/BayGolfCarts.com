@@ -21,6 +21,12 @@ interface VehicleDetailPageProps {
   seoKeywords: string;
   canonicalUrl: string;
 
+  // Twitter Cards (optional)
+  twitterCard?: string;
+  twitterTitle?: string;
+  twitterDescription?: string;
+  twitterImage?: string;
+
   // Specifications
   seats: string;
   range: string;
@@ -45,6 +51,10 @@ export default function VehicleDetailPage({
   seoDescription,
   seoKeywords,
   canonicalUrl,
+  twitterCard,
+  twitterTitle,
+  twitterDescription,
+  twitterImage,
   seats,
   range,
   topSpeed,
@@ -78,6 +88,12 @@ export default function VehicleDetailPage({
         canonicalUrl={canonicalUrl}
         ogImage={image}
         ogType="product"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard={twitterCard || "summary_large_image"}
+        twitterTitle={twitterTitle || seoTitle}
+        twitterDescription={twitterDescription || seoDescription}
+        twitterImage={twitterImage || image}
       />
       <AllSchemas 
         pageType="vehicle" 

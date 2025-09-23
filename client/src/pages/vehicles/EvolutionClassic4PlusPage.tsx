@@ -9,8 +9,8 @@ export default function EvolutionClassic4PlusPage() {
       series="CLASSIC"
       price="$6,995"
       image={evolutionClassic4PlusImage}
-      seoTitle="EVOLUTION CLASSIC 4 PLUS - Traditional Golf Cart | Bay Golf Carts"
-      seoDescription="Experience the EVOLUTION CLASSIC 4 PLUS electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal areas. Traditional 4-passenger golf cart with classic design. Call 1-844-BAY-GOLF (1-844-229-4653)."
+      seoTitle="EVOLUTION CLASSIC 4 PLUS"
+      seoDescription="Experience the EVOLUTION CLASSIC 4 PLUS electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal areas. Traditional 4-passenger golf cart with classic design. Call 1-844-844-6638."
       seoKeywords="EVOLUTION CLASSIC 4 PLUS, traditional golf cart, classic design, bay golf carts, eastern seaboard, coastal golf cart"
       canonicalUrl="https://baygolfcarts.com/vehicles/evolution-classic-4-plus"
       seats="4"

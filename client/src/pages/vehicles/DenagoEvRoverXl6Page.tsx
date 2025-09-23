@@ -9,8 +9,8 @@ export default function DenagoEvRoverXl6Page() {
       series="EV ROVER"
       price="$11,995"
       image={denagoEvRoverXL6Image}
-      seoTitle="DENAGO EV ROVER XL6 - Extended 6-Seat Golf Cart | Bay Golf Carts"
-      seoDescription="Experience the DENAGO EV ROVER XL6 electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal areas. Extended 6-seat configuration with premium materials and enhanced comfort. Call 1-844-BAY-GOLF (1-844-229-4653)."
+      seoTitle="DENAGO EV ROVER XL6"
+      seoDescription="Experience the DENAGO EV ROVER XL6 electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal areas. Extended 6-seat configuration with premium materials and enhanced comfort. Call 1-844-844-6638."
       seoKeywords="DENAGO EV ROVER XL6, extended 6-seat, premium golf cart, bay golf carts, eastern seaboard, coastal"
       canonicalUrl="https://baygolfcarts.com/vehicles/denago-ev-rover-xl6"
       seats="6"

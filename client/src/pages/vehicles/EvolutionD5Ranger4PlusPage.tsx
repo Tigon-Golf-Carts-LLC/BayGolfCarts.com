@@ -9,8 +9,8 @@ export default function EvolutionD5Ranger4PlusPage() {
       series="D5 RANGER"
       price="$9,595"
       image={evolutionD5Ranger4PlusImage}
-      seoTitle="EVOLUTION D5 RANGER 4 PLUS - Premium 4-Seat Golf Cart | Bay Golf Carts"
-      seoDescription="Discover the EVOLUTION D5 RANGER 4 PLUS electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal areas. Premium 4-passenger vehicle with enhanced comfort and performance features. Call 1-844-BAY-GOLF (1-844-229-4653)."
+      seoTitle="EVOLUTION D5 RANGER 4 PLUS"
+      seoDescription="Discover the EVOLUTION D5 RANGER 4 PLUS electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal areas. Premium 4-passenger vehicle with enhanced comfort and performance features. Call 1-844-844-6638."
       seoKeywords="EVOLUTION D5 RANGER 4 PLUS, 4-seat golf cart, premium electric vehicle, bay golf carts, eastern seaboard, coastal"
       canonicalUrl="https://baygolfcarts.com/vehicles/evolution-d5-ranger-4-plus"
       seats="4"

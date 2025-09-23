@@ -9,8 +9,8 @@ export default function DenagoEvCityPage() {
       series="EV CITY"
       price="$15,000"
       image={denagoEvCityImage}
-      seoTitle="DENAGO EV CITY - Urban Electric Golf Cart | Bay Golf Carts"
-      seoDescription="Discover the DENAGO EV CITY electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal communities. Street legal urban mobility with sleek design. Call 1-844-BAY-GOLF (1-844-229-4653)."
+      seoTitle="DENAGO EV CITY"
+      seoDescription="Discover the DENAGO EV CITY electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal communities. Street legal urban mobility with sleek design. Call 1-844-844-6638."
       seoKeywords="DENAGO EV CITY, urban electric golf cart, street legal golf cart, bay golf carts, eastern seaboard, coastal electric vehicle"
       canonicalUrl="https://baygolfcarts.com/vehicles/denago-ev-city"
       seats="2"

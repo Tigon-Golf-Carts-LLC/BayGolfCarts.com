@@ -9,8 +9,8 @@ export default function EvolutionD6MaxXt4Page() {
       series="D6 MAX"
       price="$15,595"
       image={evolutionD6MaxXT4Image}
-      seoTitle="EVOLUTION D6 MAX XT4 - High-Performance Golf Cart | Bay Golf Carts"
-      seoDescription="Experience the EVOLUTION D6 MAX XT4 electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal areas. High-performance 4-passenger vehicle with advanced technology and premium features. Call 1-844-BAY-GOLF (1-844-229-4653)."
+      seoTitle="EVOLUTION D6 MAX XT4"
+      seoDescription="Experience the EVOLUTION D6 MAX XT4 electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal areas. High-performance 4-passenger vehicle with advanced technology and premium features. Call 1-844-844-6638."
       seoKeywords="EVOLUTION D6 MAX XT4, high-performance golf cart, advanced technology, bay golf carts, eastern seaboard, coastal"
       canonicalUrl="https://baygolfcarts.com/vehicles/evolution-d6-max-xt4"
       seats="4"

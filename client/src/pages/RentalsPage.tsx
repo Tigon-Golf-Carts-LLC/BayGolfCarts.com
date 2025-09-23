@@ -184,7 +184,7 @@ export default function RentalsPage() {
                   </div>
                 </div>
 
-                <a href="tel:1-844-844-6638">
+                <a href="tel:1-844-229-4653">
                   <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
                     <Phone className="w-4 h-4 mr-2" />
                     RESERVE TODAY
@@ -201,11 +201,13 @@ export default function RentalsPage() {
   return (
     <>
       <SEOHead 
-        title="Golf Cart Rentals - Lackawanna County Golf Carts PA"
-        description="Rent premium golf carts in Lackawanna County, PA. Daily, weekly, and monthly rental options available with full insurance and delivery service."
-        keywords="golf cart rental, Lackawanna County rentals, golf cart hire, Pennsylvania golf cart rental"
-        canonicalUrl="https://lackawannagolfcarts.com/rentals"
-        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
+        title="Golf Cart Rentals"
+        description="Premium golf cart rentals serving Eastern Seaboard coastal communities from Maine to Florida with flexible daily, weekly, and monthly options. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        keywords="golf cart rentals eastern seaboard, coastal golf cart rentals, bay golf cart rentals, shore town golf cart rentals, beach golf cart rentals"
+        canonicalUrl="https://baygolfcarts.com/rentals"
+        ogImage="/attached_assets/Bay Golf Carts - Golf Carts In The Bay Of The Town 3_1756238794666.jpeg"
+        ogImageWidth="1200"
+        ogImageHeight="630"
         ogType="website"
       />
 
@@ -214,14 +216,14 @@ export default function RentalsPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("rentals")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Golf Cart Rentals in Lackawanna County
+              Golf Cart Rentals
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Rent premium electric golf carts throughout Lackawanna County, Pennsylvania. Perfect for events, vacations, and special occasions.
+              Premium electric golf cart rentals serving Eastern Seaboard coastal communities from Maine to Florida. Perfect for bay areas, shore towns, and coastal events.
             </p>
-            <a href="tel:1-844-844-6638">
+            <a href="tel:1-844-229-4653">
               <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
-                Call 1-844-844-6638
+                Call 1-844-BAY-GOLF
               </Button>
             </a>
           </div>
@@ -232,7 +234,7 @@ export default function RentalsPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-8 text-gray-900">
-                Why Choose Lackawanna County Golf Cart Rentals?
+                Why Choose Bay Golf Carts Rentals?
               </h2>
             </div>
 
@@ -280,9 +282,9 @@ export default function RentalsPage() {
             <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
               Our friendly team is here to help you select the perfect golf cart rental for your needs. Whether it's for a special event, vacation, or business use, we have the right cart at the right price.
             </p>
-            <a href="tel:1-844-844-6638">
+            <a href="tel:1-844-229-4653">
               <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
-                Call Now 1-844-844-6638
+                Call Now 1-844-BAY-GOLF
               </Button>
             </a>
           </div>

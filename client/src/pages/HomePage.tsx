@@ -25,12 +25,14 @@ export default function HomePage() {
     <div className="min-h-screen">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="Bay Golf Carts - Premier Electric Golf Cart Dealership Eastern Seaboard"
-        description="Discover premium electric golf carts from Denago and Evolution at Bay Golf Carts. Expert sales, service, rentals, and financing throughout all eastern coastline states from Maine to Florida."
+        title="Bay Golf Carts - Eastern Seaboard Premier Dealership"
+        description="Premier electric golf cart dealership serving the Eastern Seaboard from Maine to Florida with DENAGO and Evolution vehicles. Call 1-844-BAY-GOLF (1-844-229-4653)."
         keywords="bay golf carts, shore golf carts, electric golf carts, coastal golf carts, Denago golf carts, Evolution golf carts, eastern seaboard golf cart sales service rentals"
         canonicalUrl="https://baygolfcarts.com/"
-        ogImage="/attached_assets/BAY GOLF CARTS (1)_1756302505497.png"
+        ogImage="/attached_assets/Bay Golf Carts - Golf Carts In The Bay Of The Town_1756238794665.jpeg"
         ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
       />
       <AllSchemas 
         pageType="home" 

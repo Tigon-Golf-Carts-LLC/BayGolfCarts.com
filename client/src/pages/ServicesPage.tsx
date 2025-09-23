@@ -87,10 +87,14 @@ export default function ServicesPage() {
     <div className="min-h-screen bg-white">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="Lackawanna County Golf Cart Services - Expert Maintenance & Repair in PA"
-        description="Professional golf cart maintenance, repair, customization, and warranty services in Lackawanna County, Pennsylvania. Certified technicians, quality parts, and comprehensive care."
-        keywords="golf cart service Lackawanna County PA, golf cart repair Pennsylvania, golf cart maintenance, battery service, customization"
-        canonicalUrl="https://lackawannagolfcarts.com/services"
+        title="Golf Cart Services"
+        description="Professional golf cart maintenance, repair, customization, and warranty services serving Eastern Seaboard coastal communities from Maine to Florida. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        keywords="golf cart service eastern seaboard, coastal golf cart repair, bay golf cart maintenance, shore town golf cart service, marine golf cart service"
+        canonicalUrl="https://baygolfcarts.com/services"
+        ogImage="/attached_assets/Bay Golf Carts - Golf Carts In The Bay Of The Town 4_1756238794666.jpeg"
+        ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
       />
       <AllSchemas 
         pageType="services" 
@@ -117,10 +121,10 @@ export default function ServicesPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("services")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-              Golf Cart Services in Lackawanna County
+              Golf Cart Services
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Professional maintenance, repair, and customization services for all golf cart brands throughout Lackawanna County, Pennsylvania.
+              Professional maintenance, repair, and customization services for all golf cart brands serving Eastern Seaboard coastal communities from Maine to Florida.
             </p>
           <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
             Schedule Service

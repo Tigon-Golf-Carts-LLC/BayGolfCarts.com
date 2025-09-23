@@ -110,11 +110,13 @@ export default function FinancingPage() {
   return (
     <>
       <SEOHead 
-        title="Golf Cart Financing | Delaware Golf Carts | Street Legal LSV & NEV Financing"
-        description="Apply for flexible golf cart financing with Delaware Golf Carts. Multiple financing options available for DENAGO and EVOLUTION electric vehicles. Quick approval and competitive rates."
-        keywords="golf cart financing, Delaware golf cart loans, LSV financing, NEV financing, electric vehicle financing, golf cart payment plans"
-        canonicalUrl="https://delawaregolfcarts.com/financing"
-        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_ZIJgnM0qSLqCnmqzAiha0w_Tcds7ckvRe6FNLFDKo_aDg_1755541056710.jpeg"
+        title="Golf Cart Financing"
+        description="Flexible golf cart financing options serving Eastern Seaboard coastal communities with multiple lenders for DENAGO and Evolution electric vehicles. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        keywords="golf cart financing eastern seaboard, coastal golf cart loans, bay golf cart financing, shore town golf cart financing, electric vehicle financing"
+        canonicalUrl="https://baygolfcarts.com/financing"
+        ogImage="/attached_assets/Bay Golf Carts - Golf Carts In The Bay Of The Town 6_1756238794667.jpeg"
+        ogImageWidth="1200"
+        ogImageHeight="630"
         ogType="website"
       />
 

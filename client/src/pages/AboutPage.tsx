@@ -42,10 +42,14 @@ export default function AboutPage() {
     <div className="min-h-screen bg-white">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="About Lackawanna County Golf Carts - Premier Golf Cart Dealership Since 2008"
-        description="Learn about Lackawanna County Golf Carts, Pennsylvania's premier golf cart dealership since 2008. Expert team, authorized Denago and Evolution dealer with comprehensive service."
-        keywords="about Lackawanna County Golf Carts, golf cart dealership Pennsylvania, Denago Evolution dealer, golf cart service team"
-        canonicalUrl="https://lackawannagolfcarts.com/about"
+        title="About Bay Golf Carts"
+        description="Eastern Seaboard's premier golf cart dealership serving coastal communities from Maine to Florida with expert DENAGO and Evolution sales and service. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        keywords="about Bay Golf Carts, eastern seaboard golf cart dealership, coastal golf carts, Denago Evolution dealer, bay golf cart service team"
+        canonicalUrl="https://baygolfcarts.com/about"
+        ogImage="/attached_assets/Bay Golf Carts - Golf Carts In The Bay Of The Town 5_1756238794666.jpeg"
+        ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
       />
       <AllSchemas 
         pageType="about" 
@@ -84,7 +88,7 @@ export default function AboutPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("about")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            About Lackawanna County Golf Carts
+            About Bay Golf Carts
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Since 2008, we've been Lackawanna County's premier destination for premium golf carts, 

@@ -9,10 +9,10 @@ export default function EvolutionD6MaxXt4Page() {
       series="D6 MAX"
       price="$15,595"
       image={evolutionD6MaxXT4Image}
-      seoTitle="EVOLUTION D6 MAX XT4 - High-Performance Golf Cart | Atlantic County Golf Carts"
-      seoDescription="Experience the EVOLUTION D6 MAX XT4 electric golf cart in Atlantic County, NJ. High-performance 4-passenger vehicle with advanced technology and premium features."
-      seoKeywords="EVOLUTION D6 MAX XT4, high-performance golf cart, advanced technology, Atlantic County, New Jersey"
-      canonicalUrl="https://lackawannagolfcarts.com/vehicles/evolution-d6-max-xt4"
+      seoTitle="EVOLUTION D6 MAX XT4 - High-Performance Golf Cart | Bay Golf Carts"
+      seoDescription="Experience the EVOLUTION D6 MAX XT4 electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal areas. High-performance 4-passenger vehicle with advanced technology and premium features. Call 1-844-BAY-GOLF (1-844-229-4653)."
+      seoKeywords="EVOLUTION D6 MAX XT4, high-performance golf cart, advanced technology, bay golf carts, eastern seaboard, coastal"
+      canonicalUrl="https://baygolfcarts.com/vehicles/evolution-d6-max-xt4"
       seats="4"
       range="50 miles"
       topSpeed="25 mph"
@@ -27,7 +27,7 @@ export default function EvolutionD6MaxXt4Page() {
         "Premium Interior",
         "All-Wheel Drive"
       ]}
-      description="High-performance 4-passenger vehicle with advanced technology and premium features. The EVOLUTION D6 MAX XT4 represents the pinnacle of electric golf cart performance for Atlantic County enthusiasts."
+      description="High-performance 4-passenger vehicle with advanced technology and premium features. The EVOLUTION D6 MAX XT4 represents the pinnacle of electric golf cart performance for Eastern Seaboard coastal communities."
       tigoUrl="https://tigongolfcarts.com/evolution/d6-max/xt4/"
     />
   );

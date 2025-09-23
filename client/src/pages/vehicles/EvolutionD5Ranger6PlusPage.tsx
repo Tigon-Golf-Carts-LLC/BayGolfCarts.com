@@ -9,10 +9,10 @@ export default function EvolutionD5Ranger6PlusPage() {
       series="D5 RANGER"
       price="$11,595"
       image={evolutionD5Ranger6PlusImage}
-      seoTitle="EVOLUTION D5 RANGER 6 PLUS - Premium 6-Seat Golf Cart | Atlantic County Golf Carts"
-      seoDescription="Experience the EVOLUTION D5 RANGER 6 PLUS electric golf cart in Atlantic County, NJ. Extended 6-passenger seating with premium comfort and enhanced features."
-      seoKeywords="EVOLUTION D5 RANGER 6 PLUS, 6-seat golf cart, extended seating, Atlantic County, New Jersey"
-      canonicalUrl="https://lackawannagolfcarts.com/vehicles/evolution-d5-ranger-6-plus"
+      seoTitle="EVOLUTION D5 RANGER 6 PLUS - Premium 6-Seat Golf Cart | Bay Golf Carts"
+      seoDescription="Experience the EVOLUTION D5 RANGER 6 PLUS electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal areas. Extended 6-passenger seating with premium comfort and enhanced features. Call 1-844-BAY-GOLF (1-844-229-4653)."
+      seoKeywords="EVOLUTION D5 RANGER 6 PLUS, 6-seat golf cart, extended seating, bay golf carts, eastern seaboard, coastal"
+      canonicalUrl="https://baygolfcarts.com/vehicles/evolution-d5-ranger-6-plus"
       seats="6"
       range="40 miles"
       topSpeed="25 mph"
@@ -27,7 +27,7 @@ export default function EvolutionD5Ranger6PlusPage() {
         "Reliable Operation",
         "Quality Craftsmanship"
       ]}
-      description="Extended 6-passenger seating with premium comfort and enhanced features. The EVOLUTION D5 RANGER 6 PLUS provides spacious family transportation with reliable performance for Atlantic County adventures."
+      description="Extended 6-passenger seating with premium comfort and enhanced features. The EVOLUTION D5 RANGER 6 PLUS provides spacious family transportation with reliable performance for Eastern Seaboard coastal terrain."
       tigoUrl="https://tigongolfcarts.com/evolution/d5-ranger/6-plus/"
     />
   );

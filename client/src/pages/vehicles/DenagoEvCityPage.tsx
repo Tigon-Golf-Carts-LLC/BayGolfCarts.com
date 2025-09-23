@@ -9,10 +9,10 @@ export default function DenagoEvCityPage() {
       series="EV CITY"
       price="$15,000"
       image={denagoEvCityImage}
-      seoTitle="DENAGO EV CITY - Urban Electric Golf Cart | Lackawanna County Golf Carts"
-      seoDescription="Discover the DENAGO EV CITY electric golf cart in Luzerne County, PA. Street legal ready urban mobility with sleek design and efficient performance. Sales, service & delivery."
-      seoKeywords="DENAGO EV CITY, urban electric golf cart, street legal golf cart, Lackawanna County, Pennsylvania, electric vehicle"
-      canonicalUrl="https://lackawannagolfcarts.com/vehicles/denago-ev-city"
+      seoTitle="DENAGO EV CITY - Urban Electric Golf Cart | Bay Golf Carts"
+      seoDescription="Discover the DENAGO EV CITY electric golf cart from Bay Golf Carts serving Eastern Seaboard coastal communities. Street legal urban mobility with sleek design. Call 1-844-BAY-GOLF (1-844-229-4653)."
+      seoKeywords="DENAGO EV CITY, urban electric golf cart, street legal golf cart, bay golf carts, eastern seaboard, coastal electric vehicle"
+      canonicalUrl="https://baygolfcarts.com/vehicles/denago-ev-city"
       seats="2"
       range="40 miles"
       topSpeed="25 mph"
@@ -27,7 +27,7 @@ export default function DenagoEvCityPage() {
         "Digital Display",
         "Comfortable Seating"
       ]}
-      description="Urban mobility redefined with sleek design and efficient performance. The DENAGO EV CITY is built for street legal operation with premium features perfect for Luzerne County's urban environments."
+      description="Urban mobility redefined with sleek design and efficient performance. The DENAGO EV CITY is built for street legal operation with premium features perfect for Eastern Seaboard coastal communities and urban environments."
       tigoUrl="https://tigongolfcarts.com/denago-ev/city/"
     />
   );

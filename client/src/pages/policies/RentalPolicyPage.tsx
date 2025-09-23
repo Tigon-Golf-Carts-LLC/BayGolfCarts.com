@@ -6,8 +6,17 @@ export default function RentalPolicyPage() {
     <>
       <SEOHead 
         title="Rental Policy | Bay Golf Carts"
-        description="Complete golf cart rental policy for Bay Golf Carts serving Eastern Seaboard coastal communities. Learn about rental requirements, responsibilities, insurance, and terms for golf cart rentals. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        description="Complete golf cart rental policy for Bay Golf Carts serving Eastern Seaboard coastal communities. Learn about rental requirements, responsibilities, insurance, and terms for golf cart rentals. Call 1-844-844-6638."
         keywords="rental policy, golf cart rental, bay golf carts, eastern seaboard, golf cart rental policy"
+        canonicalUrl="https://baygolfcarts.com/policies/rental-policy"
+        ogImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
+        ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Rental Policy | Bay Golf Carts"
+        twitterDescription="Complete golf cart rental policy for Bay Golf Carts serving Eastern Seaboard coastal communities. Call 1-844-844-6638."
+        twitterImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
       />
       
       {/* Hero Section */}
@@ -153,7 +162,7 @@ export default function RentalPolicyPage() {
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Accidents</h3>
               <ul className="list-disc pl-6 mb-6">
                 <li>Contact 911 if anyone is injured</li>
-                <li>Call Bay Golf Carts immediately: 1-844-BAY-GOLF (1-844-229-4653)</li>
+                <li>Call Bay Golf Carts immediately: 1-844-844-6638</li>
                 <li>Do not admit fault or make statements about the incident</li>
                 <li>Take photos of damage and scene if safe to do so</li>
                 <li>Obtain contact information from other parties involved</li>
@@ -162,7 +171,7 @@ export default function RentalPolicyPage() {
 
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Breakdowns</h3>
               <ul className="list-disc pl-6 mb-6">
-                <li>Contact our 24/7 support line: 1-844-BAY-GOLF (1-844-229-4653)</li>
+                <li>Contact our 24/7 support line: 1-844-844-6638</li>
                 <li>Provide location and description of problem</li>
                 <li>Do not attempt repairs yourself</li>
                 <li>Replacement golf cart provided when possible</li>
@@ -174,7 +183,7 @@ export default function RentalPolicyPage() {
                 <p className="mb-2"><strong>Rental Department</strong></p>
                 <p className="mb-2">Bay Golf Carts</p>
                 <p className="mb-2">Email: info@baygolfcarts.com</p>
-                <p className="mb-2">Phone: 1-844-BAY-GOLF (1-844-229-4653) (24/7 Support)</p>
+                <p className="mb-2">Phone: 1-844-844-6638 (24/7 Support)</p>
                 <p className="mb-2">Serving Eastern Seaboard coastal communities</p>
                 <p>Website: baygolfcarts.com</p>
               </div>

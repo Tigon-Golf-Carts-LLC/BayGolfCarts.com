@@ -168,7 +168,7 @@ export default function NewAboutPage() {
                     <div className="bg-white p-4 rounded-lg shadow">
                       <h4 className="font-semibold text-theme-orange">Bay Golf Carts</h4>
                       <p className="text-gray-600">Serving all Eastern Seaboard bays and shore towns</p>
-                      <p className="text-gray-700">1-844-229-4653</p>
+                      <p className="text-gray-700">1-844-844-6638</p>
                       <p className="text-gray-600">info@baygolfcarts.com</p>
                     </div>
                   </div>
@@ -309,7 +309,7 @@ export default function NewAboutPage() {
               </Link>
               <a href="tel:1-844-844-6638">
                 <Button size="lg" className="bg-white text-theme-primary hover:bg-gray-100">
-                  Call 1-844-BAY-GOLF
+                  Call 1-844-844-6638
                 </Button>
               </a>
             </div>
@@ -326,7 +326,7 @@ export default function NewAboutPage() {
                   <CardTitle>Call Us</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-2xl font-bold text-theme-orange mb-2">1-844-229-4653</p>
+                  <p className="text-2xl font-bold text-theme-orange mb-2">1-844-844-6638</p>
                   <p className="text-gray-600">Available 7 days a week</p>
                 </CardContent>
               </Card>

@@ -4,9 +4,18 @@ export function PrivacyPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Privacy Policy | Delaware Golf Carts"
-        description="Privacy Policy for Delaware Golf Carts. Learn how we collect, use, and protect your personal information when you visit our website or purchase golf carts."
+        title="Privacy Policy | Bay Golf Carts"
+        description="Privacy Policy for Bay Golf Carts. Learn how we collect, use, and protect your personal information when you visit our website or purchase golf carts. Call 1-844-844-6638."
         keywords="privacy policy, data protection, personal information, Delaware Golf Carts"
+        canonicalUrl="https://baygolfcarts.com/privacy-policy"
+        ogImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
+        ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Privacy Policy | Bay Golf Carts"
+        twitterDescription="Privacy Policy for Bay Golf Carts. Learn how we collect, use, and protect your personal information. Call 1-844-844-6638."
+        twitterImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
       />
       <div className="min-h-screen bg-gray-50 py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

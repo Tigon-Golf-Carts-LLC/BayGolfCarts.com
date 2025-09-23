@@ -6,8 +6,17 @@ export default function DeliveryPolicyPage() {
     <>
       <SEOHead 
         title="Delivery Policy | Bay Golf Carts"
-        description="Learn about delivery options, fees, and policies for golf cart purchases and rentals from Bay Golf Carts serving Eastern Seaboard coastal communities. Free delivery zones and scheduling information. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        description="Learn about delivery options, fees, and policies for golf cart purchases and rentals from Bay Golf Carts serving Eastern Seaboard coastal communities. Free delivery zones and scheduling information. Call 1-844-844-6638."
         keywords="delivery policy, golf cart delivery, bay golf carts, eastern seaboard, golf cart shipping"
+        canonicalUrl="https://baygolfcarts.com/policies/delivery-policy"
+        ogImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
+        ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Delivery Policy | Bay Golf Carts"
+        twitterDescription="Learn about delivery options, fees, and policies for golf cart purchases and rentals from Bay Golf Carts serving Eastern Seaboard coastal communities. Call 1-844-844-6638."
+        twitterImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
       />
       
       {/* Hero Section */}
@@ -156,7 +165,7 @@ export default function DeliveryPolicyPage() {
                 <p className="mb-2"><strong>Delivery Scheduling</strong></p>
                 <p className="mb-2">Bay Golf Carts</p>
                 <p className="mb-2">Email: info@baygolfcarts.com</p>
-                <p className="mb-2">Phone: 1-844-BAY-GOLF (1-844-229-4653)</p>
+                <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Eastern Seaboard coastal communities</p>
                 <p className="mb-2">Hours: Monday-Saturday 8:00 AM - 6:00 PM</p>
                 <p>Sunday: 10:00 AM - 4:00 PM</p>

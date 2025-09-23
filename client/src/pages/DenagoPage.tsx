@@ -138,12 +138,18 @@ export default function DenagoPage() {
   return (
     <>
       <SEOHead 
-        title="DENAGO Electric Golf Carts Sussex County | Premium Off-Road Vehicles Delaware"
-        description="Discover DENAGO electric golf carts in Sussex County, Delaware. Premium EV CITY, EV NOMAD, and EV ROVER series with advanced all-wheel drive technology. Sales, service & delivery."
+        title="DENAGO® | Premium Electric Off-Road Vehicles | Bay Golf Carts"
+        description="Discover DENAGO® electric golf carts with advanced all-wheel drive technology. Premium EV CITY, EV NOMAD, and EV ROVER series for ultimate off-road performance. Call 1-844-844-6638."
         keywords="DENAGO golf carts Sussex County, electric golf carts Delaware, DENAGO EV CITY, DENAGO EV NOMAD, DENAGO EV ROVER, off-road golf carts, Rehoboth Beach"
         canonicalUrl="https://rehobothgolfcarts.com/denago"
         ogImage="/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg"
         ogType="product.group"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="DENAGO® | Premium Electric Off-Road Vehicles | Bay Golf Carts"
+        twitterDescription="Discover DENAGO® electric golf carts with advanced all-wheel drive technology. Premium EV CITY, EV NOMAD, and EV ROVER series. Call 1-844-844-6638."
+        twitterImage="/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg"
       />
 
       <div className="min-h-screen bg-gray-50">

@@ -65,30 +65,20 @@ export default function EcoImpactPage() {
 
   return (
     <>
-      {/* SEO Head */}
-      <Helmet>
-        <title>Eco-Impact Calculator - Environmental Benefits | Lackawanna County Golf Carts</title>
-        <meta 
-          name="description" 
-          content="Calculate your environmental impact and savings with electric golf carts. See CO₂ reduction, fuel savings, and carbon offset benefits. Free eco-impact calculator for Luzerne County." 
-        />
-        <meta 
-          name="keywords" 
-          content="eco impact calculator, electric golf cart environmental benefits, carbon footprint reduction, CO2 savings, sustainable transportation Luzerne County, green golf carts Pennsylvania" 
-        />
-        <link rel="canonical" href="https://lackawannagolfcarts.com/eco-impact" />
-        
-        {/* Open Graph */}
-        <meta property="og:title" content="Eco-Impact Calculator - Calculate Your Environmental Savings" />
-        <meta property="og:description" content="See how much CO₂, fuel, and money you save by choosing electric golf carts. Interactive calculator with real environmental data." />
-        <meta property="og:url" content="https://lackawannagolfcarts.com/eco-impact" />
-        <meta property="og:type" content="website" />
-        
-        {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Eco-Impact Calculator - Environmental Golf Cart Benefits" />
-        <meta name="twitter:description" content="Calculate your environmental impact with our free eco-impact calculator for electric golf carts." />
-      </Helmet>
+      <SEOHead 
+        title="Calculate Your Environmental Impact | Bay Golf Carts Eco Calculator"
+        description="Discover how much CO₂, fuel, and money you save by choosing electric golf carts. Make an informed decision for your wallet and the environment. Call 1-844-844-6638."
+        keywords="eco impact calculator, electric golf cart environmental benefits, carbon footprint reduction, CO2 savings, sustainable transportation, green golf carts"
+        canonicalUrl="https://baygolfcarts.com/eco-impact"
+        ogImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
+        ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Calculate Your Environmental Impact | Bay Golf Carts"
+        twitterDescription="Discover how much CO₂, fuel, and money you save by choosing electric golf carts. Call 1-844-844-6638."
+        twitterImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
+      />
 
       {/* Schema Markup */}
       <AllSchemas 

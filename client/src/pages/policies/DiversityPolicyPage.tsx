@@ -5,9 +5,18 @@ export default function DiversityPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Diversity Policy | Bay Golf Carts"
-        description="Learn about Bay Golf Carts serving Eastern Seaboard coastal communities' commitment to diversity, equity, and inclusion in our workplace and customer service practices. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        title="Diversity & Inclusion Policy | Bay Golf Carts"
+        description="Learn about Bay Golf Carts serving Eastern Seaboard coastal communities' commitment to diversity, equity, and inclusion in our workplace and customer service practices. Call 1-844-844-6638."
         keywords="diversity policy, equity inclusion, bay golf carts, eastern seaboard, workplace diversity"
+        canonicalUrl="https://baygolfcarts.com/policies/diversity-policy"
+        ogImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
+        ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Diversity & Inclusion Policy | Bay Golf Carts"
+        twitterDescription="Learn about Bay Golf Carts serving Eastern Seaboard coastal communities' commitment to diversity, equity, and inclusion. Call 1-844-844-6638."
+        twitterImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
       />
       
       {/* Hero Section */}
@@ -221,7 +230,7 @@ export default function DiversityPolicyPage() {
                 <p className="mb-2"><strong>Human Resources Department</strong></p>
                 <p className="mb-2">Bay Golf Carts</p>
                 <p className="mb-2">Email: info@baygolfcarts.com</p>
-                <p className="mb-2">Phone: 1-844-BAY-GOLF (1-844-229-4653)</p>
+                <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Eastern Seaboard coastal communities</p>
                 <p className="mb-2">Website: baygolfcarts.com</p>
                 <p>Confidential reporting and support available</p>

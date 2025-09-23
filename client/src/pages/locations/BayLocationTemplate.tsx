@@ -53,7 +53,7 @@ export default function BayLocationTemplate({ location, locationType }: BayLocat
       const state = location as State;
       return {
         serviceArea: `${state.name} coastline`,
-        contextDesc: `Professional golf cart sales, rentals, and service throughout ${state.name}'s coastal communities from Bay Golf Carts serving the Eastern Seaboard. DENAGO and EVOLUTION electric vehicles. Call 1-844-BAY-GOLF (1-844-229-4653).`,
+        contextDesc: `Professional golf cart sales, rentals, and service throughout ${state.name}'s coastal communities from Bay Golf Carts serving the Eastern Seaboard. DENAGO and EVOLUTION electric vehicles. Call 1-844-844-6638.`,
         heroDesc: `Premium DENAGO and EVOLUTION electric golf cart sales, rentals, and service throughout ${state.name}'s coastal communities. Your trusted eastern seaboard golf cart specialists.`,
         seoTitle: `${state.name} Golf Carts | Bay Golf Carts`,
         seoKeywords: `${state.name} golf carts, ${slug} golf cart sales, ${state.name} golf cart rentals, DENAGO ${state.name}, EVOLUTION ${state.name}, ${state.name} shore golf carts`
@@ -62,7 +62,7 @@ export default function BayLocationTemplate({ location, locationType }: BayLocat
       const bay = location as Bay;
       return {
         serviceArea: `${bay.name}, ${bay.state}`,
-        contextDesc: `Professional golf cart sales, rentals, and service around ${bay.name} in ${bay.state} from Bay Golf Carts serving Eastern Seaboard coastal areas. DENAGO and EVOLUTION electric vehicles. Call 1-844-BAY-GOLF (1-844-229-4653).`,
+        contextDesc: `Professional golf cart sales, rentals, and service around ${bay.name} in ${bay.state} from Bay Golf Carts serving Eastern Seaboard coastal areas. DENAGO and EVOLUTION electric vehicles. Call 1-844-844-6638.`,
         heroDesc: `Premium DENAGO and EVOLUTION electric golf cart sales, rentals, and service around ${bay.name}, ${bay.state}. Your trusted bay area golf cart specialists.`,
         seoTitle: `${bay.name} Golf Carts | Bay Golf Carts`,
         seoKeywords: `${bay.name} golf carts, ${slug} golf cart sales, ${bay.state} golf cart rentals, DENAGO ${bay.name}, EVOLUTION ${bay.name}, ${bay.name} bay golf carts`
@@ -71,7 +71,7 @@ export default function BayLocationTemplate({ location, locationType }: BayLocat
       const town = location as ShoreTown;
       return {
         serviceArea: `${town.name}, ${town.state}`,
-        contextDesc: `Professional golf cart sales, rentals, and service in ${town.name}, ${town.state} from Bay Golf Carts serving Eastern Seaboard coastal communities. DENAGO and EVOLUTION electric vehicles. Call 1-844-BAY-GOLF (1-844-229-4653).`,
+        contextDesc: `Professional golf cart sales, rentals, and service in ${town.name}, ${town.state} from Bay Golf Carts serving Eastern Seaboard coastal communities. DENAGO and EVOLUTION electric vehicles. Call 1-844-844-6638.`,
         heroDesc: `Premium DENAGO and EVOLUTION electric golf cart sales, rentals, and service in ${town.name}, ${town.state}. Your trusted shore town golf cart specialists.`,
         seoTitle: `${town.name} Golf Carts | Bay Golf Carts`,
         seoKeywords: `${town.name} golf carts, ${slug} golf cart sales, ${town.state} golf cart rentals, DENAGO ${town.name}, EVOLUTION ${town.name}, ${town.name} shore golf carts`
@@ -90,6 +90,12 @@ export default function BayLocationTemplate({ location, locationType }: BayLocat
         canonicalUrl={`https://baygolfcarts.com${location.url}`}
         ogImage="/attached_assets/BAY GOLF CARTS (1)_1756302505497.png"
         ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle={context.seoTitle}
+        twitterDescription={context.contextDesc}
+        twitterImage="/attached_assets/BAY GOLF CARTS (1)_1756302505497.png"
       />
 
       <div className="min-h-screen bg-gray-50">
@@ -112,10 +118,10 @@ export default function BayLocationTemplate({ location, locationType }: BayLocat
               {description}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:1-844-229-4653">
+              <a href="tel:1-844-844-6638">
                 <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call 1-844-BAY-GOLF
+                  Call 1-844-844-6638
                 </Button>
               </a>
               <Link href="/inventory">
@@ -184,7 +190,7 @@ export default function BayLocationTemplate({ location, locationType }: BayLocat
                       <Phone className="w-5 h-5 text-theme-orange mr-3" />
                       <div>
                         <p className="font-semibold">Phone</p>
-                        <p className="text-gray-600">1-844-BAY-GOLF</p>
+                        <p className="text-gray-600">1-844-844-6638</p>
                       </div>
                     </div>
                     <div className="flex items-center">
@@ -288,10 +294,10 @@ export default function BayLocationTemplate({ location, locationType }: BayLocat
               throughout {context.serviceArea}.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:1-844-229-4653">
+              <a href="tel:1-844-844-6638">
                 <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call Now: 1-844-BAY-GOLF
+                  Call Now: 1-844-844-6638
                 </Button>
               </a>
               <Link href="/contact">

@@ -184,7 +184,7 @@ export default function RentalsPage() {
                   </div>
                 </div>
 
-                <a href="tel:1-844-229-4653">
+                <a href="tel:1-844-844-6638">
                   <Button className="w-full bg-theme-orange hover:bg-orange-600 text-white">
                     <Phone className="w-4 h-4 mr-2" />
                     RESERVE TODAY
@@ -225,9 +225,9 @@ export default function RentalsPage() {
             <p className="text-xl mb-8 max-w-3xl mx-auto">
               Premium electric golf cart rentals serving Eastern Seaboard coastal communities from Maine to Florida. Perfect for bay areas, shore towns, and coastal events.
             </p>
-            <a href="tel:1-844-229-4653">
+            <a href="tel:1-844-844-6638">
               <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
-                Call 1-844-BAY-GOLF
+                Call 1-844-844-6638
               </Button>
             </a>
           </div>
@@ -286,9 +286,9 @@ export default function RentalsPage() {
             <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
               Our friendly team is here to help you select the perfect golf cart rental for your needs. Whether it's for a special event, vacation, or business use, we have the right cart at the right price.
             </p>
-            <a href="tel:1-844-229-4653">
+            <a href="tel:1-844-844-6638">
               <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
-                Call Now 1-844-BAY-GOLF
+                Call Now 1-844-844-6638
               </Button>
             </a>
           </div>

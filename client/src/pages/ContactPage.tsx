@@ -76,18 +76,18 @@ export default function ContactPage() {
       icon: MapPin,
       label: "Bay Golf Carts - Main Location",
       value: "Eastern Seaboard Service Area",
-      phone: "1-844-229-4653",
+      phone: "1-844-844-6638",
     },
     {
       icon: MapPin,
       label: "Eastern Seaboard Service Area",
       value: "Serving all coastal bays and shore towns Maine to Florida",
-      phone: "1-844-229-4653",
+      phone: "1-844-844-6638",
     },
     {
       icon: Phone,
       label: "Bay Golf Carts Main Line",
-      value: "1-844-229-4653",
+      value: "1-844-844-6638",
     },
     {
       icon: Mail,
@@ -111,12 +111,18 @@ export default function ContactPage() {
   return (
     <>
       <SEOHead 
-        title="Contact Bay Golf Carts - Sales & Service"
-        description="Contact Bay Golf Carts for sales, service, and support throughout all eastern coastline communities. Main: 1-844-229-4653. Serving Maine to Florida coastal areas and shore towns."
+        title="Contact Delaware Golf Carts | Bay Golf Carts Sales & Service"
+        description="Contact Bay Golf Carts for sales, service, and support throughout all eastern coastline communities. Professional golf cart sales, rentals, and service. Call 1-844-844-6638."
         keywords="contact bay golf carts, golf cart sales eastern seaboard, coastal golf cart service, shore town showroom"
         canonicalUrl="https://baygolfcarts.com/contact"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
         ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Contact Bay Golf Carts - Sales & Service"
+        twitterDescription="Contact Bay Golf Carts for sales, service, and support throughout all eastern coastline communities. Call 1-844-844-6638."
+        twitterImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
       />
 
       <div className="min-h-screen bg-gray-50">

@@ -6,8 +6,17 @@ export default function PublishingPolicyPage() {
     <>
       <SEOHead 
         title="Publishing Policy | Bay Golf Carts"
-        description="Learn about Bay Golf Carts serving Eastern Seaboard coastal communities' content publishing standards, guidelines for user-generated content, and editorial policies. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        description="Learn about Bay Golf Carts serving Eastern Seaboard coastal communities' content publishing standards, guidelines for user-generated content, and editorial policies. Call 1-844-844-6638."
         keywords="publishing policy, content policy, bay golf carts, eastern seaboard, editorial guidelines"
+        canonicalUrl="https://baygolfcarts.com/policies/publishing-policy"
+        ogImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
+        ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Publishing Policy | Bay Golf Carts"
+        twitterDescription="Learn about Bay Golf Carts serving Eastern Seaboard coastal communities' content publishing standards and editorial policies. Call 1-844-844-6638."
+        twitterImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
       />
       
       {/* Hero Section */}
@@ -175,7 +184,7 @@ export default function PublishingPolicyPage() {
                 <p className="mb-2"><strong>Content and Marketing Department</strong></p>
                 <p className="mb-2">Bay Golf Carts</p>
                 <p className="mb-2">Email: info@baygolfcarts.com</p>
-                <p className="mb-2">Phone: 1-844-BAY-GOLF (1-844-229-4653)</p>
+                <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">For content corrections or suggestions</p>
                 <p className="mb-2">Website: baygolfcarts.com</p>
                 <p>Response time: 24-48 hours for content inquiries</p>

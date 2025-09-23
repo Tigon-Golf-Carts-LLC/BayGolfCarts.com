@@ -9,9 +9,18 @@ export default function ThankYouPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <SEOHead 
-        title="Thank You - Lackawanna County Golf Carts"
-        description="Thank you for contacting Lackawanna County Golf Carts. We'll respond to your inquiry within 24 hours. Serving all Luzerne County municipalities."
+        title="Thank You! | Bay Golf Carts"
+        description="Thank you for contacting Bay Golf Carts. We'll respond to your inquiry within 24 hours. Professional golf cart sales, rentals, and service. Call 1-844-844-6638."
         keywords="thank you, contact confirmation, Lackawanna County Golf Carts, TIGON Golf Carts"
+        canonicalUrl="https://baygolfcarts.com/thank-you"
+        ogImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
+        ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Thank You! | Bay Golf Carts"
+        twitterDescription="Thank you for contacting Bay Golf Carts. We'll respond to your inquiry within 24 hours. Call 1-844-844-6638."
+        twitterImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
       />
       
       {/* Hero Section */}

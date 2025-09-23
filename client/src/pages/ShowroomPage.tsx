@@ -39,12 +39,18 @@ export default function ShowroomPage() {
   return (
     <>
       <SEOHead 
-        title="Rehoboth Golf Carts Showroom | Premier Delaware Golf Cart Dealer"
-        description="Visit Rehoboth Golf Carts, Delaware's premier golf cart showroom. Complete DENAGO and EVOLUTION lineup serving all Sussex County municipalities from Rehoboth Beach to Seaford."
+        title="Rehoboth Golf Carts Delaware Showroom | Premier Golf Cart Dealer"
+        description="Visit Rehoboth Golf Carts, Delaware's premier golf cart showroom. Complete DENAGO and EVOLUTION lineup serving all Sussex County municipalities from Rehoboth Beach to Seaford. Call 1-844-844-6638."
         keywords="Rehoboth golf carts showroom, golf cart dealership Delaware, DENAGO EVOLUTION Sussex County, Delaware golf cart sales, Rehoboth Beach"
         canonicalUrl="https://rehobothgolfcarts.com/showroom"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png"
         ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Rehoboth Golf Carts Delaware Showroom | Premier Golf Cart Dealer"
+        twitterDescription="Visit Rehoboth Golf Carts, Delaware's premier golf cart showroom. Complete DENAGO and EVOLUTION lineup. Call 1-844-844-6638."
+        twitterImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png"
       />
       <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}

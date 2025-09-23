@@ -6,8 +6,17 @@ export default function FeedbackPolicyPage() {
     <>
       <SEOHead 
         title="Feedback Policy | Bay Golf Carts"
-        description="Learn how to provide feedback to Bay Golf Carts serving Eastern Seaboard coastal communities. Our commitment to customer feedback, review process, and continuous improvement. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        description="Learn how to provide feedback to Bay Golf Carts serving Eastern Seaboard coastal communities. Our commitment to customer feedback, review process, and continuous improvement. Call 1-844-844-6638."
         keywords="feedback policy, customer feedback, bay golf carts, eastern seaboard, customer service policy"
+        canonicalUrl="https://baygolfcarts.com/policies/feedback-policy"
+        ogImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
+        ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Feedback Policy | Bay Golf Carts"
+        twitterDescription="Learn how to provide feedback to Bay Golf Carts serving Eastern Seaboard coastal communities. Call 1-844-844-6638."
+        twitterImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
       />
       
       {/* Hero Section */}
@@ -70,7 +79,7 @@ export default function FeedbackPolicyPage() {
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Direct Communication Channels</h3>
               <ul className="list-disc pl-6 mb-6">
                 <li><strong>Email:</strong> info@baygolfcarts.com</li>
-                <li><strong>Phone:</strong> 1-844-BAY-GOLF (1-844-229-4653)</li>
+                <li><strong>Phone:</strong> 1-844-844-6638</li>
                 <li><strong>In-Person:</strong> Any Bay Golf Carts location</li>
                 <li><strong>Mail:</strong> Written feedback to our business addresses</li>
                 <li><strong>Website:</strong> Contact form and feedback sections</li>
@@ -194,7 +203,7 @@ export default function FeedbackPolicyPage() {
                 <p className="mb-2"><strong>Customer Feedback Department</strong></p>
                 <p className="mb-2">Bay Golf Carts</p>
                 <p className="mb-2">Email: info@baygolfcarts.com</p>
-                <p className="mb-2">Phone: 1-844-BAY-GOLF (1-844-229-4653)</p>
+                <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Eastern Seaboard coastal communities</p>
                 <p className="mb-2">Website: baygolfcarts.com</p>
                 <p>We appreciate your feedback and look forward to serving you better!</p>

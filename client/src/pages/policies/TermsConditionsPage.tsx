@@ -6,8 +6,17 @@ export default function TermsConditionsPage() {
     <>
       <SEOHead 
         title="Terms & Conditions | Bay Golf Carts"
-        description="Read the complete terms and conditions for Bay Golf Carts serving Eastern Seaboard coastal communities. Understand your rights and responsibilities when purchasing, renting, or servicing golf carts. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        description="Read the complete terms and conditions for Bay Golf Carts serving Eastern Seaboard coastal communities. Understand your rights and responsibilities when purchasing, renting, or servicing golf carts. Call 1-844-844-6638."
         keywords="terms conditions, bay golf carts, eastern seaboard, golf cart terms, legal agreement"
+        canonicalUrl="https://baygolfcarts.com/policies/terms-conditions"
+        ogImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
+        ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Terms & Conditions | Bay Golf Carts"
+        twitterDescription="Read the complete terms and conditions for Bay Golf Carts serving Eastern Seaboard coastal communities. Call 1-844-844-6638."
+        twitterImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
       />
       
       {/* Hero Section */}
@@ -101,7 +110,7 @@ export default function TermsConditionsPage() {
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Bay Golf Carts</strong></p>
                 <p className="mb-2">Email: info@baygolfcarts.com</p>
-                <p className="mb-2">Phone: 1-844-BAY-GOLF (1-844-229-4653)</p>
+                <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Eastern Seaboard coastal communities</p>
                 <p>Website: baygolfcarts.com</p>
               </div>

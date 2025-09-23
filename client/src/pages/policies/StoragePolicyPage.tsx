@@ -6,8 +6,17 @@ export default function StoragePolicyPage() {
     <>
       <SEOHead 
         title="Storage Policy | Bay Golf Carts"
-        description="Learn about golf cart storage services and policies at Bay Golf Carts serving Eastern Seaboard coastal communities. Seasonal storage, maintenance, and security information. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        description="Learn about golf cart storage services and policies at Bay Golf Carts serving Eastern Seaboard coastal communities. Seasonal storage, maintenance, and security information. Call 1-844-844-6638."
         keywords="golf cart storage, storage policy, bay golf carts, eastern seaboard, golf cart storage"
+        canonicalUrl="https://baygolfcarts.com/policies/storage-policy"
+        ogImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
+        ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Storage Policy | Bay Golf Carts"
+        twitterDescription="Learn about golf cart storage services and policies at Bay Golf Carts serving Eastern Seaboard coastal communities. Call 1-844-844-6638."
+        twitterImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
       />
       
       {/* Hero Section */}
@@ -195,7 +204,7 @@ export default function StoragePolicyPage() {
                 <p className="mb-2"><strong>Storage Services</strong></p>
                 <p className="mb-2">Bay Golf Carts</p>
                 <p className="mb-2">Email: info@baygolfcarts.com</p>
-                <p className="mb-2">Phone: 1-844-BAY-GOLF (1-844-229-4653)</p>
+                <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Eastern Seaboard coastal communities</p>
                 <p>Website: lackawannagolfcarts.com</p>
               </div>

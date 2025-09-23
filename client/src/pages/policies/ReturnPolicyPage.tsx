@@ -6,8 +6,17 @@ export default function ReturnPolicyPage() {
     <>
       <SEOHead 
         title="Return Policy | Bay Golf Carts"
-        description="Learn about Bay Golf Carts serving Eastern Seaboard coastal communities return policy for golf cart purchases, accessories, and parts. Understand return conditions, timelines, and procedures. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        description="Learn about Bay Golf Carts serving Eastern Seaboard coastal communities return policy for golf cart purchases, accessories, and parts. Understand return conditions, timelines, and procedures. Call 1-844-844-6638."
         keywords="return policy, golf cart returns, bay golf carts, eastern seaboard, refund policy"
+        canonicalUrl="https://baygolfcarts.com/policies/return-policy"
+        ogImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
+        ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Return Policy | Bay Golf Carts"
+        twitterDescription="Learn about Bay Golf Carts serving Eastern Seaboard coastal communities return policy for golf cart purchases, accessories, and parts. Call 1-844-844-6638."
+        twitterImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
       />
       
       {/* Hero Section */}
@@ -81,7 +90,7 @@ export default function ReturnPolicyPage() {
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Authorization Required</h3>
               <p className="mb-4">All returns must be pre-authorized. To initiate a return:</p>
               <ul className="list-disc pl-6 mb-6">
-                <li>Contact us at info@baygolfcarts.com or 1-844-BAY-GOLF (1-844-229-4653)</li>
+                <li>Contact us at info@baygolfcarts.com or 1-844-844-6638</li>
                 <li>Provide order number and reason for return</li>
                 <li>Receive return authorization number (RMA)</li>
                 <li>Include RMA number with returned item</li>
@@ -127,7 +136,7 @@ export default function ReturnPolicyPage() {
                 <p className="mb-2"><strong>Returns Department</strong></p>
                 <p className="mb-2">Bay Golf Carts</p>
                 <p className="mb-2">Email: info@baygolfcarts.com</p>
-                <p className="mb-2">Phone: 1-844-BAY-GOLF (1-844-229-4653)</p>
+                <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Eastern Seaboard coastal communities</p>
                 <p>Website: baygolfcarts.com</p>
               </div>

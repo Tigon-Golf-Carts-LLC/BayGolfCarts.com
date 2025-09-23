@@ -226,12 +226,18 @@ export default function EvolutionPage() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION Golf Carts Sussex County | Premium Electric Vehicles Delaware"
-        description="Discover EVOLUTION golf carts in Sussex County, Delaware. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, CARRIER, FORESTER, TURFMAN, and D6 MAX series. Expert sales & service."
+        title="EVOLUTION® | Premium Electric Golf Carts | Bay Golf Carts"
+        description="Discover EVOLUTION® golf carts with premium quality and innovative design. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, CARRIER, FORESTER, TURFMAN, and D6 MAX series. Call 1-844-844-6638."
         keywords="EVOLUTION golf carts Sussex County, electric golf carts Delaware, EVOLUTION D5 RANGER, EVOLUTION MAVERICK, EVOLUTION CLASSIC, golf cart sales Delaware, Rehoboth Beach"
         canonicalUrl="https://rehobothgolfcarts.com/evolution"
         ogImage="/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg"
         ogType="product.group"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="EVOLUTION® | Premium Electric Golf Carts | Bay Golf Carts"
+        twitterDescription="Discover EVOLUTION® golf carts with premium quality and innovative design. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, and more. Call 1-844-844-6638."
+        twitterImage="/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg"
       />
 
       <div className="min-h-screen bg-gray-50">

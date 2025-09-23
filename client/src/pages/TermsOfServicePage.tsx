@@ -4,9 +4,18 @@ export function TermsOfServicePage() {
   return (
     <>
       <SEOHead 
-        title="Terms of Service | Montgomery County Golf Carts"
-        description="Terms of Service for Montgomery County Golf Carts. Review our terms and conditions for purchasing golf carts, rental services, and using our website."
+        title="Terms of Service | Bay Golf Carts"
+        description="Terms of Service for Bay Golf Carts. Review our terms and conditions for purchasing golf carts, rental services, and using our website. Call 1-844-844-6638."
         keywords="terms of service, terms and conditions, golf cart purchase, rental agreement, Montgomery County Golf Carts"
+        canonicalUrl="https://baygolfcarts.com/terms-of-service"
+        ogImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
+        ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Terms of Service | Bay Golf Carts"
+        twitterDescription="Terms of Service for Bay Golf Carts. Review our terms and conditions for purchasing golf carts and rental services. Call 1-844-844-6638."
+        twitterImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
       />
       <div className="min-h-screen bg-gray-50 py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

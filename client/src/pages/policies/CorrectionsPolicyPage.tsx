@@ -6,8 +6,17 @@ export default function CorrectionsPolicyPage() {
     <>
       <SEOHead 
         title="Corrections Policy | Bay Golf Carts"
-        description="Learn about Bay Golf Carts serving Eastern Seaboard coastal communities' commitment to accuracy and our process for handling corrections to published content and information. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        description="Learn about Bay Golf Carts serving Eastern Seaboard coastal communities' commitment to accuracy and our process for handling corrections to published content and information. Call 1-844-844-6638."
         keywords="corrections policy, content accuracy, bay golf carts, eastern seaboard, information corrections"
+        canonicalUrl="https://baygolfcarts.com/policies/corrections-policy"
+        ogImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
+        ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Corrections Policy | Bay Golf Carts"
+        twitterDescription="Learn about Bay Golf Carts serving Eastern Seaboard coastal communities' commitment to accuracy and our process for handling corrections. Call 1-844-844-6638."
+        twitterImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
       />
       
       {/* Hero Section */}
@@ -70,7 +79,7 @@ export default function CorrectionsPolicyPage() {
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Reporting Channels</h3>
               <ul className="list-disc pl-6 mb-6">
                 <li><strong>Email:</strong> info@baygolfcarts.com with "Correction Request" in subject</li>
-                <li><strong>Phone:</strong> 1-844-BAY-GOLF (1-844-229-4653) - ask for corrections department</li>
+                <li><strong>Phone:</strong> 1-844-844-6638 - ask for corrections department</li>
                 <li><strong>Website:</strong> Contact form with correction details</li>
                 <li><strong>In-Person:</strong> Report to any Bay Golf Carts location</li>
                 <li><strong>Social Media:</strong> Direct message on Facebook or other platforms</li>
@@ -203,7 +212,7 @@ export default function CorrectionsPolicyPage() {
                 <p className="mb-2"><strong>Corrections and Content Accuracy Team</strong></p>
                 <p className="mb-2">Bay Golf Carts</p>
                 <p className="mb-2">Email: info@baygolfcarts.com (Subject: Correction Request)</p>
-                <p className="mb-2">Phone: 1-844-BAY-GOLF (1-844-229-4653)</p>
+                <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Eastern Seaboard coastal communities</p>
                 <p className="mb-2">Website: baygolfcarts.com</p>
                 <p>Thank you for helping us maintain accuracy!</p>

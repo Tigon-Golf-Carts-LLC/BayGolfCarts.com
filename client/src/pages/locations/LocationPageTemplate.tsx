@@ -48,11 +48,17 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
     <>
       <SEOHead 
         title={`${name} Golf Carts | Bay Golf Carts`}
-        description={`Professional golf cart sales, rentals, and service in ${name} with Bay Golf Carts serving Eastern Seaboard coastal communities. DENAGO and EVOLUTION electric vehicles. Call 1-844-BAY-GOLF (1-844-229-4653).`}
+        description={`Professional golf cart sales, rentals, and service in ${name} with Bay Golf Carts serving Eastern Seaboard coastal communities. DENAGO and EVOLUTION electric vehicles. Call 1-844-844-6638.`}
         keywords={`${name} golf carts, ${slug} golf cart sales, bay golf cart rentals, DENAGO ${name}, EVOLUTION ${name}, eastern seaboard golf carts, coastal golf carts`}
         canonicalUrl={`https://baygolfcarts.com${municipality.url}`}
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_ZIJgnM0qSLqCnmqzAiha0w_Tcds7ckvRe6FNLFDKo_aDg_1755541056710.jpeg"
         ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle={`${name} Golf Carts | Bay Golf Carts`}
+        twitterDescription={`Professional golf cart sales, rentals, and service in ${name} with Bay Golf Carts serving Eastern Seaboard coastal communities. DENAGO and EVOLUTION electric vehicles. Call 1-844-844-6638.`}
+        twitterImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_ZIJgnM0qSLqCnmqzAiha0w_Tcds7ckvRe6FNLFDKo_aDg_1755541056710.jpeg"
       />
 
       <div className="min-h-screen bg-gray-50">
@@ -73,10 +79,10 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
               in {name} from Bay Golf Carts serving Eastern Seaboard coastal communities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:1-844-229-4653">
+              <a href="tel:1-844-844-6638">
                 <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call 1-844-BAY-GOLF
+                  Call 1-844-844-6638
                 </Button>
               </a>
               <Link href="/inventory">

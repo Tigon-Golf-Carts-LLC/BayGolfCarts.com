@@ -6,8 +6,17 @@ export default function EthicsPolicyPage() {
     <>
       <SEOHead 
         title="Ethics Policy | Bay Golf Carts"
-        description="Learn about Bay Golf Carts serving Eastern Seaboard coastal communities' code of ethics and business conduct standards for employees, customers, and partners. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        description="Learn about Bay Golf Carts serving Eastern Seaboard coastal communities' code of ethics and business conduct standards for employees, customers, and partners. Call 1-844-844-6638."
         keywords="ethics policy, business ethics, bay golf carts, eastern seaboard, code of conduct"
+        canonicalUrl="https://baygolfcarts.com/policies/ethics-policy"
+        ogImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
+        ogType="website"
+        ogImageWidth="1200"
+        ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Ethics Policy | Bay Golf Carts"
+        twitterDescription="Learn about Bay Golf Carts serving Eastern Seaboard coastal communities' code of ethics and business conduct standards. Call 1-844-844-6638."
+        twitterImage="/attached_assets/BAY GOLF CARTS_1756302242088.png"
       />
       
       {/* Hero Section */}
@@ -241,7 +250,7 @@ export default function EthicsPolicyPage() {
                 <p className="mb-2"><strong>Ethics and Compliance</strong></p>
                 <p className="mb-2">Bay Golf Carts</p>
                 <p className="mb-2">Email: info@baygolfcarts.com (Confidential Ethics Reports)</p>
-                <p className="mb-2">Phone: 1-844-BAY-GOLF (1-844-229-4653)</p>
+                <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Eastern Seaboard coastal communities</p>
                 <p className="mb-2">Website: baygolfcarts.com</p>
                 <p>Confidential and anonymous reporting available</p>

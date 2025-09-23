@@ -57,13 +57,17 @@ export default function InventoryPage() {
       {/* SEO and Schema Markup */}
       <SEOHead 
         title="Golf Cart Inventory"
-        description="Browse our extensive inventory of premium DENAGO and Evolution electric golf carts serving the Eastern Seaboard from Maine to Florida. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        description="Browse our extensive inventory of premium DENAGO and Evolution electric golf carts serving the Eastern Seaboard from Maine to Florida. Call 1-844-844-6638."
         keywords="golf cart inventory eastern seaboard, electric golf carts for sale, DENAGO golf carts, Evolution golf carts, bay golf carts coastal areas"
         canonicalUrl="https://baygolfcarts.com/inventory"
         ogImage="/attached_assets/Bay Golf Carts - Golf Carts In The Bay Of The Town 2_1756238794666.jpeg"
         ogType="website"
         ogImageWidth="1200"
         ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Golf Cart Inventory"
+        twitterDescription="Browse our extensive inventory of premium DENAGO and Evolution electric golf carts serving the Eastern Seaboard from Maine to Florida. Call 1-844-844-6638."
+        twitterImage="/attached_assets/Bay Golf Carts - Golf Carts In The Bay Of The Town 2_1756238794666.jpeg"
       />
       <AllSchemas 
         pageType="inventory" 

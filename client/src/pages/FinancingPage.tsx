@@ -110,14 +110,18 @@ export default function FinancingPage() {
   return (
     <>
       <SEOHead 
-        title="Golf Cart Financing"
-        description="Flexible golf cart financing options serving Eastern Seaboard coastal communities with multiple lenders for DENAGO and Evolution electric vehicles. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        title="Apply For Street Legal LSV, NEV & Golf Cart Financing"
+        description="Flexible golf cart financing options serving Eastern Seaboard coastal communities with multiple lenders for DENAGO and Evolution electric vehicles. Call 1-844-844-6638."
         keywords="golf cart financing eastern seaboard, coastal golf cart loans, bay golf cart financing, shore town golf cart financing, electric vehicle financing"
         canonicalUrl="https://baygolfcarts.com/financing"
         ogImage="/attached_assets/Bay Golf Carts - Golf Carts In The Bay Of The Town 6_1756238794667.jpeg"
         ogImageWidth="1200"
         ogImageHeight="630"
         ogType="website"
+        twitterCard="summary_large_image"
+        twitterTitle="Apply For Street Legal LSV, NEV & Golf Cart Financing"
+        twitterDescription="Flexible golf cart financing options serving Eastern Seaboard coastal communities with multiple lenders for DENAGO and Evolution electric vehicles. Call 1-844-844-6638."
+        twitterImage="/attached_assets/Bay Golf Carts - Golf Carts In The Bay Of The Town 6_1756238794667.jpeg"
       />
 
       <div className="min-h-screen bg-gray-50">

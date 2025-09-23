@@ -202,13 +202,17 @@ export default function RentalsPage() {
     <>
       <SEOHead 
         title="Golf Cart Rentals"
-        description="Premium golf cart rentals serving Eastern Seaboard coastal communities from Maine to Florida with flexible daily, weekly, and monthly options. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        description="Premium golf cart rentals serving Eastern Seaboard coastal communities from Maine to Florida with flexible daily, weekly, and monthly options. Call 1-844-844-6638."
         keywords="golf cart rentals eastern seaboard, coastal golf cart rentals, bay golf cart rentals, shore town golf cart rentals, beach golf cart rentals"
         canonicalUrl="https://baygolfcarts.com/rentals"
         ogImage="/attached_assets/Bay Golf Carts - Golf Carts In The Bay Of The Town 3_1756238794666.jpeg"
         ogImageWidth="1200"
         ogImageHeight="630"
         ogType="website"
+        twitterCard="summary_large_image"
+        twitterTitle="Golf Cart Rentals"
+        twitterDescription="Premium golf cart rentals serving Eastern Seaboard coastal communities from Maine to Florida with flexible daily, weekly, and monthly options. Call 1-844-844-6638."
+        twitterImage="/attached_assets/Bay Golf Carts - Golf Carts In The Bay Of The Town 3_1756238794666.jpeg"
       />
 
       <div className="min-h-screen bg-gray-50">

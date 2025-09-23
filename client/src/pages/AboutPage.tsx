@@ -43,13 +43,17 @@ export default function AboutPage() {
       {/* SEO and Schema Markup */}
       <SEOHead 
         title="About Bay Golf Carts"
-        description="Eastern Seaboard's premier golf cart dealership serving coastal communities from Maine to Florida with expert DENAGO and Evolution sales and service. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        description="Eastern Seaboard's premier golf cart dealership serving coastal communities from Maine to Florida with expert DENAGO and Evolution sales and service. Call 1-844-844-6638."
         keywords="about Bay Golf Carts, eastern seaboard golf cart dealership, coastal golf carts, Denago Evolution dealer, bay golf cart service team"
         canonicalUrl="https://baygolfcarts.com/about"
         ogImage="/attached_assets/Bay Golf Carts - Golf Carts In The Bay Of The Town 5_1756238794666.jpeg"
         ogType="website"
         ogImageWidth="1200"
         ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="About Bay Golf Carts"
+        twitterDescription="Eastern Seaboard's premier golf cart dealership serving coastal communities from Maine to Florida with expert DENAGO and Evolution sales and service. Call 1-844-844-6638."
+        twitterImage="/attached_assets/Bay Golf Carts - Golf Carts In The Bay Of The Town 5_1756238794666.jpeg"
       />
       <AllSchemas 
         pageType="about" 

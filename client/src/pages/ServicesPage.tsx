@@ -88,13 +88,17 @@ export default function ServicesPage() {
       {/* SEO and Schema Markup */}
       <SEOHead 
         title="Golf Cart Services"
-        description="Professional golf cart maintenance, repair, customization, and warranty services serving Eastern Seaboard coastal communities from Maine to Florida. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        description="Professional golf cart maintenance, repair, customization, and warranty services serving Eastern Seaboard coastal communities from Maine to Florida. Call 1-844-844-6638."
         keywords="golf cart service eastern seaboard, coastal golf cart repair, bay golf cart maintenance, shore town golf cart service, marine golf cart service"
         canonicalUrl="https://baygolfcarts.com/services"
         ogImage="/attached_assets/Bay Golf Carts - Golf Carts In The Bay Of The Town 4_1756238794666.jpeg"
         ogType="website"
         ogImageWidth="1200"
         ogImageHeight="630"
+        twitterCard="summary_large_image"
+        twitterTitle="Golf Cart Services"
+        twitterDescription="Professional golf cart maintenance, repair, customization, and warranty services serving Eastern Seaboard coastal communities from Maine to Florida. Call 1-844-844-6638."
+        twitterImage="/attached_assets/Bay Golf Carts - Golf Carts In The Bay Of The Town 4_1756238794666.jpeg"
       />
       <AllSchemas 
         pageType="services" 

@@ -10,6 +10,10 @@ interface SEOHeadProps {
   ogType?: string;
   ogImageWidth?: string;
   ogImageHeight?: string;
+  twitterCard?: string;
+  twitterTitle?: string;
+  twitterDescription?: string;
+  twitterImage?: string;
 }
 
 export default function SEOHead({ 
@@ -21,7 +25,11 @@ export default function SEOHead({
   ogImage = "/attached_assets/BAY GOLF CARTS_1756302242088.png",
   ogType = "website",
   ogImageWidth = "1200",
-  ogImageHeight = "630"
+  ogImageHeight = "630",
+  twitterCard = "summary_large_image",
+  twitterTitle,
+  twitterDescription,
+  twitterImage
 }: SEOHeadProps) {
   useEffect(() => {
     // Set page title
@@ -123,10 +131,10 @@ export default function SEOHead({
       }
     };
 
-    updateTwitterTag("twitter:card", "summary_large_image");
-    updateTwitterTag("twitter:title", title);
-    updateTwitterTag("twitter:description", description);
-    updateTwitterTag("twitter:image", `https://baygolfcarts.com${ogImage}`);
+    updateTwitterTag("twitter:card", twitterCard);
+    updateTwitterTag("twitter:title", twitterTitle || title);
+    updateTwitterTag("twitter:description", twitterDescription || description);
+    updateTwitterTag("twitter:image", `https://baygolfcarts.com${twitterImage || ogImage}`);
     updateTwitterTag("twitter:site", "@baygolfcarts");
     updateTwitterTag("twitter:creator", "@baygolfcarts");
 
@@ -143,7 +151,7 @@ export default function SEOHead({
           "addressRegion": "Multiple States",
           "addressCountry": "US"
         },
-        "telephone": "1-844-BAY-GOLF",
+        "telephone": "1-844-844-6638",
         "email": "info@baygolfcarts.com",
         "url": canonicalUrl,
         "logo": "https://baygolfcarts.com/attached_assets/BAY GOLF CARTS_1756302242088.png",
@@ -222,7 +230,7 @@ export default function SEOHead({
         document.head.appendChild(script);
       }
     }
-  }, [title, description, keywords, canonicalUrl, townName, ogImage, ogType]);
+  }, [title, description, keywords, canonicalUrl, townName, ogImage, ogType, twitterCard, twitterTitle, twitterDescription, twitterImage]);
 
   return null;
 }

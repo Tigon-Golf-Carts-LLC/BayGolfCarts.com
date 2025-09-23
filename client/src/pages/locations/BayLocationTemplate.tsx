@@ -53,27 +53,27 @@ export default function BayLocationTemplate({ location, locationType }: BayLocat
       const state = location as State;
       return {
         serviceArea: `${state.name} coastline`,
-        contextDesc: `Professional golf cart sales, rentals, and service throughout ${state.name}'s coastal communities. DENAGO and EVOLUTION electric vehicles with expert service across the ${state.name} shore.`,
+        contextDesc: `Professional golf cart sales, rentals, and service throughout ${state.name}'s coastal communities from Bay Golf Carts serving the Eastern Seaboard. DENAGO and EVOLUTION electric vehicles. Call 1-844-BAY-GOLF (1-844-229-4653).`,
         heroDesc: `Premium DENAGO and EVOLUTION electric golf cart sales, rentals, and service throughout ${state.name}'s coastal communities. Your trusted eastern seaboard golf cart specialists.`,
-        seoTitle: `${state.name} Golf Carts | DENAGO & EVOLUTION Sales & Rentals ${state.name}`,
+        seoTitle: `${state.name} Golf Carts | Bay Golf Carts`,
         seoKeywords: `${state.name} golf carts, ${slug} golf cart sales, ${state.name} golf cart rentals, DENAGO ${state.name}, EVOLUTION ${state.name}, ${state.name} shore golf carts`
       };
     } else if (locationType === 'bay') {
       const bay = location as Bay;
       return {
         serviceArea: `${bay.name}, ${bay.state}`,
-        contextDesc: `Professional golf cart sales, rentals, and service around ${bay.name} in ${bay.state}. DENAGO and EVOLUTION electric vehicles with expert service throughout the bay area.`,
+        contextDesc: `Professional golf cart sales, rentals, and service around ${bay.name} in ${bay.state} from Bay Golf Carts serving Eastern Seaboard coastal areas. DENAGO and EVOLUTION electric vehicles. Call 1-844-BAY-GOLF (1-844-229-4653).`,
         heroDesc: `Premium DENAGO and EVOLUTION electric golf cart sales, rentals, and service around ${bay.name}, ${bay.state}. Your trusted bay area golf cart specialists.`,
-        seoTitle: `${bay.name} Golf Carts | DENAGO & EVOLUTION Sales & Rentals ${bay.state}`,
+        seoTitle: `${bay.name} Golf Carts | Bay Golf Carts`,
         seoKeywords: `${bay.name} golf carts, ${slug} golf cart sales, ${bay.state} golf cart rentals, DENAGO ${bay.name}, EVOLUTION ${bay.name}, ${bay.name} bay golf carts`
       };
     } else {
       const town = location as ShoreTown;
       return {
         serviceArea: `${town.name}, ${town.state}`,
-        contextDesc: `Professional golf cart sales, rentals, and service in ${town.name}, ${town.state}. DENAGO and EVOLUTION electric vehicles with expert service throughout this ${town.type.toLowerCase()}.`,
+        contextDesc: `Professional golf cart sales, rentals, and service in ${town.name}, ${town.state} from Bay Golf Carts serving Eastern Seaboard coastal communities. DENAGO and EVOLUTION electric vehicles. Call 1-844-BAY-GOLF (1-844-229-4653).`,
         heroDesc: `Premium DENAGO and EVOLUTION electric golf cart sales, rentals, and service in ${town.name}, ${town.state}. Your trusted shore town golf cart specialists.`,
-        seoTitle: `${town.name} Golf Carts | DENAGO & EVOLUTION Sales & Rentals ${town.state}`,
+        seoTitle: `${town.name} Golf Carts | Bay Golf Carts`,
         seoKeywords: `${town.name} golf carts, ${slug} golf cart sales, ${town.state} golf cart rentals, DENAGO ${town.name}, EVOLUTION ${town.name}, ${town.name} shore golf carts`
       };
     }

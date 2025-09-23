@@ -47,10 +47,10 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
   return (
     <>
       <SEOHead 
-        title={`${name} Golf Carts | DENAGO & EVOLUTION Sales & Rentals Delaware`}
-        description={`Professional golf cart sales, rentals, and service in ${name}, Delaware. DENAGO and EVOLUTION electric vehicles with expert service throughout Delaware.`}
-        keywords={`${name} golf carts, ${slug} golf cart sales, Delaware golf cart rentals, DENAGO ${name}, EVOLUTION ${name}, Delaware golf carts`}
-        canonicalUrl={`https://delawaregolfcarts.com${municipality.url}`}
+        title={`${name} Golf Carts | Bay Golf Carts`}
+        description={`Professional golf cart sales, rentals, and service in ${name} with Bay Golf Carts serving Eastern Seaboard coastal communities. DENAGO and EVOLUTION electric vehicles. Call 1-844-BAY-GOLF (1-844-229-4653).`}
+        keywords={`${name} golf carts, ${slug} golf cart sales, bay golf cart rentals, DENAGO ${name}, EVOLUTION ${name}, eastern seaboard golf carts, coastal golf carts`}
+        canonicalUrl={`https://baygolfcarts.com${municipality.url}`}
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_ZIJgnM0qSLqCnmqzAiha0w_Tcds7ckvRe6FNLFDKo_aDg_1755541056710.jpeg"
         ogType="website"
       />
@@ -70,13 +70,13 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
               Premium DENAGO and EVOLUTION electric golf cart sales, rentals, and service 
-              in {name}, Delaware. Your trusted Delaware golf cart specialists.
+              in {name} from Bay Golf Carts serving Eastern Seaboard coastal communities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:1-844-844-6638">
+              <a href="tel:1-844-229-4653">
                 <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call 1-844-844-6638
+                  Call 1-844-BAY-GOLF
                 </Button>
               </a>
               <Link href="/inventory">
@@ -96,8 +96,8 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
                 Golf Cart Services in {name}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Comprehensive golf cart solutions for residents and businesses in {name}, Delaware. 
-                From sales to service, we're your local Delaware golf cart experts.
+                Comprehensive golf cart solutions for residents and businesses in {name} from Bay Golf Carts. 
+                From sales to service, we're your Eastern Seaboard coastal golf cart experts.
               </p>
             </div>
 

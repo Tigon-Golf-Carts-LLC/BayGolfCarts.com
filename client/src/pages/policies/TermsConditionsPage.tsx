@@ -5,9 +5,9 @@ export default function TermsConditionsPage() {
   return (
     <>
       <SEOHead 
-        title="Terms & Conditions | Lackawanna County Golf Carts"
-        description="Read the complete terms and conditions for Lackawanna County Golf Carts. Understand your rights and responsibilities when purchasing, renting, or servicing golf carts in Pennsylvania."
-        keywords="terms conditions, Lackawanna County golf carts, Pennsylvania golf cart terms, legal agreement"
+        title="Terms & Conditions | Bay Golf Carts"
+        description="Read the complete terms and conditions for Bay Golf Carts serving Eastern Seaboard coastal communities. Understand your rights and responsibilities when purchasing, renting, or servicing golf carts. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        keywords="terms conditions, bay golf carts, eastern seaboard, golf cart terms, legal agreement"
       />
       
       {/* Hero Section */}
@@ -17,7 +17,7 @@ export default function TermsConditionsPage() {
             Terms & Conditions
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Our comprehensive terms and conditions for golf cart sales, rentals, and services in Lackawanna County, Pennsylvania.
+            Our comprehensive terms and conditions for golf cart sales, rentals, and services in Eastern Seaboard coastal communities.
           </p>
         </div>
       </section>
@@ -33,7 +33,7 @@ export default function TermsConditionsPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Agreement Overview</h2>
               <p className="mb-6">
-                These Terms & Conditions ("Terms") govern your use of services provided by Lackawanna County Golf Carts, 
+                These Terms & Conditions ("Terms") govern your use of services provided by Bay Golf Carts, 
                 including golf cart sales, rentals, service, and related products. By engaging with our services, 
                 you agree to be bound by these Terms.
               </p>
@@ -45,7 +45,7 @@ export default function TermsConditionsPage() {
                 <li>Prices are subject to change without notice until purchase is finalized</li>
                 <li>Payment terms must be agreed upon prior to delivery</li>
                 <li>Title transfer occurs upon full payment completion</li>
-                <li>Pennsylvania sales tax applies to all purchases</li>
+                <li>Applicable state sales tax applies to all purchases</li>
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Warranties and Returns</h3>
@@ -86,24 +86,24 @@ export default function TermsConditionsPage() {
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Limitation of Liability</h2>
               <p className="mb-6">
-                To the maximum extent permitted by Pennsylvania law, Lackawanna County Golf Carts shall not be 
+                To the maximum extent permitted by applicable state law, Bay Golf Carts shall not be 
                 liable for any indirect, incidental, special, or consequential damages. Our total liability 
                 shall not exceed the amount paid for the specific product or service in question.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Governing Law</h2>
               <p className="mb-6">
-                These Terms are governed by Pennsylvania state law. Any disputes shall be resolved in 
-                the courts of Lackawanna County, Pennsylvania.
+                These Terms are governed by applicable state laws where services are provided. Any disputes shall be resolved in 
+                the appropriate courts of jurisdiction.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Information</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <p className="mb-2"><strong>Lackawanna County Golf Carts</strong></p>
-                <p className="mb-2">Email: info@lackawannagolfcarts.com</p>
-                <p className="mb-2">Phone: 1-844-844-6638</p>
-                <p className="mb-2">Serving Lackawanna County, Pennsylvania</p>
-                <p>Website: lackawannagolfcarts.com</p>
+                <p className="mb-2"><strong>Bay Golf Carts</strong></p>
+                <p className="mb-2">Email: info@baygolfcarts.com</p>
+                <p className="mb-2">Phone: 1-844-BAY-GOLF (1-844-229-4653)</p>
+                <p className="mb-2">Serving Eastern Seaboard coastal communities</p>
+                <p>Website: baygolfcarts.com</p>
               </div>
             </div>
           </div>

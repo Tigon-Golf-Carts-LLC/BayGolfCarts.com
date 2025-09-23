@@ -5,9 +5,9 @@ export default function ReturnPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Return Policy | Lackawanna County Golf Carts"
-        description="Learn about Lackawanna County Golf Carts return policy for golf cart purchases, accessories, and parts. Understand return conditions, timelines, and procedures."
-        keywords="return policy, golf cart returns, Lackawanna County golf carts, refund policy Pennsylvania"
+        title="Return Policy | Bay Golf Carts"
+        description="Learn about Bay Golf Carts serving Eastern Seaboard coastal communities return policy for golf cart purchases, accessories, and parts. Understand return conditions, timelines, and procedures. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        keywords="return policy, golf cart returns, bay golf carts, eastern seaboard, refund policy"
       />
       
       {/* Hero Section */}
@@ -17,7 +17,7 @@ export default function ReturnPolicyPage() {
             Return Policy
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Learn about our return policy for golf carts, parts, and accessories purchased from Lackawanna County Golf Carts.
+            Learn about our return policy for golf carts, parts, and accessories purchased from Bay Golf Carts.
           </p>
         </div>
       </section>
@@ -33,9 +33,9 @@ export default function ReturnPolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">General Return Policy</h2>
               <p className="mb-6">
-                At Lackawanna County Golf Carts, we strive for complete customer satisfaction. This return policy 
+                At Bay Golf Carts, we strive for complete customer satisfaction. This return policy 
                 outlines the conditions and procedures for returns on golf carts, parts, and accessories 
-                purchased from our Pennsylvania locations.
+                purchased from our Eastern Seaboard locations.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Golf Cart Returns</h2>
@@ -81,7 +81,7 @@ export default function ReturnPolicyPage() {
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Authorization Required</h3>
               <p className="mb-4">All returns must be pre-authorized. To initiate a return:</p>
               <ul className="list-disc pl-6 mb-6">
-                <li>Contact us at info@lackawannagolfcarts.com or 1-844-844-6638</li>
+                <li>Contact us at info@baygolfcarts.com or 1-844-BAY-GOLF (1-844-229-4653)</li>
                 <li>Provide order number and reason for return</li>
                 <li>Receive return authorization number (RMA)</li>
                 <li>Include RMA number with returned item</li>
@@ -93,7 +93,7 @@ export default function ReturnPolicyPage() {
                 <li>Customer responsible for return shipping costs unless item is defective</li>
                 <li>Items must be properly packaged to prevent damage</li>
                 <li>Insurance recommended for high-value returns</li>
-                <li>Lackawanna County Golf Carts not responsible for items lost in transit</li>
+                <li>Bay Golf Carts not responsible for items lost in transit</li>
               </ul>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Defective Items</h2>
@@ -125,11 +125,11 @@ export default function ReturnPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Information</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Returns Department</strong></p>
-                <p className="mb-2">Lackawanna County Golf Carts</p>
-                <p className="mb-2">Email: info@lackawannagolfcarts.com</p>
-                <p className="mb-2">Phone: 1-844-844-6638</p>
-                <p className="mb-2">Serving Lackawanna County, Pennsylvania</p>
-                <p>Website: lackawannagolfcarts.com</p>
+                <p className="mb-2">Bay Golf Carts</p>
+                <p className="mb-2">Email: info@baygolfcarts.com</p>
+                <p className="mb-2">Phone: 1-844-BAY-GOLF (1-844-229-4653)</p>
+                <p className="mb-2">Serving Eastern Seaboard coastal communities</p>
+                <p>Website: baygolfcarts.com</p>
               </div>
             </div>
           </div>

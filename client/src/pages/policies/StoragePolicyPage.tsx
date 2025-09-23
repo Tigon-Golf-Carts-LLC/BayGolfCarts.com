@@ -5,9 +5,9 @@ export default function StoragePolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Storage Policy | Lackawanna County Golf Carts"
-        description="Learn about golf cart storage services and policies at Lackawanna County Golf Carts. Seasonal storage, maintenance, and security information for Pennsylvania customers."
-        keywords="golf cart storage, storage policy, Lackawanna County storage, Pennsylvania golf cart storage"
+        title="Storage Policy | Bay Golf Carts"
+        description="Learn about golf cart storage services and policies at Bay Golf Carts serving Eastern Seaboard coastal communities. Seasonal storage, maintenance, and security information. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        keywords="golf cart storage, storage policy, bay golf carts, eastern seaboard, golf cart storage"
       />
       
       {/* Hero Section */}
@@ -17,7 +17,7 @@ export default function StoragePolicyPage() {
             Storage Policy
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Secure, climate-controlled storage services for golf carts at our Pennsylvania facilities.
+            Secure, climate-controlled storage services for golf carts at our Eastern Seaboard facilities.
           </p>
         </div>
       </section>
@@ -33,8 +33,8 @@ export default function StoragePolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Storage Services Overview</h2>
               <p className="mb-6">
-                Lackawanna County Golf Carts provides secure, climate-controlled storage services for golf carts 
-                at our Pennsylvania facilities. Our storage policy ensures the protection and maintenance 
+                Bay Golf Carts provides secure, climate-controlled storage services for golf carts 
+                at our Eastern Seaboard facilities. Our storage policy ensures the protection and maintenance 
                 of your investment during storage periods.
               </p>
 
@@ -193,10 +193,10 @@ export default function StoragePolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Storage Department</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Storage Services</strong></p>
-                <p className="mb-2">Lackawanna County Golf Carts</p>
-                <p className="mb-2">Email: info@lackawannagolfcarts.com</p>
-                <p className="mb-2">Phone: 1-844-844-6638</p>
-                <p className="mb-2">Serving Lackawanna County, Pennsylvania</p>
+                <p className="mb-2">Bay Golf Carts</p>
+                <p className="mb-2">Email: info@baygolfcarts.com</p>
+                <p className="mb-2">Phone: 1-844-BAY-GOLF (1-844-229-4653)</p>
+                <p className="mb-2">Serving Eastern Seaboard coastal communities</p>
                 <p>Website: lackawannagolfcarts.com</p>
               </div>
             </div>

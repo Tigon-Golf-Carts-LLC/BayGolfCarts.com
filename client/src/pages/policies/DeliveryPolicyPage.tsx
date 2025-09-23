@@ -5,9 +5,9 @@ export default function DeliveryPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Delivery Policy | Lackawanna County Golf Carts"
-        description="Learn about delivery options, fees, and policies for golf cart purchases and rentals in Lackawanna County, Pennsylvania. Free delivery zones and scheduling information."
-        keywords="delivery policy, golf cart delivery, Lackawanna County delivery, Pennsylvania golf cart shipping"
+        title="Delivery Policy | Bay Golf Carts"
+        description="Learn about delivery options, fees, and policies for golf cart purchases and rentals from Bay Golf Carts serving Eastern Seaboard coastal communities. Free delivery zones and scheduling information. Call 1-844-BAY-GOLF (1-844-229-4653)."
+        keywords="delivery policy, golf cart delivery, bay golf carts, eastern seaboard, golf cart shipping"
       />
       
       {/* Hero Section */}
@@ -17,7 +17,7 @@ export default function DeliveryPolicyPage() {
             Delivery Policy
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Comprehensive delivery services throughout Pennsylvania and surrounding areas for golf cart sales and rentals.
+            Comprehensive delivery services throughout Eastern Seaboard coastal communities for golf cart sales and rentals.
           </p>
         </div>
       </section>
@@ -33,7 +33,7 @@ export default function DeliveryPolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Delivery Overview</h2>
               <p className="mb-6">
-                Lackawanna County Golf Carts offers comprehensive delivery services throughout Pennsylvania 
+                Bay Golf Carts offers comprehensive delivery services throughout the Eastern Seaboard 
                 and surrounding areas. Our delivery policy ensures safe, timely, and professional 
                 transport of your golf cart purchase or rental.
               </p>
@@ -42,9 +42,9 @@ export default function DeliveryPolicyPage() {
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Free Delivery Zone</h3>
               <p className="mb-4">Complimentary delivery within:</p>
               <ul className="list-disc pl-6 mb-6">
-                <li>All Lackawanna County municipalities (39 locations)</li>
-                <li>20-mile radius from TIGON Golf Carts Pocono location</li>
-                <li>15-mile radius from TIGON Golf Carts Scranton location</li>
+                <li>All Eastern Seaboard coastal communities</li>
+                <li>20-mile radius from Bay Golf Carts locations</li>
+                <li>Major bay areas and waterfront communities</li>
                 <li>Minimum purchase of $5,000 for golf cart sales</li>
                 <li>All rental deliveries within city limits</li>
               </ul>
@@ -52,10 +52,10 @@ export default function DeliveryPolicyPage() {
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Extended Delivery Zone</h3>
               <p className="mb-4">Delivery available with fees to:</p>
               <ul className="list-disc pl-6 mb-6">
-                <li>Philadelphia and surrounding counties</li>
-                <li>Lancaster County</li>
-                <li>Lehigh Valley region</li>
-                <li>Central Pennsylvania locations</li>
+                <li>Extended coastal regions</li>
+                <li>Inland communities</li>
+                <li>Secondary coastal areas</li>
+                <li>Remote Eastern Seaboard locations</li>
                 <li>Fee: $6 per mile beyond free delivery zone</li>
               </ul>
 
@@ -154,10 +154,10 @@ export default function DeliveryPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Delivery Department</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Delivery Scheduling</strong></p>
-                <p className="mb-2">Lackawanna County Golf Carts</p>
-                <p className="mb-2">Email: info@lackawannagolfcarts.com</p>
-                <p className="mb-2">Phone: 1-844-844-6638</p>
-                <p className="mb-2">Serving Lackawanna County, Pennsylvania</p>
+                <p className="mb-2">Bay Golf Carts</p>
+                <p className="mb-2">Email: info@baygolfcarts.com</p>
+                <p className="mb-2">Phone: 1-844-BAY-GOLF (1-844-229-4653)</p>
+                <p className="mb-2">Serving Eastern Seaboard coastal communities</p>
                 <p className="mb-2">Hours: Monday-Saturday 8:00 AM - 6:00 PM</p>
                 <p>Sunday: 10:00 AM - 4:00 PM</p>
               </div>

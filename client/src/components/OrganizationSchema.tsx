@@ -14,7 +14,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       "url": "https://baygolfcarts.com",
       "logo": "https://baygolfcarts.com/attached_assets/BAY GOLF CARTS (1)_1756302505497.png",
       "image": "https://baygolfcarts.com/attached_assets/BAY GOLF CARTS (1)_1756302505497.png",
-      "telephone": "1-844-229-4653",
+      "telephone": "1-844-844-6638",
       "email": "info@baygolfcarts.com",
       "address": {
         "@type": "PostalAddress",
@@ -121,7 +121,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "@type": "Organization",
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "(215) 555-0123",
+          "telephone": "1-844-844-6638",
           "contactType": "customer service",
           "availableLanguage": "English"
         }

@@ -1,5 +1,4 @@
 import { Link } from "wouter";
-import { DELAWARE_MUNICIPALITIES_LIST } from "@/data/allDelawareMunicipalities";
 
 export default function Footer() {
   return (
@@ -10,7 +9,7 @@ export default function Footer() {
           {/* Company Description */}
           <div className="md:hidden">
             <p className="text-gray-600 text-sm leading-relaxed">
-              Delaware's premier golf cart dealership serving customers across 
+              Delaware's premier golf cart dealership serving customers across
               all Delaware counties with quality carts and expert service.
             </p>
           </div>
@@ -65,7 +64,7 @@ export default function Footer() {
             {/* Company Description */}
             <div className="md:col-span-1">
               <p className="text-gray-600 text-sm leading-relaxed">
-                Delaware's premier golf cart dealership serving customers across 
+                Delaware's premier golf cart dealership serving customers across
                 all Delaware counties with quality carts and expert service.
               </p>
             </div>
@@ -137,30 +136,12 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Towns Served - Lackawanna County */}
-        <div className="border-t border-gray-200 pt-8 mb-8">
-          <h3 className="text-lg font-semibold text-gray-900 mb-6 text-center">
-            Delaware Locations We Serve
-          </h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 text-center">
-            {DELAWARE_MUNICIPALITIES_LIST.map((municipality, index) => (
-              <Link 
-                key={`${municipality.slug}-${index}`}
-                href={municipality.url} 
-                className="text-gray-600 text-sm hover:text-blue-600 transition-colors"
-              >
-                {municipality.name} Golf Carts
-              </Link>
-            ))}
-          </div>
-        </div>
-
         {/* Bottom Footer */}
         <div className="border-t border-gray-200 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-600 text-sm">
-              © 2025 Delaware Golf Carts. All rights reserved. | 
-              <Link href="/privacy-policy" className="hover:text-gray-900 ml-1">Privacy Policy</Link> | 
+              © 2025 Delaware Golf Carts. All rights reserved. |
+              <Link href="/privacy-policy" className="hover:text-gray-900 ml-1">Privacy Policy</Link> |
               <Link href="/terms-of-service" className="hover:text-gray-900 ml-1">Terms of Service</Link>
             </div>
             <div className="text-gray-600 text-sm">

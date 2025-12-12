@@ -468,7 +468,65 @@ export default function App() {
             <Route path="/delaware/dewey-beach-golf-carts" component={DeweyBeachPage} />
             <Route path="/delaware/lewes-golf-carts" component={LewesPage} />
 
-            {/* Delaware Municipality Location Pages - New Castle County */}
+            {/* Delaware Municipalities - Simplified Routes (No County Prefix) */}
+            {/* New Castle County */}
+            <Route path="/delaware/arden-golf-carts" component={ArdenPage} />
+            <Route path="/delaware/ardencroft-golf-carts" component={ArdencroftPage} />
+            <Route path="/delaware/ardentown-golf-carts" component={ArdentownPage} />
+            <Route path="/delaware/bellefonte-golf-carts" component={BellefontePage} />
+            <Route path="/delaware/clayton-golf-carts" component={ClaytonPage} />
+            <Route path="/delaware/delaware-city-golf-carts" component={DelawareCityPage} />
+            <Route path="/delaware/elsmere-golf-carts" component={ElsmerePage} />
+            <Route path="/delaware/middletown-golf-carts" component={MiddletownPage} />
+            <Route path="/delaware/new-castle-golf-carts" component={NewCastlePage} />
+            <Route path="/delaware/newark-golf-carts" component={NewarkPage} />
+            <Route path="/delaware/newport-golf-carts" component={NewportDEPage} />
+            <Route path="/delaware/odessa-golf-carts" component={OdessaPage} />
+            <Route path="/delaware/smyrna-golf-carts" component={SmyrnaPage} />
+            <Route path="/delaware/townsend-golf-carts" component={TownsendPage} />
+            <Route path="/delaware/wilmington-golf-carts" component={WilmingtonPage} />
+            {/* Kent County */}
+            <Route path="/delaware/bowers-golf-carts" component={BowersPage} />
+            <Route path="/delaware/camden-golf-carts" component={CamdenDEPage} />
+            <Route path="/delaware/cheswold-golf-carts" component={CheswoldPage} />
+            <Route path="/delaware/dover-golf-carts" component={DoverPage} />
+            <Route path="/delaware/farmington-golf-carts" component={FarmingtonPage} />
+            <Route path="/delaware/felton-golf-carts" component={FeltonPage} />
+            <Route path="/delaware/frederica-golf-carts" component={FredericaPage} />
+            <Route path="/delaware/harrington-golf-carts" component={HarringtonPage} />
+            <Route path="/delaware/hartly-golf-carts" component={HartlyPage} />
+            <Route path="/delaware/houston-golf-carts" component={HoustonPage} />
+            <Route path="/delaware/kenton-golf-carts" component={KentonPage} />
+            <Route path="/delaware/leipsic-golf-carts" component={LeipsicPage} />
+            <Route path="/delaware/little-creek-golf-carts" component={LittleCreekPage} />
+            <Route path="/delaware/magnolia-golf-carts" component={MagnoliaPage} />
+            <Route path="/delaware/milford-golf-carts" component={MilfordKentPage} />
+            <Route path="/delaware/viola-golf-carts" component={ViolaPage} />
+            <Route path="/delaware/woodside-golf-carts" component={WoodsidePage} />
+            <Route path="/delaware/wyoming-golf-carts" component={WyomingPage} />
+            {/* Sussex County */}
+            <Route path="/delaware/bethel-golf-carts" component={BethelPage} />
+            <Route path="/delaware/blades-golf-carts" component={BladesPage} />
+            <Route path="/delaware/bridgeville-golf-carts" component={BridgevillePage} />
+            <Route path="/delaware/dagsboro-golf-carts" component={DagsboroPage} />
+            <Route path="/delaware/delmar-golf-carts" component={DelmarPage} />
+            <Route path="/delaware/ellendale-golf-carts" component={EllendalesPage} />
+            <Route path="/delaware/fenwick-island-golf-carts" component={FenwickIslandPage} />
+            <Route path="/delaware/frankford-golf-carts" component={FrankfordPage} />
+            <Route path="/delaware/georgetown-golf-carts" component={GeorgetownPage} />
+            <Route path="/delaware/greenwood-golf-carts" component={GreenwoodPage} />
+            <Route path="/delaware/henlopen-acres-golf-carts" component={HenlopenAcresPage} />
+            <Route path="/delaware/laurel-golf-carts" component={LaurelPage} />
+            <Route path="/delaware/millsboro-golf-carts" component={MillsboroPage} />
+            <Route path="/delaware/millville-golf-carts" component={MillvillePage} />
+            <Route path="/delaware/milton-golf-carts" component={MiltonPage} />
+            <Route path="/delaware/ocean-view-golf-carts" component={OceanViewPage} />
+            <Route path="/delaware/seaford-golf-carts" component={SeafordPage} />
+            <Route path="/delaware/selbyville-golf-carts" component={SelbyvillePage} />
+            <Route path="/delaware/slaughter-beach-golf-carts" component={SlaughterBeachPage} />
+            <Route path="/delaware/south-bethany-golf-carts" component={SouthBethanyPage} />
+
+            {/* Delaware Municipality Location Pages - New Castle County (with county prefix) */}
             <Route path="/delaware/new-castle-county/arden-golf-carts" component={ArdenPage} />
             <Route path="/delaware/new-castle-county/ardencroft-golf-carts" component={ArdencroftPage} />
             <Route path="/delaware/new-castle-county/ardentown-golf-carts" component={ArdentownPage} />

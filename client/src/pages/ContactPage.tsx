@@ -1,9 +1,7 @@
 
 import { useState } from "react";
-import { useMutation } from "@tanstack/react-query";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -19,7 +17,6 @@ import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 export default function ContactPage() {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [, setLocation] = useLocation();
 
   const form = useForm<ContactForm>({
     resolver: zodResolver(contactFormSchema),
@@ -33,42 +30,35 @@ export default function ContactPage() {
     },
   });
 
-  const contactMutation = useMutation({
-    mutationFn: async (data: ContactForm) => {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
-
-      if (!response.ok) {
-        const error = await response.json();
-        throw new Error(error.error || "Failed to submit contact form");
-      }
-
-      return response.json();
-    },
-    onSuccess: () => {
-      form.reset();
-      setIsSubmitting(false);
-      // Redirect to thank you page
-      setLocation("/thank-you");
-    },
-    onError: (error) => {
-      toast({
-        title: "Error",
-        description: error.message || "Failed to send message. Please try again.",
-        variant: "destructive",
-      });
-      setIsSubmitting(false);
-    },
-  });
-
   const onSubmit = (data: ContactForm) => {
     setIsSubmitting(true);
-    contactMutation.mutate(data);
+
+    // Create mailto link with form data
+    const subject = encodeURIComponent(`${data.interest.toUpperCase()}: Contact Request from ${data.firstName} ${data.lastName}`);
+    const body = encodeURIComponent(`
+Name: ${data.firstName} ${data.lastName}
+Email: ${data.email}
+Phone: ${data.phone}
+Interest: ${data.interest}
+
+Message:
+${data.message}
+    `);
+
+    // Open mailto link
+    window.location.href = `mailto:info@baygolfcarts.com?subject=${subject}&body=${body}`;
+
+    // Show success message
+    toast({
+      title: "Opening email client...",
+      description: "Your default email application will open with your message pre-filled.",
+    });
+
+    // Reset form after short delay
+    setTimeout(() => {
+      form.reset();
+      setIsSubmitting(false);
+    }, 2000);
   };
 
   const contactInfo = [

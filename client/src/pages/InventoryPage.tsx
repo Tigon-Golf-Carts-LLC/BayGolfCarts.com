@@ -1,38 +1,35 @@
-import { useState } from "react";
-import { useQuery } from "@tanstack/react-query";
+import { useState, useMemo } from "react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import VehicleCard from "@/components/VehicleCard";
 import VehicleFilters from "@/components/VehicleFilters";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Vehicle } from "@shared/schema";
-import SchemaMarkup, { 
+import SchemaMarkup, {
   generateBreadcrumbSchema,
   generateOfferCatalogSchema
 } from "@/components/SchemaMarkup";
 import SEOHead from "@/components/SEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { vehicles as staticVehicles } from "@/data/vehicles";
 
 
 export default function InventoryPage() {
   const [selectedBrand, setSelectedBrand] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
 
-  const { data: vehicles, isLoading, error } = useQuery<Vehicle[]>({
-    queryKey: ["/api/vehicles", selectedBrand, selectedCategory],
-    queryFn: async () => {
-      const params = new URLSearchParams();
-      if (selectedBrand) params.append("brand", selectedBrand);
-      if (selectedCategory) params.append("category", selectedCategory);
-      
-      const response = await fetch(`/api/vehicles?${params}`);
-      if (!response.ok) {
-        throw new Error("Failed to fetch vehicles");
-      }
-      return response.json();
-    },
-  });
+  // Use static vehicle data with filtering
+  const vehicles = useMemo(() => {
+    return staticVehicles.filter(vehicle => {
+      const matchesBrand = !selectedBrand || vehicle.brand.toLowerCase() === selectedBrand.toLowerCase();
+      const matchesCategory = !selectedCategory || vehicle.category.toLowerCase().includes(selectedCategory.toLowerCase());
+      return matchesBrand && matchesCategory;
+    });
+  }, [selectedBrand, selectedCategory]);
+
+  const isLoading = false;
+  const error = null;
 
   if (error) {
     return (

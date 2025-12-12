@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useQuery } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -10,6 +9,7 @@ import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import type { Vehicle } from "@shared/schema";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { vehicles as staticVehicles } from "@/data/vehicles";
 
 export default function NewInventoryPage() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -17,18 +17,10 @@ export default function NewInventoryPage() {
   const [categoryFilter, setCategoryFilter] = useState("all");
   const [priceFilter, setPriceFilter] = useState("all");
 
-  const { data: vehicles, isLoading, error } = useQuery<Vehicle[]>({
-    queryKey: ["vehicles"],
-    queryFn: async () => {
-      const response = await fetch('/api/vehicles');
-      if (!response.ok) {
-        throw new Error(`Failed to fetch vehicles: ${response.status}`);
-      }
-      return response.json();
-    },
-    retry: 3,
-    refetchOnWindowFocus: false,
-  });
+  // Use static vehicle data
+  const vehicles = staticVehicles;
+  const isLoading = false;
+  const error = null;
 
   const filteredVehicles = vehicles?.filter(vehicle => {
     const matchesSearch = vehicle.name.toLowerCase().includes(searchTerm.toLowerCase()) ||

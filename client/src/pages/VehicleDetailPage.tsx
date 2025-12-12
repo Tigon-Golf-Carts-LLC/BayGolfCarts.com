@@ -1,4 +1,3 @@
-import { useQuery } from "@tanstack/react-query";
 import { useParams, Link } from "wouter";
 import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
@@ -7,27 +6,21 @@ import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
 import { ArrowLeft, Phone, MessageCircle } from "lucide-react";
 import { Vehicle } from "@shared/schema";
-import SchemaMarkup, { 
+import SchemaMarkup, {
   generateProductSchema,
   generateBreadcrumbSchema
 } from "@/components/SchemaMarkup";
 import AllSchemas from "@/components/schema/AllSchemas";
 import { getLightBackgroundStyle } from "@/utils/backgroundImages";
+import { vehicles as staticVehicles } from "@/data/vehicles";
 
 export default function VehicleDetailPage() {
   const { id } = useParams<{ id: string }>();
 
-  const { data: vehicle, isLoading, error } = useQuery<Vehicle>({
-    queryKey: ["/api/vehicles", id],
-    queryFn: async () => {
-      const response = await fetch(`/api/vehicles/${id}`);
-      if (!response.ok) {
-        throw new Error("Vehicle not found");
-      }
-      return response.json();
-    },
-    enabled: !!id,
-  });
+  // Use static vehicle data
+  const vehicle = staticVehicles.find(v => v.id === id);
+  const isLoading = false;
+  const error = !vehicle ? new Error("Vehicle not found") : null;
 
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat("en-US", {

@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Star, Wrench, Percent, Leaf, CheckCircle, MapPin } from "lucide-react";
-import { useQuery } from "@tanstack/react-query";
 import type { Vehicle } from "@shared/schema";
 import InventorySection from "@/components/InventorySection";
 import BrandsSection from "@/components/BrandsSection";
@@ -13,12 +12,11 @@ import AllSchemas from "@/components/schema/AllSchemas";
 import { EASTERN_COASTLINE_STATES } from "@/data/easternStates";
 import { SHORE_TOWNS_BY_STATE } from "@/data/shoreTowns";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { vehicles as staticVehicles } from "@/data/vehicles";
 
 export default function HomePage() {
-  const { data: vehicles } = useQuery<Vehicle[]>({
-    queryKey: ["/api/vehicles"],
-  });
-
+  // Use static vehicle data
+  const vehicles = staticVehicles;
   const featuredVehicles = vehicles?.slice(0, 3) || [];
 
   return (

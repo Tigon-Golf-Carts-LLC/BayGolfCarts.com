@@ -1,4 +1,3 @@
-import { useQuery } from "@tanstack/react-query";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -7,6 +6,7 @@ import { Check, Star, Zap, Shield, Truck, Phone, MapPin, Award } from "lucide-re
 import SEOHead from "@/components/SEOHead";
 import VehicleCard from "@/components/VehicleCard";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { vehicles as staticVehicles } from "@/data/vehicles";
 
 // Import EVOLUTION vehicle images
 import evolutionD5Ranger6Image from "@assets/EVOLUTIOND5RANGER6_1751893159004_1753135350623.jpg";
@@ -40,12 +40,11 @@ interface Vehicle {
 }
 
 export default function EvolutionPage() {
-  const { data: vehicles } = useQuery<Vehicle[]>({
-    queryKey: ["/api/vehicles"],
-  });
+  // Use static vehicle data
+  const vehicles = staticVehicles;
 
   // Filter EVOLUTION vehicles
-  const evolutionVehicles = vehicles?.filter(vehicle => 
+  const evolutionVehicles = vehicles?.filter(vehicle =>
     vehicle.brand.toLowerCase().includes('evolution')
   ) || [];
 

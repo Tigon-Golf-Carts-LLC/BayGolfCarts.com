@@ -179,6 +179,77 @@ import {
   FortLauderdalePage
 } from "@/pages/shore-towns/AllShoreTownPages";
 
+// Delaware Municipality Location Pages
+import {
+  // New Castle County
+  ArdenPage,
+  ArdencroftPage,
+  ArdentownPage,
+  BellefontePage,
+  ClaytonPage,
+  DelawareCityPage,
+  ElsmerePage,
+  MiddletownPage,
+  NewCastlePage,
+  NewarkPage,
+  NewportPage as NewportDEPage,
+  OdessaPage,
+  SmyrnaPage,
+  TownsendPage,
+  WilmingtonPage
+} from "@/pages/locations/NewCastleCountyLocationPages";
+
+import {
+  // Kent County
+  BowersPage,
+  CamdenPage as CamdenDEPage,
+  CheswoldPage,
+  DoverPage,
+  FarmingtonPage,
+  FeltonPage,
+  FredericaPage,
+  HarringtonPage,
+  HartlyPage,
+  HoustonPage,
+  KentonPage,
+  LeipsicPage,
+  LittleCreekPage,
+  MagnoliaPage,
+  MilfordKentPage,
+  ViolaPage,
+  WoodsidePage,
+  WyomingPage
+} from "@/pages/locations/KentCountyLocationPages";
+
+import {
+  // Sussex County
+  BethanyBeachPage as BethanyBeachLocationPage,
+  BethelPage,
+  BladesPage,
+  BridgevillePage,
+  DagsboroPage,
+  DelmarPage,
+  DeweyBeachPage as DeweyBeachLocationPage,
+  EllendalesPage,
+  FenwickIslandPage,
+  FrankfordPage,
+  GeorgetownPage,
+  GreenwoodPage,
+  HenlopenAcresPage,
+  LaurelPage,
+  LewesPage as LewesLocationPage,
+  MilfordPage as MilfordSussexPage,
+  MillsboroPage,
+  MillvillePage,
+  MiltonPage,
+  OceanViewPage,
+  RehobothBeachPage as RehobothBeachLocationPage,
+  SeafordPage,
+  SelbyvillePage,
+  SlaughterBeachPage,
+  SouthBethanyPage
+} from "@/pages/locations/SussexCountyLocationPages";
+
 import { PrivacyPolicyPage } from "@/pages/PrivacyPolicyPage";
 import { TermsOfServicePage } from "@/pages/TermsOfServicePage";
 
@@ -396,7 +467,71 @@ export default function App() {
             <Route path="/delaware/bethany-beach-golf-carts" component={BethanyBeachPage} />
             <Route path="/delaware/dewey-beach-golf-carts" component={DeweyBeachPage} />
             <Route path="/delaware/lewes-golf-carts" component={LewesPage} />
-            
+
+            {/* Delaware Municipality Location Pages - New Castle County */}
+            <Route path="/delaware/new-castle-county/arden-golf-carts" component={ArdenPage} />
+            <Route path="/delaware/new-castle-county/ardencroft-golf-carts" component={ArdencroftPage} />
+            <Route path="/delaware/new-castle-county/ardentown-golf-carts" component={ArdentownPage} />
+            <Route path="/delaware/new-castle-county/bellefonte-golf-carts" component={BellefontePage} />
+            <Route path="/delaware/new-castle-county/clayton-golf-carts" component={ClaytonPage} />
+            <Route path="/delaware/new-castle-county/delaware-city-golf-carts" component={DelawareCityPage} />
+            <Route path="/delaware/new-castle-county/elsmere-golf-carts" component={ElsmerePage} />
+            <Route path="/delaware/new-castle-county/middletown-golf-carts" component={MiddletownPage} />
+            <Route path="/delaware/new-castle-county/new-castle-golf-carts" component={NewCastlePage} />
+            <Route path="/delaware/new-castle-county/newark-golf-carts" component={NewarkPage} />
+            <Route path="/delaware/new-castle-county/newport-golf-carts" component={NewportDEPage} />
+            <Route path="/delaware/new-castle-county/odessa-golf-carts" component={OdessaPage} />
+            <Route path="/delaware/new-castle-county/smyrna-golf-carts" component={SmyrnaPage} />
+            <Route path="/delaware/new-castle-county/townsend-golf-carts" component={TownsendPage} />
+            <Route path="/delaware/new-castle-county/wilmington-golf-carts" component={WilmingtonPage} />
+
+            {/* Delaware Municipality Location Pages - Kent County */}
+            <Route path="/delaware/kent-county/bowers-golf-carts" component={BowersPage} />
+            <Route path="/delaware/kent-county/camden-golf-carts" component={CamdenDEPage} />
+            <Route path="/delaware/kent-county/cheswold-golf-carts" component={CheswoldPage} />
+            <Route path="/delaware/kent-county/dover-golf-carts" component={DoverPage} />
+            <Route path="/delaware/kent-county/farmington-golf-carts" component={FarmingtonPage} />
+            <Route path="/delaware/kent-county/felton-golf-carts" component={FeltonPage} />
+            <Route path="/delaware/kent-county/frederica-golf-carts" component={FredericaPage} />
+            <Route path="/delaware/kent-county/harrington-golf-carts" component={HarringtonPage} />
+            <Route path="/delaware/kent-county/hartly-golf-carts" component={HartlyPage} />
+            <Route path="/delaware/kent-county/houston-golf-carts" component={HoustonPage} />
+            <Route path="/delaware/kent-county/kenton-golf-carts" component={KentonPage} />
+            <Route path="/delaware/kent-county/leipsic-golf-carts" component={LeipsicPage} />
+            <Route path="/delaware/kent-county/little-creek-golf-carts" component={LittleCreekPage} />
+            <Route path="/delaware/kent-county/magnolia-golf-carts" component={MagnoliaPage} />
+            <Route path="/delaware/kent-county/milford-golf-carts" component={MilfordKentPage} />
+            <Route path="/delaware/kent-county/viola-golf-carts" component={ViolaPage} />
+            <Route path="/delaware/kent-county/woodside-golf-carts" component={WoodsidePage} />
+            <Route path="/delaware/kent-county/wyoming-golf-carts" component={WyomingPage} />
+
+            {/* Delaware Municipality Location Pages - Sussex County */}
+            <Route path="/delaware/sussex-county/bethany-beach-golf-carts" component={BethanyBeachLocationPage} />
+            <Route path="/delaware/sussex-county/bethel-golf-carts" component={BethelPage} />
+            <Route path="/delaware/sussex-county/blades-golf-carts" component={BladesPage} />
+            <Route path="/delaware/sussex-county/bridgeville-golf-carts" component={BridgevillePage} />
+            <Route path="/delaware/sussex-county/dagsboro-golf-carts" component={DagsboroPage} />
+            <Route path="/delaware/sussex-county/delmar-golf-carts" component={DelmarPage} />
+            <Route path="/delaware/sussex-county/dewey-beach-golf-carts" component={DeweyBeachLocationPage} />
+            <Route path="/delaware/sussex-county/ellendale-golf-carts" component={EllendalesPage} />
+            <Route path="/delaware/sussex-county/fenwick-island-golf-carts" component={FenwickIslandPage} />
+            <Route path="/delaware/sussex-county/frankford-golf-carts" component={FrankfordPage} />
+            <Route path="/delaware/sussex-county/georgetown-golf-carts" component={GeorgetownPage} />
+            <Route path="/delaware/sussex-county/greenwood-golf-carts" component={GreenwoodPage} />
+            <Route path="/delaware/sussex-county/henlopen-acres-golf-carts" component={HenlopenAcresPage} />
+            <Route path="/delaware/sussex-county/laurel-golf-carts" component={LaurelPage} />
+            <Route path="/delaware/sussex-county/lewes-golf-carts" component={LewesLocationPage} />
+            <Route path="/delaware/sussex-county/milford-golf-carts" component={MilfordSussexPage} />
+            <Route path="/delaware/sussex-county/millsboro-golf-carts" component={MillsboroPage} />
+            <Route path="/delaware/sussex-county/millville-golf-carts" component={MillvillePage} />
+            <Route path="/delaware/sussex-county/milton-golf-carts" component={MiltonPage} />
+            <Route path="/delaware/sussex-county/ocean-view-golf-carts" component={OceanViewPage} />
+            <Route path="/delaware/sussex-county/rehoboth-beach-golf-carts" component={RehobothBeachLocationPage} />
+            <Route path="/delaware/sussex-county/seaford-golf-carts" component={SeafordPage} />
+            <Route path="/delaware/sussex-county/selbyville-golf-carts" component={SelbyvillePage} />
+            <Route path="/delaware/sussex-county/slaughter-beach-golf-carts" component={SlaughterBeachPage} />
+            <Route path="/delaware/sussex-county/south-bethany-golf-carts" component={SouthBethanyPage} />
+
             {/* Maryland Shore Towns */}
             <Route path="/maryland/ocean-city-golf-carts" component={OceanCityMDPage} />
             <Route path="/maryland/annapolis-golf-carts" component={AnnapolisPage} />

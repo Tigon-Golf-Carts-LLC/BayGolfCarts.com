@@ -195,10 +195,26 @@ import DiversityPolicyPage from "@/pages/policies/DiversityPolicyPage";
 import EthicsPolicyPage from "@/pages/policies/EthicsPolicyPage";
 import StaffingReportPage from "@/pages/policies/StaffingReportPage";
 
+// Delaware Location Pages (all municipalities in New Castle, Kent and Sussex counties)
+import LocationPageTemplate from "@/pages/locations/LocationPageTemplate";
+import { DELAWARE_MUNICIPALITIES_LIST } from "@/data/allDelawareMunicipalities";
+
+// Delaware County Pages
+import NewCastleCountyPage from "@/pages/counties/NewCastleCountyPage";
+import KentCountyPage from "@/pages/counties/KentCountyPage";
+import SussexCountyPage from "@/pages/counties/SussexCountyPage";
+
 // Sussex County Municipality Pages - All 27 location pages created
 // Complete coverage of every municipality in Sussex County, Delaware
 
 // Note: Individual vehicle detail pages removed - using dynamic VehicleDetailPage instead
+
+// Milford spans both Kent and Sussex county lists, so de-duplicate by URL
+// to keep a single route per municipality page.
+const DELAWARE_LOCATION_PAGES = DELAWARE_MUNICIPALITIES_LIST.filter(
+  (municipality, index, list) =>
+    list.findIndex((other) => other.url === municipality.url) === index
+);
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -245,6 +261,8 @@ export default function App() {
             <Route path="/eco-impact" component={EcoImpactPage} />
             <Route path="/privacy" component={PrivacyPolicyPage} />
             <Route path="/terms" component={TermsOfServicePage} />
+            <Route path="/privacy-policy" component={PrivacyPolicyPage} />
+            <Route path="/terms-of-service" component={TermsOfServicePage} />
             
             {/* State Pages */}
             <Route path="/maine-golf-carts" component={MainePage} />
@@ -261,6 +279,18 @@ export default function App() {
             <Route path="/south-carolina-golf-carts" component={SouthCarolinaPage} />
             <Route path="/georgia-golf-carts" component={GeorgiaPage} />
             <Route path="/florida-golf-carts" component={FloridaPage} />
+
+            {/* Delaware County Pages */}
+            <Route path="/new-castle-county-golf-carts" component={NewCastleCountyPage} />
+            <Route path="/kent-county-golf-carts" component={KentCountyPage} />
+            <Route path="/sussex-county-golf-carts" component={SussexCountyPage} />
+
+            {/* Delaware Municipality Location Pages */}
+            {DELAWARE_LOCATION_PAGES.map((municipality) => (
+              <Route key={municipality.url} path={municipality.url}>
+                <LocationPageTemplate municipality={municipality} />
+              </Route>
+            ))}
 
             {/* Policy Pages */}
             <Route path="/policies/terms-conditions" component={TermsConditionsPage} />

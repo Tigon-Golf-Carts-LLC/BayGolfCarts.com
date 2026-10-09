@@ -4,7 +4,17 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
-import { ArrowLeft, Phone, MessageCircle } from "lucide-react";
+import { useState } from "react";
+import { ArrowLeft, Phone, MessageCircle, Mail } from "lucide-react";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import TigonLeadForm from "@/components/TigonLeadForm";
 import { Vehicle } from "@shared/schema";
 import SchemaMarkup, {
   generateProductSchema,
@@ -16,6 +26,7 @@ import { vehicles as staticVehicles } from "@/data/vehicles";
 
 export default function VehicleDetailPage() {
   const { id } = useParams<{ id: string }>();
+  const [leadOpen, setLeadOpen] = useState(false);
 
   // Use static vehicle data
   const vehicle = staticVehicles.find(v => v.id === id);
@@ -184,6 +195,29 @@ export default function VehicleDetailPage() {
                 Get Financing Quote
               </Button>
             </a>
+            <Dialog open={leadOpen} onOpenChange={setLeadOpen}>
+              <DialogTrigger asChild>
+                <Button size="lg" className="w-full bg-theme-primary hover:bg-blue-800 text-white">
+                  <Mail className="w-4 h-4 mr-2" />
+                  Request Info on This Cart
+                </Button>
+              </DialogTrigger>
+              <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
+                <DialogHeader>
+                  <DialogTitle>Ask About the {vehicle.name}</DialogTitle>
+                  <DialogDescription>
+                    Send us your details and a Bay Golf Carts specialist will contact you about pricing, availability, financing or a test drive.
+                  </DialogDescription>
+                </DialogHeader>
+                <TigonLeadForm
+                  idPrefix={`vehicle-${vehicle.id}`}
+                  vehicle={{ brand: vehicle.brand, model: vehicle.name, sku: vehicle.id }}
+                  submitLabel="Send Request"
+                  messagePlaceholder="Questions about this cart, financing, trade-in or delivery?"
+                  defaultComments={`I'm interested in the ${vehicle.name}.`}
+                />
+              </DialogContent>
+            </Dialog>
             {vehicle.externalUrl && (
               <a href={vehicle.externalUrl} target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="outline" className="w-full border-theme-primary text-theme-primary hover:bg-theme-primary hover:text-white">
